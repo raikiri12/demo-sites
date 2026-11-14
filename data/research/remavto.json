@@ -1,0 +1,23 @@
+{
+  "name": "РемАвто",
+  "niche": "автосервис",
+  "address": "",
+  "district": "",
+  "phone": "89373669726",
+  "hours": "Пн-Сб 10:00-13:00, 14:00-19:00; Вс выходной",
+  "email": "",
+  "rating": 5.0,
+  "ratings_count": 83,
+  "reviews_count": 83,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.ru/ufa/firm/70000001091780663",
+  "source_links": ["https://2gis.ru/ufa/firm/70000001091780663"],
+  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+}

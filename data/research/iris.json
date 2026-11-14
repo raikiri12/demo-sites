@@ -1,0 +1,36 @@
+{
+  "name": "Ирис",
+  "niche": "магазин цветов",
+  "address": "",
+  "district": "",
+  "phone": "89174130448",
+  "email": "",
+  "hours": "круглосуточно",
+  "rating": 5.0,
+  "reviews_count": 155,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/2393065583717944",
+  "source_links": [
+    "https://2gis.com/firm/2393065583717944"
+  ],
+  "social_profiles_detected": true,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints",
+    "social_links"
+  ]
+}

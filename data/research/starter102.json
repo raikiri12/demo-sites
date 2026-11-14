@@ -1,0 +1,23 @@
+{
+  "name": "Стартер 102",
+  "niche": "автосервис",
+  "address": "",
+  "district": "",
+  "phone": "89174266409",
+  "hours": "Пн-Сб 10:00-19:00; Вс выходной",
+  "email": "",
+  "rating": 5.0,
+  "ratings_count": 73,
+  "reviews_count": 73,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.ru/ufa/firm/70000001041191004",
+  "source_links": ["https://2gis.ru/ufa/firm/70000001041191004"],
+  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+}

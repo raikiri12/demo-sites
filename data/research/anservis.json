@@ -1,0 +1,23 @@
+{
+  "name": "АНсервис",
+  "niche": "автосервис",
+  "address": "",
+  "district": "",
+  "phone": "89173632580",
+  "hours": "Пн-Пт 09:00-19:00; Сб-Вс 09:00-18:00",
+  "email": "",
+  "rating": 5.0,
+  "ratings_count": 123,
+  "reviews_count": 123,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.ru/ufa/firm/70000001041103077",
+  "source_links": ["https://2gis.ru/ufa/firm/70000001041103077"],
+  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints", "social_network_urls"]
+}

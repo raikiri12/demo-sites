@@ -1,0 +1,36 @@
+{
+  "name": "Lady Flowers",
+  "niche": "магазин цветов",
+  "address": "",
+  "district": "",
+  "phone": "89174197267",
+  "email": "",
+  "hours": "Пн-Вс 10:00-22:00",
+  "rating": 5.0,
+  "reviews_count": 126,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001044394435",
+  "source_links": [
+    "https://2gis.com/firm/70000001044394435"
+  ],
+  "social_profiles_detected": true,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints",
+    "social_links"
+  ]
+}

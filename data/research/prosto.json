@@ -1,0 +1,35 @@
+{
+  "name": "Proсто",
+  "niche": "автосервис",
+  "address": "",
+  "district": "",
+  "phone": "89279605050",
+  "email": "",
+  "hours": "Пн-Вс 09:00-21:00",
+  "rating": 5.0,
+  "reviews_count": 56,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001109700114",
+  "source_links": [
+    "https://2gis.com/firm/70000001109700114"
+  ],
+  "social_profiles_detected": false,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints"
+  ]
+}

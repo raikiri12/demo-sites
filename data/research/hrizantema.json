@@ -1,0 +1,35 @@
+{
+  "name": "Хризантема",
+  "niche": "магазин цветов",
+  "address": "",
+  "district": "",
+  "phone": "89053077003",
+  "email": "",
+  "hours": "Пн-Вс 10:00-20:00",
+  "rating": 5.0,
+  "reviews_count": 111,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001095477944",
+  "source_links": [
+    "https://2gis.com/firm/70000001095477944"
+  ],
+  "social_profiles_detected": false,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "TM Motors",
+  "niche": "автосервис",
+  "address": "",
+  "district": "",
+  "phone": "89872418839",
+  "hours": "Пн-Пт 09:00-19:00",
+  "email": "",
+  "rating": 5.0,
+  "ratings_count": 236,
+  "reviews_count": 236,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.ru/ufa/firm/70000001111526881",
+  "source_links": ["https://2gis.ru/ufa/firm/70000001111526881"],
+  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+}

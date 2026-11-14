@@ -1,0 +1,35 @@
+{
+  "name": "Букеты С&С",
+  "niche": "магазин цветов",
+  "address": "",
+  "district": "",
+  "phone": "89373020233",
+  "email": "",
+  "hours": "Пн-Сб 10:00-22:00; Вс 10:00-18:00",
+  "rating": 5.0,
+  "reviews_count": 72,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001097592549",
+  "source_links": [
+    "https://2gis.com/firm/70000001097592549"
+  ],
+  "social_profiles_detected": false,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints"
+  ]
+}

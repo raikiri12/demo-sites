@@ -1,0 +1,36 @@
+{
+  "name": "АвтоСпектр",
+  "niche": "автосервис",
+  "address": "",
+  "district": "",
+  "phone": "89870223707",
+  "email": "",
+  "hours": "Пн-Сб 10:00-20:00; Вс выходной",
+  "rating": 5.0,
+  "reviews_count": 48,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001084474621",
+  "source_links": [
+    "https://2gis.com/firm/70000001084474621"
+  ],
+  "social_profiles_detected": true,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints",
+    "social_links"
+  ]
+}

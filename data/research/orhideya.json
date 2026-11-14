@@ -1,0 +1,36 @@
+{
+  "name": "Орхидея",
+  "niche": "магазин цветов",
+  "address": "",
+  "district": "",
+  "phone": "89191536207",
+  "email": "",
+  "hours": "Пн-Вс 09:00-22:00",
+  "rating": 5.0,
+  "reviews_count": 100,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001097248160",
+  "source_links": [
+    "https://2gis.com/firm/70000001097248160"
+  ],
+  "social_profiles_detected": true,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints",
+    "social_links"
+  ]
+}

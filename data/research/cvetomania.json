@@ -1,0 +1,35 @@
+{
+  "name": "Цветомания",
+  "niche": "магазин цветов",
+  "address": "",
+  "district": "",
+  "phone": "89173430717",
+  "email": "",
+  "hours": "круглосуточно (по предв. звонку)",
+  "rating": 5.0,
+  "reviews_count": 87,
+  "services": [],
+  "prices": [],
+  "payment": "",
+  "amenities": [],
+  "review_points": [],
+  "complaints": [],
+  "has_website": false,
+  "existing_site_url": "",
+  "source_url": "https://2gis.com/firm/70000001038348525",
+  "source_links": [
+    "https://2gis.com/firm/70000001038348525"
+  ],
+  "social_profiles_detected": false,
+  "missing": [
+    "address",
+    "district",
+    "email",
+    "services",
+    "prices",
+    "payment",
+    "amenities",
+    "review_points",
+    "complaints"
+  ]
+}
