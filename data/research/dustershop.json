@@ -1,39 +1,143 @@
 {
- "name" : "Dustershop",
- "niche" : "автосервис",
- "address" : "",
- "district" : "",
- "phone" : "89273368866",
- "hours" : "Пн-Вс 09:00-21:00",
- "email" : "",
- "rating" : 5,
- "ratings_count" : 429,
- "reviews_count" : 429,
- "services" : [],
- "prices" : [],
- "payment" : "",
- "amenities" : [],
- "review_points" : [
+ "name": "Dustershop",
+ "niche": "автосервис",
+ "address": "улица Шота Руставели, 38",
+ "district": "Октябрьский район",
+ "phone": "89273368866",
+ "hours": "Пн-Вс 09:00-21:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 429,
+ "reviews_count": 429,
+ "services": [
+  "Масло моторное синтетическое ROLF 5W-40 Profession (розлив) 1л",
+  "Масло моторное синтетическое G-Energy Sinthetic Active 5W-40 (розлив) 1л",
+  "Масло моторное синтетическое 5W-30 EVOLUTION 900 SXR (розлив) 1л",
+  "Масло моторное синтетическое 5W-40 EVOLUTION 900 SXR (розлив) 1л",
+  "Комплект ГРМ Logan, Sandero 8V c 2010 Renault",
+  "Комплект ГРМ Duster, Kaptur 2.0 Renault",
+  "Комплект ГРМ Logan, Sandero, Duster 1.6 16V Renault",
+  "Фильтр масляный Duster, Kaptur 2.0 Renault",
+  "Фильтр масляный Logan, Sandero, Duster 1.6 Renault",
+  "Фильтр масляный Duster 1.5 Renault",
+  "Фильтр салонный Logan 2, Sandero 2, Kaptur Miles",
+  "Фильтр салонный Logan, Sandero, Duster TSN"
+ ],
+ "prices": [
+  {
+   "name": "Масло моторное синтетическое ROLF 5W-40 Profession (розлив) 1л",
+   "price": 399
+  },
+  {
+   "name": "Масло моторное синтетическое G-Energy Sinthetic Active 5W-40 (розлив) 1л",
+   "price": 549
+  },
+  {
+   "name": "Масло моторное синтетическое 5W-30 EVOLUTION 900 SXR (розлив) 1л",
+   "price": 995
+  },
+  {
+   "name": "Масло моторное синтетическое 5W-40 EVOLUTION 900 SXR (розлив) 1л",
+   "price": 1125
+  },
+  {
+   "name": "Комплект ГРМ Logan, Sandero 8V c 2010 Renault",
+   "price": 4990
+  },
+  {
+   "name": "Комплект ГРМ Duster, Kaptur 2.0 Renault",
+   "price": 9800
+  },
+  {
+   "name": "Комплект ГРМ Logan, Sandero, Duster 1.6 16V Renault",
+   "price": 8700
+  },
+  {
+   "name": "Фильтр масляный Duster, Kaptur 2.0 Renault",
+   "price": 970
+  },
+  {
+   "name": "Фильтр масляный Logan, Sandero, Duster 1.6 Renault",
+   "price": 730
+  },
+  {
+   "name": "Фильтр масляный Duster 1.5 Renault",
+   "price": 980
+  },
+  {
+   "name": "Фильтр салонный Logan 2, Sandero 2, Kaptur Miles",
+   "price": 380
+  },
+  {
+   "name": "Фильтр салонный Logan, Sandero, Duster TSN",
+   "price": 400
+  },
+  {
+   "name": "Фильтр воздушный Logan, Sandero, Duster 1.6 16V Miles",
+   "price": 550
+  },
+  {
+   "name": "Фильтр воздушный Logan, Sandero c 2012 Renault",
+   "price": 550
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
   "Опытные механики, специализирующиеся на Renault/Duster.",
   "Работу выполняют быстрее обещанного срока.",
   "Честный подход без навязывания ненужных услуг.",
   "Долгосрочное обслуживание и постоянные мастера.",
   "Клиентоориентированность, в том числе помощь на улице."
  ],
- "complaints" : [],
- "has_website" : false,
- "existing_site_url" : "",
- "source_url" : "https://2gis.ru/ufa/firm/70000001035552171",
- "source_links" : [
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001035552171",
+ "source_links": [
   "https://2gis.ru/ufa/firm/70000001035552171"
  ],
- "missing" : [
-  "amenities",
-  "complaints",
+ "missing": [
   "email",
   "payment",
-  "prices",
-  "review_summary",
-  "services"
+  "amenities",
+  "complaints"
+ ],
+ "reviews_raw": [
+  {
+   "rating": 5,
+   "text": "Очень достойный сервис , механики знают свое дело. \nПо времени сделали все быстрее чем было озвучено изначально!\nРекомендую только в ДастерШоп 👍"
+  },
+  {
+   "rating": 5,
+   "text": "Обслуживаюсь 5 лет, все нравится, возле сервиса оторвались щетки, вышли на улице поменяли оперативно, спасибо большое Денису и Евгению!"
+  },
+  {
+   "rating": 5,
+   "text": "Отличны сервис. Уже второй год обслуживаем свой Дастер у мастера Вьюгова Александра. Никаких нареканий. Рекомендую"
+  },
+  {
+   "rating": 5,
+   "text": "Ребята просто Супер молодцы"
+  },
+  {
+   "rating": 5,
+   "text": "Я автолюбитель-новичок, понравилось всё, начиная с консультации менеджером заканчивая работой механика. переживала, что будут навязывать ненужные работы,но по факту всё прошло по-честному! Большое спасибо!"
+  }
+ ],
+ "photos_count": 10,
+ "socials": [
+  {
+   "type": "vk",
+   "url": "https://vk.ru/public164907606"
+  },
+  {
+   "type": "whatsapp",
+   "url": "https://wa.me/79273268866"
+  },
+  {
+   "type": "whatsapp",
+   "url": "https://wa.me/79378498866"
+  }
  ]
 }

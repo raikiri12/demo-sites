@@ -1,0 +1,2006 @@
+{
+ "anservis": {
+  "name": "АНсервис",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"АНсервис\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.find-org.net",
+      "https://www.find-org.net/cli/14959999_ooo_anservis"
+     ],
+     [
+      "www.find-org.net",
+      "https://www.find-org.net/cli/14959999_ooo_anservis"
+     ],
+     [
+      "www.find-org.net",
+      "https://www.find-org.net/cli/14959999_ooo_anservis"
+     ],
+     [
+      "www.find-org.net",
+      "https://www.find-org.net/cli/14959999_ooo_anservis"
+     ],
+     [
+      "spark-interfax.ru",
+      "https://spark-interfax.ru/bashkortostan-respublika-ufa/ooo-anservis-inn-273955137-ogrn-1250200038714-47882417b084b61ae063159aa8c0d364"
+     ],
+     [
+      "spark-interfax.ru",
+      "https://spark-interfax.ru/bashkortostan-respublika-ufa/ooo-anservis-inn-273955137-ogrn-1250200038714-47882417b084b61ae063159aa8c0d364"
+     ],
+     [
+      "spark-interfax.ru",
+      "https://spark-interfax.ru/bashkortostan-respublika-ufa/ooo-anservis-inn-273955137-ogrn-1250200038714-47882417b084b61ae063159aa8c0d364"
+     ],
+     [
+      "spark-interfax.ru",
+      "https://spark-interfax.ru/bashkortostan-respublika-ufa/ooo-anservis-inn-273955137-ogrn-1250200038714-47882417b084b61ae063159aa8c0d364"
+     ]
+    ],
+    "flowwow": [],
+    "titles": [
+     "АНсервис по адресу Республика Башкортостан, Уфа, улица им. Фронтовых ...",
+     "ООО &quot;АНСЕРВИС&quot;, ИНН 0273955137 - реквизиты, телефон, адрес, ОГРН, ОКПО ...",
+     "ООО АНСЕРВИС, Уфа (ИНН 0273955137), реквизиты, выписка из ЕГРЮЛ, адрес ...",
+     "ООО &quot;АНСЕРВИС&quot; — ИНН 0273955137: проверка контрагента | ProfileCompany",
+     "ООО &quot;АНСЕРВИС&quot;, ИНН 7726356955 - реквизиты, телефон, адрес, ОГРН, ОКПО ...",
+     "ООО &quot;АНСЕРВИС&quot;, реквизиты, адрес, телефон, контакты, отзывы, вакансии 2026",
+     "ООО &quot;АНСЕРВИС&quot;, ИНН 1650332742",
+     "Ансервис"
+    ]
+   }
+  ]
+ },
+ "artnikah": {
+  "name": "Art Nikah",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Art Nikah\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Art Nikah\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "avtoaura": {
+  "name": "Автоаура",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Автоаура\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "avtoazbuka": {
+  "name": "Автоазбука",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Автоазбука\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "avtodrug": {
+  "name": "АвтоДруг",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"АвтоДруг\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "avtohelp": {
+  "name": "Авто help",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Авто help\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "avtospektr": {
+  "name": "АвтоСпектр",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"АвтоСпектр\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "bazar": {
+  "name": "Цветочный базар",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Цветочный базар\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Цветочный базар\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "belyerosy": {
+  "name": "Белые Розы",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Белые Розы\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Белые Розы\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "blagbuket": {
+  "name": "БлагБукет",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"БлагБукет\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"БлагБукет\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "bmw102": {
+  "name": "BMW102",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"BMW102\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "brat": {
+  "name": "Брат",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Брат\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "buketyradosti": {
+  "name": "Букеты и радости",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Букеты и радости\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Букеты и радости\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "buketyss": {
+  "name": "Букеты С&С",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Букеты С&С\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Букеты С&С\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "chiperben": {
+  "name": "Чипер бен",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Чипер бен\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "cvetomania": {
+  "name": "Цветомания",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Цветомания\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Цветомания\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "dariradost": {
+  "name": "Дари радость",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Дари радость\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Дари радость\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "delacvetochnye": {
+  "name": "Дела Цветочные",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Дела Цветочные\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Дела Цветочные\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "diagnost102": {
+  "name": "Диагност 102",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Диагност 102\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "drive": {
+  "name": "Драйв",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Драйв\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "dustershop": {
+  "name": "Dustershop",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Dustershop\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "elliflo": {
+  "name": "Эллифло",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Эллифло\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Эллифло\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "elviya": {
+  "name": "Эльвия",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Эльвия\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Эльвия\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "energy": {
+  "name": "Энерджи",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Энерджи\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "fixauto": {
+  "name": "Фикс Авто",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Фикс Авто\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "floks": {
+  "name": "Floks",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Floks\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Floks\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "greenbell": {
+  "name": "GreenBell",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"GreenBell\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"GreenBell\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "hrizantema": {
+  "name": "Хризантема",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Хризантема\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Хризантема\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "imperiya": {
+  "name": "Империя Авто",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Империя Авто\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "inservice-vag": {
+  "name": "ИнСервис Vag",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"ИнСервис Vag\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "iris": {
+  "name": "Ирис",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Ирис\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Ирис\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "jobnjoy": {
+  "name": "Job&Joy",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Job&Joy\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "karbon": {
+  "name": "Карбон",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Карбон\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "kuzovatelier": {
+  "name": "Кузовное Ателье",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Кузовное Ателье\" Уфа автосервис",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "ladyflowers": {
+  "name": "Lady Flowers",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Lady Flowers\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Lady Flowers\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "lnlesi": {
+  "name": "Цветочная LN Леси Николаевой",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Цветочная LN Леси Николаевой\"",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   },
+   {
+    "q": "\"Цветочная LN Леси Николаевой\" Уфа магазин цветов",
+    "candidate": [],
+    "flowwow": [],
+    "titles": []
+   }
+  ]
+ },
+ "magnolia": {
+  "name": "Магнолия",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Магнолия\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Магнолия\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Магнолия\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "maisky": {
+  "name": "Майский жук",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Майский жук\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Майский жук\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8eec508278b1ffc1bd65b37f7f071a26dec58addcbdb0922ab0bbe79aceb30e6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly93d3cuYWdhci5pby8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2f953f706b8d4e0aeb6a6a6657fd5d83718f8d916ddeafb22866d81fc7747e76JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly9hZ2FydGltZS5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3efda22a89a5e4803264332741f8df1f08c2c2dd923c13c1d7015aa36c6ff67cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly93d3cuY3JhenlnYW1lcy5jb20vcnUvZ2FtZS9hZ2FyaW8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e974421df14a3dcafa7ff3c4dd0f7385a60caa2debe98d2e70f779e2fc500000JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly95YW5kZXgucnUvZ2FtZXMvYXBwL2FnYXItaW8tcy1ib3RhbWktNDEwNTA0&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=241b1af8bd8eca330e3c16e41388c0e6ae8357ccc0c49982f7e19058ee6861edJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly93d3cuYWdhci5pby9tYy8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f8b5920b4f3482b00b51b5aa8fa52a3271272ae2e51320056977fbb9decb0afbJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly9vbmxpbmVpZ3J5Lm5ldC8xOTQ4LWFnYXJpby5odG1s&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2f86a2762ec82eb3fdc89f9a8b95be42a90672c1d3f7cbd61bd7226d9f8e3da4JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly9pZ3JvdXRrYS5ydS9pZ3J5LWlvLzE0MzYxLWFnYXJpby5odG1s&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=7b1400c9eb715e694a455dae0bbc5a3666499dd7d993f97e1116247f8546e93eJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly9nYW1lZm9yZ2UuY29tL3J1LVJVL2xpdHRsZWdhbWVzL2FnYXItaW8v&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=cb64a3b3225abbc8d0b9470a4217e19b790c164c19b3cf40dbe4106cc82f8375JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly9hZ2FyaW8ucnUvb25saW5lLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9a3bdf85f12720dea22ecfcd421ef91d2dac14845f58d8316b366f8943adfcb9JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=091a7ec0-ca41-6c88-309a-66d1cb2a6d27&amp;u=a1aHR0cHM6Ly9hZ2FyLWlvLnJ1Lw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Майский жук\" Уфа магазин цветов",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=00f46777c177fbccbcf69d0e9bd7ca45c29991a1bd5f81f402606be82c7b758dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvYnJlYWtpbmctdW5hYmxlLXRvLWFjY2Vzcy10ZWFtLWNyZWF0ZS1saXZlLWNvbGxhYm9yYXRpb24taW4tc3R1ZGlvLWluLXJ1c3NpYS80Njg2MDIx&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=fd44716fe6440dcffd30c6cfc71a8c9cb0d9a98fd51af4f136eb6437a9c36f0eJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL2MvdXBkYXRlcy80NQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9aaaf574b18a261dd0a60f7f65535fec90d6e7442ef067e87a97db49bad25e48JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvJUQwJUIxJUQwJUIwJUQwJUIzLSVEMSU4MS0lRDAlQkElRDAlQjAlRDAlQkMlRDAlQjUlRDElODAlRDAlQkUlRDAlQjktJUQwJUJGJUQxJTgwJUQwJUI4LSVEMSU4MiVEMCVCNSVEMSU4MSVEMSU4MiVEMCVCOCVEMSU4MCVEMCVCRSVEMCVCMiVEMCVCMCVEMCVCRCVEMCVCOCVEMCVCOC8xODUxNTE1&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=a9e1debc032af9d70b3d52961cb9877154cdd4925dd5e02f58bd7e5f8fbc226aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvYWxsLWNoYXQtZmVhdHVyZXMtaW4tcnVzc2lhLXNob3VsZC1iZS11bmJsb2NrZWQvNDQ2Mjg2NQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=b91a23ebb15c3aa07c38634f98c9016fd7dd049dab2a9c99df4edacdf5c9bbaaJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvaG93LXRvLWZpbmQtdGhlLXBsYWNlaWQtb24tcm9ibG94Lzg2OTcxMQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5226042091d6be4327c79ae4050b257b54ea96de1c11a385c3479d1e4030d410JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvaW5jcmVhc2UtZm92LXRvLWhpZ2hlci10aGFuLTEyMC83MTc3Ng&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2b6258ea76df65ee6a8b364d9bf9bd1db9daf2c2980215133c132dbd2ffb5c63JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3Qvcm9ibG94LWFuaW1hdGlvbi1wYWNrLWlkcy13YWxrLXJ1bi1qdW1wLWV0Yy80MTc3MjU&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=90b7c32cd172dd8b570b2ad24504f715f4edc31ca9eff73ca7d169752b72bedbJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvaG93LXRvLW1ha2UtYS1zaW1wbGUtcHVuY2gtc2NyaXB0LzE0MTM1NzQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=20ea1754de17a322babc5b60837c10784638fcd382075f285d9c6c2a183b1763JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvY3VzdG9tLXdhbGtpbmctc291bmRzLXJlbGVhc2UvMjI4OTI3MA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=6e2833a803a53635bf668f70727ee7562275c801bd2526473bb332f5d47dfda6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=03f6538f-8745-6565-3841-4b9e86876435&amp;u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvMS1zcGVlZC1ldmVyeS1zZWNvbmQvNTk4MDk5&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "mir": {
+  "name": "Mir",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Mir\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "miraflor": {
+  "name": "Мирафлор",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Мирафлор\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Мирафлор\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=996c96db1741f1c321149994e7432c74fd98a35f400d294a477053e142dc8f22JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly95YW5kZXgucnUvZ2FtZXMvYXBwL2xvdmtpZS12b3J5LTItMTY1NzA2&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8621366bda19a2e269204153411f93f6a1579d25f16a437418d0292decc969f3JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly95YW5kZXgucnUvZ2FtZXMvYXBwL3JlbGFrcy1zaGFyaWtpLTI2NjY1Mg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=92e4a7acd81ce2ffa38f874647dc62bf23794c0e9e8bb6fed84ff5652082223eJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly9jb21wYW55LnlhbmRleC5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=4d40098f20bc413104cab241d3437fa6522e71cf243731c5972deb0d751e0083JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly90cmFuc2xhdGUueWFuZGV4LnJ1L2RpY3Rpb25hcnkvJUQwJTkwJUQwJUJEJUQwJUIzJUQwJUJCJUQwJUI4JUQwJUI5JUQxJTgxJUQwJUJBJUQwJUI4JUQwJUI5LSVEMCVBMCVEMSU4MyVEMSU4MSVEMSU4MSVEMCVCQSVEMCVCOCVEMCVCOS8lRDElODclRDElODIlRDAlQkUlMjAlRDElODIlRDAlQjAlRDAlQkElRDAlQkUlRDAlQjUlMjAlRDAlQjQlRDAlQjUlRDElODQlRDElODAlRDAlQjAlRDAlQjMlRDAlQkMlRDAlQjUlRDAlQkQlRDElODIlRDAlQjAlRDElODYlRDAlQjglRDElOEYlMjAlRDAlQjQlRDAlQjglRDElODElRDAlQkElRDAlQjA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=d2a99009135282a5b47139741355da69835724c4a3fb2cc113257b6c76d147a9JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly91c2x1Z2kueWFuZGV4LnJ1LzIxMy1tb3Njb3cvY2F0ZWdvcnk_dGV4dD0lRDAlQjQlRDAlQjUlRDElODQlRDElODAlRDAlQjAlRDAlQjMlRDAlQkMlRDAlQjUlRDAlQkQlRDElODIlRDAlQjAlRDElODYlRDAlQjglRDElOEYrJUQwJUI2JUQwJUI1JUQxJTgxJUQxJTgyJUQwJUJBJUQwJUJFJUQwJUIzJUQwJUJFKyVEMCVCNCVEMCVCOCVEMSU4MSVEMCVCQSVEMCVCMA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3e86d5c192a746755b7317220eb7135d3307d05f34f473c48d7037f219ba4b16JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly91c2x1Z2kueWFuZGV4LnJ1LzM1LWtyYXNub2Rhci9jYXRlZ29yeT90ZXh0PSVEMCVCNCVEMCVCNSVEMSU4NCVEMSU4MCVEMCVCMCVEMCVCMyVEMCVCQyVEMCVCNSVEMCVCRCVEMSU4MiVEMCVCMCVEMSU4NiVEMCVCOCVEMSU4RislRDAlQjQlRDAlQjglRDElODElRDAlQkElRDAlQkUlRDAlQjI&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f9d7d3ca2a8cc08569bdf125e3be4a3637a869b531408ed8d9b3c25984d8e2ccJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly90di55YW5kZXgucnUvMS9jaGFubmVsL21hdGNoLXR2LTQ5&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=09d488e4c26f3d14dd8dff317e92347dd4a024fa618f3ca02999bb7d085a78caJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cDovL2dhbWUueWFuZGV4LnJ1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3048ec21e9b535912174c40f0e7bd0459d603847d794be7b871bef628dc4809eJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly9ib2FyZHMueWFuZGV4LnJ1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=51ea14eb5091784b082a218b64ceb4009465dd27b53f5590476f555365af37e0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0e0c93d2-1564-6b01-3bbd-8bc3144d6a9f&amp;u=a1aHR0cHM6Ly9tYXJrZXQueWFuZGV4LnJ1L2NhdGVnb3J5L2Rvay1zdGFudHNpaS1kbHlhLXpoeW9zdGtpa2gtZGlza292LWhkZC1zc2Q&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Мирафлор\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "mirupir": {
+  "name": "Миру Пир",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Миру Пир\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Миру Пир\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9c81941d00b5e019733b509976b34c590b8a752d957665f1c9ee9cea8b2ac94dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly9taXJvLmNvbS9ydS9vbmxpbmUtd2hpdGVib2FyZC8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=ece4c728d852b807f339afda182e92da11d8ed700bdcaefbbdd6b0bd8c8455e0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlDJUQwJUI4JUQxJTgwJUQxJTgzXyVFMiU4MCU5NF8lRDAlQkMlRDAlQjglRDElODAh&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=12861e925254389da396a389afb793ef610bf45e916605c910d9e0e8dddae68dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly9ydXR1YmUucnUvdS9taXJhZ29zaGEvdmlkZW9zLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=edd094487525dc1a9b0287604c787e5def628d2d46d62005c7c04b5394baf33bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly9ydXR1YmUucnUvdmlkZW8vZDYyYTJhNTdiZWFiMDYxZjlkMTRjNTYwODk4ODM3ZDgv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9a087c1f79544e485bd84e9171ff916255fb590ba06b5bc323966e81c31e6d90JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlDJUQwJUI4JUQxJTgw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=49d336771f83311f9f57fa1dba8543a4f6e44f0eb1efe85007289c467fe727d8JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly92a3ZpZGVvLnJ1L3ZpZGVvLTIyNjk0MjMyMF80NTYyMzk1MTI&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=ba61b60d0740031480d2ad3ba90478d111a33d397f5a5b54cf42112edb7d80cbJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly93d3cubnNway5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=388c35c5dab144216c1d79625bb0e9fda4bc43ba24466058293f217856737cf6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly9taXJ1bGVucy5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0a0cbc4e5d58d92e0d909150f2acf1f6b0c2096c33e93bdb5466c5b965af9b74JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly90di5tYWlsLnJ1L21vc2t2YS9jaGFubmVsLzcxNy8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5f6ef29362d1bc969f50debe0be26f6516220139d387e556ec1b3abd34272e9cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=370fbd97-a651-6b57-06be-a586a73a6a9c&amp;u=a1aHR0cHM6Ly92a3ZpZGVvLnJ1L3ZpZGVvLTIyNjk0MjMyMF80NTYyMzk1MTA&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Миру Пир\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "modifikar": {
+  "name": "Модификар",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Модификар\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=be92fc2c43083852adf33d5db8a7de0d6ccb3cce3613fdf5663d95328bfd6fc2JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vc3ByZWFkc2hlZXRzLz9hdXRoa2V5PUNJV1dwT2tQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f413a7bab1a19f7a2ae47855a30777830d8cd3527bdf4bc1c768e59540a3e50bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9pbnRsL3J1X3J1L2Nocm9tZS9kci9kb3dubG9hZC8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3a5ff31056c31bdeba8b22127478c11ddf2ee133780753d597e80d85d73f1c6aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9jaHJvbWV3ZWJzdG9yZS5nb29nbGUuY29tL2NhdGVnb3J5L2V4dGVuc2lvbnM_aGw9dWs&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=25a91bd788cade39fe9f81b4c26ee6e68ad13e2c57af58e736f2ccf75d39bfc1JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly93b3Jrc3BhY2UuZ29vZ2xlLmNvbS9pbnRsL3J1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f6f8a41b1dfaa4a56b94e6deb91c300713be75b182a630e8d8c45808e477a479JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vcGF5bWVudHNjZW50ZXIvYW5zd2VyLzkwMjg3NDY_aGw9cnU&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=ab324b72dcb4ad399f513e3a67ca5b98b4fbc88059f08d9b43a312e1b9d57146JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTQxNz9obD1ydSZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c79318deaf46f8259127ef705894c72247d19dad59f73b5931a75c72999b4bd6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9jb2xhYi5yZXNlYXJjaC5nb29nbGUuY29tLz9obD1ydQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=843f9fa1841bde841bb7b9c14dc5228cb4af8038746df7b351c6d66c82df195bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9pbnRsL3J1L2FjY2Vzc2liaWxpdHkvZ2V0LWluLXRvdWNoLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=12a3406542596640f3c0bd5788ba06cf197321e9aaa2b7dd567f6f3587a6c5c0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9wYXNzd29yZHMuZ29vZ2xlLmNvbS8_aGw9dWs&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=4985624958c31988e70c8ead4e3885cac607310dbb06cadde12fb283b698469cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2313a6ea-9ef2-6779-1f7f-befb9f0a6678&amp;u=a1aHR0cHM6Ly9teWFjY291bnQuZ29vZ2xlLmNvbS9pbnRyby9maW5kLXlvdXItcGhvbmU_aGw9dWs&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "na-svobody": {
+  "name": "На Свободы",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"На Свободы\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=159a01d12a4eb3a8b782f08fc89b932fc3fc7ee6cddc5893b63617e7dd24eaaeJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly9ydS53aWt0aW9uYXJ5Lm9yZy93aWtpLyVEMCVCRCVEMCVCMA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=1e9e8df6fe4871fcbe6c7a5f13747145de80fc7a5197ceea6187215911a27408JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly90cmFuc2xhdGUuZ29vZ2xlLmNvbS8_aGw9cnU&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8ee7319076dc512364d99678de915934b8fec743560582e195d2a80a793c6581JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlEJUQwJUIwLSVEMCU5RCVEMCVCMA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=1f05c321729913d40be4cf5c35abe0990ff32cfd2b692a5e9f309e7cdd94e731JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlEJUQwJTkw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=cdcf42e931633cebaa0c79f7f43afd4780dc9ab75b2373e98a057c9cfdfa9f83JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8_aGw9cnUtUlU&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=b6a337d246d8c6d59c3077b5bd1a941e2d1e99c8c58994016152db5b5269a4abJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly9ydS53aWt0aW9uYXJ5Lm9yZy93aWtpLyVEMCVCRCVEMCVCMC0&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=27c2807835d2efb519fb19e0d987faf499b2be867f64d040d7e63e986376db26JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly90cmFuc2xhdGUueWFuZGV4LnJ1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5201c8beebb5ea28183fc7536e1048f4c3f3c7e8150fc57ca8b5b24e51820048JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly9pcHY0Lmdvb2dsZS5jb20vP2hsPXJ1X1JV&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=08cbb5924c18bd339d9c93ef6d1f3f58f13a5c9db1df47e2d985f7d4715868aaJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly96ZW4ueWFuZGV4LnJ1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=4e741cea1453d2483857f6d6825c4b08ad9c2c0e68de3062f5ffd2134f7c956bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=286fbff5-6190-6ac7-1d9c-a7e4604e6b59&amp;u=a1aHR0cHM6Ly9vcmZvZ3JhbW1rYS5ydS8lRDAlQkUlRDElODAlRDElODQlRDAlQkUlRDAlQjMlRDElODAlRDAlQjAlRDElODQlRDAlQjglRDElOEYvJUQwJUJGJUQxJTgwJUQwJUI1JUQwJUI0JUQwJUJCJUQwJUJFJUQwJUIzJUQwJUI4XyVEMCVCMl8lRDAlQkQlRDAlQjBfJUQwJUJGJUQwJUJFXyVEMSU4MV8lRDElODElRDElODMlRDElODklRDAlQjUlRDElODElRDElODIlRDAlQjIlRDAlQjglRDElODIlRDAlQjUlRDAlQkIlRDElOEMlRDAlQkQlRDElOEIlRDAlQkMlRDAlQjhfJUQwJUJEJUQwJUIwXyVEMCVCOCVEMCVCNV8lRDAlQjglRDAlQjgv&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "nelli": {
+  "name": "Цветы Нелли",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Цветы Нелли\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Цветы Нелли\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=fc848eb0551f638402cac2736de5e7250a43f240e983ea1e714e83cd507ac2f3JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9mbG93ZXJzLnlhbmRleC5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=6c3d6f91c057e91e273cf2fc9b27ab89e40bc6e2ee641148fe2d9a39621dba4fJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9mbG93d293LmNvbS9ydXNza2l5Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9005074738012bfda98c0dad37eb84edb255e5e786f1b5afa3ebf7f56774a13dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9mbG93d293LmNvbS9raXJvdnNrL2VudmVsb3BlLWZsb3dlcnMv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=15555fde64f6d45c1fbb05e2b72f2081eed539795184a729e56866179ed9f5a0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9mbG93cnkucnUvdG9waWNzL3NwcmF2b2NobmlrLXRzdmV0b3Yv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=a32afa320e2b0ca227b76f113737f16f9bda90d2ef8ad9ec0007e1565775a436JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9jeWJlci1mbG9yYS5ydS9lbnRzaWtsb3BlZGl5YS1jdmV0b3Yv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3011497047073913a89826a19a89ecfde423a03958d9df722b62da806d13c05aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly8yZ2lzLnJ1L2tpcm92c2stbGVuaW5ncmFkLXJlZ2lvbi9zZWFyY2gvJUQwJUE2JUQwJUIyJUQwJUI1JUQxJTgyJUQxJThCL3J1YnJpY0lkLzM4OQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=468c10685f95177bb974f3b4805d451fed7b76ea8470d7b88c33d25749bd4340JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9raXJvdnNrLWxlbm9ibC5zcmVkaS1jdmV0b3YucnUv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=6aadd7b31a38a9c002493c4616f3b5100c486879b552ad63476fc24b45003165JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly93d3cucy1mbC5ydS9kb3N0YXZrYS9LaXJvdnNrLTE4NzM0MA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=976974f6ea5bebf858849d8f29e468e0e7c28a672290a56dca481485f5d7d1d9JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9ncmFuZC1mbG9yYS5ydS9raXJvdnNr&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=25d7aa2fee62517310dd071d2e862f19a25fa28bafe96f4c1a8d502b833604efJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1ca8f868-81eb-65bf-14d9-e079805c64b0&amp;u=a1aHR0cHM6Ly9mbGF3ZXJ5LnJ1Lw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Цветы Нелли\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "orhideya": {
+  "name": "Орхидея",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Орхидея\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Орхидея\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Орхидея\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "ostrov": {
+  "name": "Цветочный остров",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Цветочный остров\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Цветочный остров\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Цветочный остров\" Уфа магазин цветов",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=eefaf3e597c88340777800e499b5530aea16c9ef4a163973729986ee7ae070fdJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzE4OTQwNzcyNTUwNDQ1NDgxMDg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=4029ca5973d67977d737092a3c079b500bd51ff3dd8608ccf627354bfd6cd969JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly9qaW5neWFuLmJhaWR1LmNvbS9hcnRpY2xlLzQ1NDMxNmFiMmNlM2M3ZjdhN2MwM2EyZS5odG1s&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f666b6b3571ccb71af3d11e9348c30ca919a76017e92e3d40d3b53d8a49d572bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIyNjExODU5&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8afb7e715ca0df309d1a29de7a7cc17808630575540d2a977aca2919f0b73df8JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cudGVuZm9ydW1zLmNvbS9nZW5lcmFsLXN1cHBvcnQvMTE3NjMyLXRyeWluZy11bmJsb2NrLWFsbC1maWxlcy1mb2xkZXItc3ViLWZvbGRlcnMtcG93ZXJzaGVsbC5odG1s&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0d7960657a8fd770bda8e56f86d022059df578daf9e1fd47d15b8d2439070cc7JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cudGVuZm9ydW1zLmNvbS90aHJlYWRzL2VuYWJsZS1vci1kaXNhYmxlLWRldmljZS1ndWFyZC1pbi13aW5kb3dzLTEwLjY4OTEzLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=fc12ef00c9cc047a0a0f6731f278354b6ffa8d1b45a4b65a36045bce1e953056JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly9qaW5neWFuLmJhaWR1LmNvbS9hcnRpY2xlLzIxOWY0YmY3YTIzZDM1ZGU0NTJkMzg2ZS5odG1s&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9efc7c6005dfb2fb9be2fc5636a73755f4eeb0ea95e6993fdaae09bf4146884dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzI5Mjk2NzIy&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=dd7fd878c2d7d69cf728516f4d479a2f578f65fb20b8111a1bdb11112cd2b8cfJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM1NzQ1MzUx&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=75a42dca1d622cd1104587b0c5c05770002174aac9c9e6f60fdf7aaa6e0e13e9JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzQ2MzE0OTE0&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=50af7d9546fc7d7c0294d9de962f50f648defb9fa68a237c70b17db26b4ae659JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=13415a32-1fbe-6de8-0c63-42231ee26c32&amp;u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzU5NTg2MzEwNg&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "paradise": {
+  "name": "Paradise bouquet",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Paradise bouquet\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Paradise bouquet\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=66147d9ce00fc4532fb5c8d40acc65f0e5517d2e97fcd5415a9560a7b8865834JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9leHBsb3Jlci5zaGVsbC5vcmcv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=221ed5b8298f05239dba2bde942d14e3de840829dadbabe3ba5a8168e0246b15JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3J1LXJ1L3dpbmRvd3Mvd2luMzIvc2hlbGwvc2hlbGwtZXhwbG9yZQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f17137a00c4bddb5599fd38cc51dd5a3a1ca575f77b7664701b9a7c805e6c865JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly93d3cuY2xhc3NpY3NoZWxsLm5ldC9kb3dubG9hZHMv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=eb224ceec7277469ceafead7ef53135ef33e6694abd500e8923f732cc56ac029JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9vcGVuLXNoZWxsLmdpdGh1Yi5pby9PcGVuLVNoZWxsLU1lbnUv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=36f25eb15cb772ae0f822059296edf08d8b026afea6c7a7462c9ddc2485ef219JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9naXRodWIuY29tL3Nsb3JlbGVlL1BFeHBsb3Jlcg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9da4c71198a063ae9ebed78175bfb89da4fb6e8ab2b74de909c607ddfa84f9a0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9uaWxlc29mdC5vcmcv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c76b36b26d4125cc74bbb3df0e0f24094eb02c9b881d7e3a43da587f95f26f26JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9yZW1vbnRrYS5wcm8vb3Blbi1zaGVsbC1tZW51Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2a663b47696087674c42ac460cac3a2b93107f77a02cc3058bcf1ad659d3641aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly93d3cuY2xhc3NpY3NoZWxsLm5ldC9nYWxsZXJ5L0NsYXNzaWMtRXhwbG9yZXI&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=85a91979cd765a28b0b54e4108cefaec1874c176108f32203392ea5d3fcfd5ecJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3J1LXJ1L3dpbmRvd3MvY29uZmlndXJhdGlvbi9zaGVsbC1sYXVuY2hlci8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=690c379144cdc70a0e2d81bc30b63c49463ae3d7871000f82c9626c601975729JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=389f36f6-8272-6665-39db-2ee783fe67db&amp;u=a1aHR0cHM6Ly9uaWxlc29mdC5vcmcvZG93bmxvYWQ&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Paradise bouquet\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "pixie": {
+  "name": "Пикси",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Пикси\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Пикси\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Пикси\" Уфа магазин цветов",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=172933147ddd82e022c071be3cd4d35b09dc3cbb326315b95ac0845e0a57c566JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly9sYWR5Lm1haWwucnUvYXJ0aWNsZS81MTkxNzUtMTQtbHVjaHNoaWgtdmFyaWFudG92LXN0cml6aGtpLXBpa3NpLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=1f24146702c2ca78ea329172f215562cfc66cd93d0d84d3cdc2fb08a03143cfeJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlGJUQwJUI4JUQwJUJBJUQxJTgxJUQwJUI4&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e437278ac646a1f2e4ccd310676d3ab10c184074b65837fd597b641778eec421JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly93d3cubGV0dS5ydS9ibG9nL2tvbXUtaWR5b3Qtc3RyaXpoa2EtcGlrc2ktdnlib3ItZm9ybXktaS1wcm9zdHllLXNwb3NvYnktdWtsYWRraQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=25b5c731f356718dda77842ddbd57a0753d979aec1daa3fa4f33d22f9fdca0b1JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly9sYWR5Lm1haWwucnUvYXJ0aWNsZS82MDAxMTMtbmF6dmFuYS1nbGF2bmF5YS1zdHJpemhrYS1vc2VuaS0yMDI2LWdvZGEv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2cae9c00194dd12b390e5541901f5d06661cbc953fd2e7cca3c051393929f85cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly9sZW50YS5ydS9hcnRpY2xlcy8yMDI0LzA2LzEzL3N0cml6aGthLXBpa3NpLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c01677533bbe2db3f4d16f8276eac9494d0bc5cfb16be35e48885fd5a8b6e1b4JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly93d3cucm9kaXMub3JnLnVhL3J1L3phY2hpc2thLXBpa3NpLXBvdm55aS1oaWQtei1pc3RvcmlpLXZ5ZGl2LWktZG9obGlhZHUv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c22ed140ffd438eca271a14d41c265ff1444719054d589186fd829c8222d3215JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly92b2xvc2NlbnRyLnJ1L3N0cml6aGtpL3VuaXNla3Mvc3RyaXpoa2EtcGlrc2k&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=42356421e567de57bf4faabeea47036b91d9c59724165fed4d39e23611d2784aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly93d3cubWFyaWVjbGFpcmUucnUva3Jhc290YS9tb2RueWUtc3RyaXpoa2ktMjAyNy1waWtzaS1rYXJlLWktZGxpbm55ZS1zbG9pLWdsYXZueWUtdHJlbmR5LWdvZGEv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=1f0b08ea848ffef766690fedc07d05c4675d1bc450b6f421f27ff2e43259270bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly9iZWF1dHl3aW4ucnUvYmxvZy8xMjEtc3RyaXpoa2EtcGlrc2ktdWhvZC1pLXVrbGFka2Eta29yb3RraWgtdm9sb3Mtdi0yMDI2LWdvZHU&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c0e6a929790cd80f3e36b178b03335aa170928e1d611a0cc9f8628832d10e13bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1474c8a6-f4fd-6d89-2d20-d0b7f56b6ca2&amp;u=a1aHR0cHM6Ly9kemVuLnJ1L2EvYUQxWGxxR2xKQ0hJdEtMQw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "podaricvety": {
+  "name": "Подари цветы",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Подари цветы\"",
+    "error": "HTTP Error 403: Forbidden"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Подари цветы\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f2dcb2732cb5853fc8cf254cf455799fd4ed90ecb269ad2d085911a1cdfc64e1JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9leHBsb3Jlci5zaGVsbC5vcmcv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=afe6b3a7cd04f14acd98d341c2f926e27cf0521b72937d4b20e8c0555b2a5822JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3J1LXJ1L3dpbmRvd3Mvd2luMzIvc2hlbGwvc2hlbGwtZXhwbG9yZQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=7ff8dff898d1a72a2bc611fb5753fae4a3b813c77f620a15f4c635ee74ee9a83JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly93d3cuY2xhc3NpY3NoZWxsLm5ldC9kb3dubG9hZHMv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=478a539e0ff36362996eb83fabf4e16c2dcada4215f3f08adaee4c12bbe65d4dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9vcGVuLXNoZWxsLmdpdGh1Yi5pby9PcGVuLVNoZWxsLU1lbnUv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=24f499347bb62930e2a09135e2c6fccd58719378d09bba07ba81c613aa31591aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9naXRodWIuY29tL3Nsb3JlbGVlL1BFeHBsb3Jlcg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0fc52c8bd08da33dfaeea7440eba80cb95c2973c9fdc39926aace088d42f0140JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL2VuLXVzL3dpbmRvd3Mvd2luMzIvc2hlbGwvc2hlbGwtZXhwbG9yZQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=add8b70d3e1e6ec9ae6117b4c1f82858c579ffd538bd36583e9395fa244de300JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9yZW1vbnRrYS5wcm8vb3Blbi1zaGVsbC1tZW51Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=609f0fb95cac0f8eab09d30f91aed9a82ebd19381b0abc45880bbab84fab87c0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9uaWxlc29mdC5vcmcv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=29e4db28656c9a4fec70cd79e63ff316c4554e39f3e6d277db56e6cadf17046dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly93d3cuY2xhc3NpY3NoZWxsLm5ldC9nYWxsZXJ5L0NsYXNzaWMtRXhwbG9yZXI&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=35eae940cba7bd0b649ef105ee5291493c8422b7063b36bc7a150479ae7b1bf6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=045a02d9-82ea-641e-2e4c-1ac883d465ce&amp;u=a1aHR0cHM6Ly9naXRodWIuY29tL1dpbmRvd3NTaGVsbC9leHBsb3Jlcjc&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Подари цветы\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "poehali": {
+  "name": "Поехали",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Поехали\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e98bfc145c4accaf949d41effdb1318a08087090c63a181abad70d5d722fe2d5JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=369db2f0-1216-6914-2b77-aae113f76839&amp;u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2ZyLWZyL3dpbmRvd3MvZm9ydW0vYWxsL25vbi1yZWNlcHRpb24tZGUtbXNncy1xdWktb250LXVuZS1mb3JtZS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=017da6930432b4b399b80a289eccb49aaa389f90474667c654f7072e0b3978e2JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=369db2f0-1216-6914-2b77-aae113f76839&amp;u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2phLWpwL3dpbmRvd3MvZm9ydW0vYWxsL8ODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzFocOD4oCaw4LCo8ODxpLDhuKAmcODwqLDouKAmsKsw4LCoMODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PCosOi4oKsxb7DgsKiw4PGksOG4oCZw4PCosOi4oCawqzDhcKhw4PGksOi4oKsxaHDg-KAmsOCwqHDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOi4oKsxaHDg-KAmsOCwqPDg8aSw4bigJnDg8Kiw6LigJrCrMOCwqDDg8aSw4LCosODwqLDouKCrMWhw4LCrMODwqLDouKCrMW-w4LCosODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsK8w4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDouKCrMWhw4PigJrDgsKjw4PGksOG4oCZw4PCosOi4oCawqzDgsKgw4PGksOCwqLDg8Kiw6LigqzFocOCwqzDg8Kiw6LigqzFvsOCwqLDg8aSw4bigJnDg8Kiw6LigJrCrMOFwqHDg8aSw6LigqzFocOD4oCaw4LCq8ODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzFocOD4oCaw4LCqMODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsKow4PGksOG4oCZw4PCosOi4oCawqzDhcKhw4PGksOi4oKsxaHDg-KAmsOCwq3Dg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOi4oKsxaHDg-KAmsOCwqXDg8aSw4bigJnDg8Kiw6LigJrCrMOFwqHDg8aSw6LigqzFocOD4oCaw4LCrsODxpLDhuKAmcODwqLDouKAmsKsw4LCpsODxpLDouKCrMWhw4PigJrDgsKhLzk4MDQ5OTBjLTYwYzgtNDQwYy1iMWFiLTJhMGEwMWM4YTc0OQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=a26695e7feec766bff0be4ab6f4e56a0d3e43877ea82c359f3957688db87d5a2JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=369db2f0-1216-6914-2b77-aae113f76839&amp;u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2phLWpwL3dpbmRvd3MvZm9ydW0vYWxsL8ODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzCoMODwqLDouKAmsKsw6LigJ7CosODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsKjw4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PigJrDgsKgw4PGksOG4oCZw4PigJrDgsKiw4PGksOCwqLDg8Kiw6LigJrCrMOFwqHDg-KAmsOCwqzDg8aSw4LCosODwqLDouKAmsKsw4XCvsOD4oCaw4LCosODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzFocOD4oCaw4LCosODxpLDhuKAmcOD4oCaw4LCosODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PigKbDgsKhw4PGksOi4oKsxaHDg-KAmsOCwqzDg8aSw4bigJnDg8Kiw6LigJrCrMOFwqHDg8aSw6LigqzFocOD4oCaw4LCosODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzCoMODwqLDouKAmsKsw6LigJ7CosODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsKjw4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDouKCrMWhw4PigJrDgsKiw4PGksOG4oCZw4PigJrDgsKiw4PGksOCwqLDg8Kiw6LigqzFocOCwqzDg-KApsOCwqHDg8aSw6LigqzFocOD4oCaw4LCrMODxpLDhuKAmcODwqLDouKAmsKsw4LCpsODxpLDouKCrMWhw4PigJrDgsKhw4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PigKbDgsKhw4PGksOG4oCZw4PCosOi4oCawqzDhcKhw4PGksOi4oKsxaHDg-KAmsOCwqnDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOi4oKswqDDg8Kiw6LigJrCrMOi4oCewqLDg8aSw4bigJnDg8Kiw6LigJrCrMOFwqHDg8aSw6LigqzFocOD4oCaw4LCo8ODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw4LCosODwqLDouKCrMWhw4LCrMOD4oCaw4LCoMODxpLDhuKAmcOD4oCaw4LCosODxpLDgsKiw4PCosOi4oCawqzDhcKhw4PigJrDgsKsw4PGksOCwqLDg8Kiw6LigJrCrMOFwr7Dg-KAmsOCwqLDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOCwqLDg8Kiw6LigqzFocOCwqzDg-KAmsOCwrnDg8aSw4bigJnDg-KAmsOCwqLDg8aSw4LCosODwqLDouKAmsKsw4XCocOD4oCaw4LCrMODxpLDouKCrMWhw4PigJrDgsKgw4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDouKCrMKgw4PCosOi4oCawqzDouKAnsKiw4PGksOG4oCZw4PCosOi4oCawqzDhcKhw4PGksOi4oKsxaHDg-KAmsOCwqPDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOi4oKsxaHDg-KAmsOCwqLDg8aSw4bigJnDg-KAmsOCwqLDg8aSw4LCosODwqLDouKCrMWhw4LCrMOD4oCmw4LCocODxpLDouKCrMWhw4PigJrDgsKsw4PGksOG4oCZw4PCosOi4oCawqzDgsKmw4PGksOi4oKsxaHDg-KAmsOCwqHDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOCwqLDg8Kiw6LigqzFocOCwqzDg-KApsOCwqHDg8aSw4bigJnDg8Kiw6LigJrCrMOFwqHDg8aSw6LigqzFocOD4oCaw4LCrsODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzCoMODwqLDouKAmsKsw6LigJ7CosODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsKjw4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PigJrDgsKgw4PGksOG4oCZw4PigJrDgsKiw4PGksOCwqLDg8Kiw6LigJrCrMOFwqHDg-KAmsOCwqzDg8aSw4LCosODwqLDouKAmsKsw4XCvsOD4oCaw4LCosODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw4LCosODwqLDouKCrMWhw4LCrMOD4oCmw4LCocODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsKjL2I0NWY4ZGRlLWFhNGEtNDU5OC1hYjZlLTIxYTY3ZjhiNmVjMg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0b8038c0c48250b53fce89d458769b8ecd3a49d62f831ce9778ab1e3d0d3a03bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=369db2f0-1216-6914-2b77-aae113f76839&amp;u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2phLWpwL3dpbmRvd3MvZm9ydW0vYWxsL8ODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzFocOD4oCaw4LCo8ODxpLDhuKAmcODwqLDouKAmsKsw4LCoMODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PCosOi4oKsxb7DgsKiw4PGksOG4oCZw4PCosOi4oCawqzDhcKhw4PGksOi4oKsxaHDg-KAmsOCwqDDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOi4oKsxaHDg-KAmsOCwqPDg8aSw4bigJnDg8Kiw6LigJrCrMOCwqDDg8aSw4LCosODwqLDouKCrMWhw4LCrMODwqLDouKCrMW-w4LCosODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsK8w4PGksOG4oCZw4PigKDDouKCrOKEosODxpLDouKCrMWhw4PigJrDgsKjw4PGksOG4oCZw4PCosOi4oCawqzDgsKgw4PGksOCwqLDg8Kiw6LigqzFocOCwqzDg8Kiw6LigqzFvsOCwqLDg8aSw4bigJnDg-KAmsOCwqLDg8aSw4LCosODwqLDouKAmsKsw4XCocOD4oCaw4LCrMODxpLDouKCrMKmw4PCosOi4oCawqzDheKAnMODxpLDhuKAmcOD4oCgw6LigqzihKLDg8aSw6LigqzFocOD4oCaw4LCo8ODxpLDhuKAmcODwqLDouKAmsKsw4LCoMODxpLDgsKiw4PCosOi4oKsxaHDgsKsw4PCosOi4oKsxb7DgsKiw4PGksOG4oCZw4PCosOi4oCawqzDhcKhw4PGksOi4oKsxaHDg-KAmsOCwrzDg8aSw4bigJnDg-KAoMOi4oKs4oSiw4PGksOi4oKsxaHDg-KAmsOCwqPDg8aSw4bigJnDg8Kiw6LigJrCrMOCwqDDg8aSw4LCosODwqLDouKCrMWhw4LCrMODwqLDouKCrMW-w4LCosODxpLDhuKAmcODwqLDouKAmsKsw4XCocODxpLDouKCrMWhw4PigJrDgsKhLzU1ZGQ4NTIyLTFjYWEtNGFlNC04MGI0LTNkMGZlNDk0NGYyMg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=10b78f7ee5ce67526bc99638052d39cd05008e1b480b8600a138d00aa94996c4JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=369db2f0-1216-6914-2b77-aae113f76839&amp;u=a1aHR0cHM6Ly93d3cuYW5zd2Vycy5taWNyb3NvZnQuY29tL2phLWpwL3dpbmRvd3MvZm9ydW0vYXBwc193aW5kb3dzXzEwLW1zZWRnZS9taWNyb3NvZnQvYzk0ZmJkMjQtYzVlMS00MDczLTllMDYtNTg0NjQ1NzYwNTcz44GT44Gu6L6644GM5Y-C6ICD44Gr44Gq44KL44GL44Gq44CB44Go44CC5pyA6L-R44GuRWRnZeOBp-OBr-aomea6luOBp0ZsYXNo44KS5YaN55Sf44GX44Gq44GE44KI44GG44Gr6Kit5a6a44GV44KM44Gm44GE44G-44GZKOOBk-OCjOOBr0ZsYXNo5pyJ5Yq554Sh5Yq544Gu6Kit5a6a44Go44Gv5Yil44Gn44GZKeOBjOOAgeOCteOCpOODiOWBtOOBjEVkZ2Xlr77lv5zjgpLjgaHjgoPjgpPjgajkvZzjgorovrzjgpPjgafjgYTjgozjgbDjgIHjg4Tjg7zjg6vjg5Djg7zkuIrjga7jgIzjg5Hjgrrjg6vjg5Tjg7zjgrnjgI3jg5zjgr_jg7PjgYvjgonmnInlirnnhKHlirnjgpLoqK3lrprjgafjgY3jgovjgojjgYbjgafjgZnjgILjg5zjgr_jg7PjgYzlh7rjgarjgYTjgarjgonjgIHjgrXjgqTjg4jlgbTjgYzlr77lv5zjgZnjgovjgb7jgafjga_liKXjga7jg5bjg6njgqbjgrbjgpLkvb_jgYbjgZfjgYvnhKHjgYTjgojjgYbjgavmgJ3jgYTjgb7jgZnjgIIo57WC5oGv5YK-5ZCR44GuRmxhc2jjg5fjg6njg4Pjg4jjg5Xjgqnjg7zjg6DjgIHjgZfjgYvjgoJFZGdl44OW44Op44Km44K26ZmQ5a6a44Gu5ZWP6aGM44Gr5a--44GX44Gm44OH44K244Kk44Oz5aSJ5pu044GX44Gm5YuV5L2c5qSc6Ki844GZ44KL44Kz44K544OI44KS5o6b44GR44KL44K144Kk44OI44GM44Gp44KM44Gg44GR44GC44KL44GL44Gv55aR5ZWPKQ&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "prokuzov": {
+  "name": "Prokuzov",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Prokuzov\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "prosto": {
+  "name": "Proсто",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Proсто\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f8cb6c58aaebe30356c2af9bb2ff2c86ef53aba073e94639eeb1e81601df43f4JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9mb3Rvc3RyYW5hLnJ1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=6a8c142c2ac5b5a6ab5e6f2f6519a691481b32e4132793f0fe96cda3f6c6b02dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9mb3Rvc3RyYW5hLnJ1L2ZlZWQvcHViLzQwOTUv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=a043ae632becc845f9cc349d70ee9495f636f6e224361ed170d91d8a12cbaed2JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9tLmZvdG9zdHJhbmEucnUvc2lnbnVwL2xvZ2luLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=4b33c0b3430d67f403b6edfadd4f820fb76a24bf81a1299778e13440dfc8d534JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9tLmZvdG9zdHJhbmEucnUvcHVibGljL2xvZ2luLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=51f0a181b245678dfc26994bfa4c000cff9a96086e7c6cd1a2779375bc67374dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly93YXAueWFuZGV4LmNvbS9zZWFyY2g_bHI9MjEyMDYmcnE9MSZ0ZXh0PSVEMSU4NCVEMCVCRSVEMSU4MiVEMCVCRSVEMSU4MSVEMSU4MiVEMSU4MCVEMCVCMCVEMCVCRCVEMCVCMCslRDAlQkMlRDAlQkUlRDElOEYrJUQxJTgxJUQxJTgyJUQxJTgwJUQwJUIwJUQwJUJEJUQwJUI4JUQxJTg2JUQwJUIwKyVEMCVCMiVEMCVCRSVEMCVCOSVEMSU4MiVEMCVCOCslRDAlQjElRDAlQjUlRDAlQjcrJUQwJUJGJUQwJUIwJUQxJTgwJUQwJUJFJUQwJUJCJUQxJThGKyVEMCVCOCslRDAlQkIlRDAlQkUlRDAlQjMlRDAlQjglRDAlQkQlRDAlQjAmc3JjPXJlYyZzZXJwLXJlbG9hZC1mcm9tPXJlY19ib3R0b20&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=54af61866ffd84e5edeb8011d2aedf83dae15f3fc5cab9c0945604226f73b9a1JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9mb3Rvc3RyYW5hLnJ1L3B1YmxpY3MvbXkv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=d21847191db7616741bdf0f5eebd262dc73f3b4bcc34c0cc26f88f5608696d3bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9wZGEueWFuZGV4LmNvbS9zZWFyY2g_bHI9MjEyMDYmcnE9MSZ0ZXh0PSVEMSU4NCVEMCVCRSVEMSU4MiVEMCVCRSVEMSU4MSVEMSU4MiVEMSU4MCVEMCVCMCVEMCVCRCVEMCVCMCslRDAlQjIlRDAlQkUlRDAlQjklRDElODIlRDAlQjgrJUQwJUJEJUQwJUIwKyVEMSU4MSVEMCVCMiVEMCVCRSVEMSU4RSslRDElODElRDElODIlRDElODAlRDAlQjAlRDAlQkQlRDAlQjglRDElODYlRDElODMmc3JjPXJlYyZzZXJwLXJlbG9hZC1mcm9tPXJlY19ib3R0b20&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=58b46e23ddf0dc16f566a5ab66c5c4b08f053ba9b17fe1345e819962bff57139JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly93YXAueWFuZGV4LmNvbS9zZWFyY2g_bHI9MjEyMDYmcnE9MSZ0ZXh0PSVEMCVCMiVEMSU4NSVEMCVCRSVEMCVCNCslRDAlQkQlRDAlQjArJUQwJUJDJUQwJUJFJUQxJThFKyVEMSU4MSVEMSU4MiVEMSU4MCVEMCVCMCVEMCVCRCVEMCVCOCVEMSU4NiVEMSU4MyslRDAlQjIrJUQxJTg0JUQwJUJFJUQxJTgyJUQwJUJFJUQxJTgxJUQxJTgyJUQxJTgwJUQwJUIwJUQwJUJEJUQwJUI1JnNyYz1yZWMmc2VycC1yZWxvYWQtZnJvbT1yZWNfYm90dG9t&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=7f2d1679040216893e3372fdbba0bdbe0c683e5bf2d30c2f48fdb0c23bc2e8c6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9wZGEueWFuZGV4LmNvbS9zZWFyY2g_bHI9MjEyMDYmcnE9MSZ0ZXh0PSVEMSU4NCVEMCVCRSVEMSU4MiVEMCVCRSVEMSU4MSVEMSU4MiVEMSU4MCVEMCVCMCVEMCVCRCVEMCVCMCslRDAlQkMlRDAlQkUlRDElOEYrJUQxJTgxJUQxJTgyJUQxJTgwJUQwJUIwJUQwJUJEJUQwJUI4JUQxJTg2JUQwJUIwKyVEMCVCMiVEMCVCRSVEMCVCOSVEMSU4MiVEMCVCOCslRDAlQjElRDAlQjUlRDAlQjcrJUQwJUJGJUQwJUIwJUQxJTgwJUQwJUJFJUQwJUJCJUQxJThGKyVEMCVCOCslRDAlQkIlRDAlQkUlRDAlQjMlRDAlQjglRDAlQkQlRDAlQjAmc3JjPXJlYyZzZXJwLXJlbG9hZC1mcm9tPXJlY19ib3R0b20&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3b625b3221dc5bebaea09948f875fa140fae36bdbee5703c1680e3a395680533JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=0b5487b3-145d-6f94-3f21-9fa215366ed8&amp;u=a1aHR0cHM6Ly9kZXNrdG9wLnlhbmRleC5jb20vc2VhcmNoLz9scj0yMTIwNiZycT0xJnRleHQ9JUQxJTg0JUQwJUJFJUQxJTgyJUQwJUJFJUQxJTgxJUQxJTgyJUQxJTgwJUQwJUIwJUQwJUJEJUQwJUIwKyVEMCVCMiVEMCVCRSVEMCVCOSVEMSU4MiVEMCVCOCslRDAlQkQlRDAlQjArJUQxJTgxJUQwJUIyJUQwJUJFJUQxJThFKyVEMSU4MSVEMSU4MiVEMSU4MCVEMCVCMCVEMCVCRCVEMCVCOCVEMSU4NiVEMSU4MyZzcmM9cmVjJnNlcnAtcmVsb2FkLWZyb209cmVjX2JvdHRvbQ&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "provag02": {
+  "name": "Про Vag 02",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Про Vag 02\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=166506ae764c54579bc2b1ecfc982fd31225adb8c1a4dff9a76571409e971f88JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9tLnZrdmlkZW8ucnUvQG1vcmtvdnBybw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=d1efce1ea890b90ec0add9da18f2da495d8c0fe75ccb9e2e79aa0576b64c3c14JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlGJUQxJTgwJUQwJUJF&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=37d74079fc3e6a24edfafcdf1ff3a588132beeafda767f66a9bf297f383e70d8JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9ydS53aWt0aW9uYXJ5Lm9yZy93aWtpLyVEMCVCRiVEMSU4MCVEMCVCRQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=003b1d44b5c695bdba8c957fb596e1c73c05cb770091897739b0532922ee2112JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlGJUQxJTgwJUQwJUJFJUQxJTgyJUQwJUI4JUQwJUIyJUQwJUJFJUQxJTgwJUQwJUIwJUQwJUJBJUQwJUI1JUQxJTgyJUQwJUJEJUQwJUIwJUQxJThGXyVEMCVCRSVEMCVCMSVEMCVCRSVEMSU4MCVEMCVCRSVEMCVCRCVEMCVCMA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=23acacaecf6e04201475665422a9faf25ba3803b65da9a2e34a5db38ce5a52e3JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9wcm8uY3VsdHVyZS5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=60ebe5a9364945564dcc3e804e3eddbbd7cc61505ca2f02110fb05de495ee9e0JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly93d3cuYXZpdG8ucnUvbGVnYWwvcHJvX3Rvb2xzL2F2aXRvLXByby8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=61a4e3b6c09ceaf9f16094a0e1ea8f93505865c0b769d3e6511bf318a1788481JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9rYXJ0YXNsb3YucnUvJUQwJUI3JUQwJUJEJUQwJUIwJUQxJTg3JUQwJUI1JUQwJUJEJUQwJUI4JUQwJUI1LSVEMSU4MSVEMCVCQiVEMCVCRSVEMCVCMiVEMCVCMC8lRDAlQkYlRDElODAlRDAlQkU&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=385d20f3b8627809ffa29309e54ede26317c9788b7e8dcff7d297a6fcfefe4ceJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ19KbllfTVJHZDdpZHhCcFhVU3BMVHc&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e3c7091dc8d35b5d9d70159678bfababd3679bf52f1a127a83f119ff8b8147cfJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9wcm8tdm9pbnUucnUv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=519685fb0ce2fe35c6e4ee2214e659c9e5364de3ea6278455fe7d9234ff22e27JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=230f8832-ac3f-6b1d-1b0e-9023ad286ac7&amp;u=a1aHR0cHM6Ly9ydS53aWt0aW9uYXJ5Lm9yZy93aWtpLyVEMCVCRiVEMSU4MCVEMCVCRS0&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "pushkin": {
+  "name": "Пушкин Flowers",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Пушкин Flowers\"",
+    "error": "<urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Пушкин Flowers\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=522dedbbb6882cd1ee14e4f2448e5ebf9f767402586dcdc71dbae387a4fcb027JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlGJUQxJTgzJUQxJTg4JUQwJUJBJUQwJUI4JUQwJUJELF8lRDAlOTAlRDAlQkIlRDAlQjUlRDAlQkElRDElODElRDAlQjAlRDAlQkQlRDAlQjQlRDElODBfJUQwJUExJUQwJUI1JUQxJTgwJUQwJUIzJUQwJUI1JUQwJUI1JUQwJUIyJUQwJUI4JUQxJTg3&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e00fa6928233aaa6f9467a30970572960622227067e6d93011a4951331679d02JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9ydXN0aWguY29tL2FsZWtzYW5kci1wdXNoa2luLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=b232dd81df51090468cf6d4316e12c9bfb475bf9503a1fa4aee5941a357319d5JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9iaW9ncmFwaGUucnUvem5hbWVuaXRvc3RpL2FsZWtzYW5kci1wdXNoa2luLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=dc0c29e62e21220cfd56c083fe6bb514002cfcd832ad73b003160733aea0c658JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly93d3cuY3VsdHVyZS5ydS9wZXJzb25zLzgxOTUvYWxla3NhbmRyLXB1c2hraW4&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5fe97641f735001d833c4f6470d26d678873032330769014077135fc0ef35890JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9waXR6bWFubi5ydS9wdXNoa2luLmh0bQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=b88be48074f19363cfd64f9767b913bfdf4ce0dd6fde7d9cc37162e3f2b9fb98JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9vYnJhem92YWthLnJ1L2FscGhhL3AvcHVzaGtpbi1hbGVrc2FuZHItc2VyZ2VldmljaC1wdXNoa2luLWFsZWtzYW5kci1zZXJnZXlldmljaA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=856015ff49bafc2cafd05631b39ffc3374705818d08f746f1e8f9ab579574908JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly93d3cuY3VsdHVyZS5ydS9saXRlcmF0dXJlL3BvZW1zL2F1dGhvci1hbGVrc2FuZHItcHVzaGtpbg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2482afec474fcc4dba23407e113645228511d08d443c58a9e4b6d8ce6fc8dd36JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQWxleGFuZGVyX1B1c2hraW4&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=b46fde0726f16306e6d2880f9c0e0a38ab80feb3e6b62e4670599c5bfb226dafJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly8yNHNtaS5vcmcvY2VsZWJyaXR5LzM5NTctYWxla3NhbmRyLXB1c2hraW4uaHRtbA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=ad4b893c0e0a8e8f9b6a860afd491e8ca0006b9c5a3e434be9f4d3b30b227eb3JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2a51dda8-2c05-61b4-3cc5-c5b92d4860dc&amp;u=a1aHR0cHM6Ly9hbGV4YW5kZXJwdXNoa2luLnJ1Lw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Пушкин Flowers\" Уфа магазин цветов",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c3bdb0b6ca4cb74c97370349f82bcd287f10c836a29380833a1c4310accce0c2JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlGJUQxJTgzJUQxJTg4JUQwJUJBJUQwJUI4JUQwJUJELF8lRDAlOTAlRDAlQkIlRDAlQjUlRDAlQkElRDElODElRDAlQjAlRDAlQkQlRDAlQjQlRDElODBfJUQwJUExJUQwJUI1JUQxJTgwJUQwJUIzJUQwJUI1JUQwJUI1JUQwJUIyJUQwJUI4JUQxJTg3&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=53cbf1dcf909c3b2b67de96cac79b248a5d5470ab383c1fff1ec197786ac1708JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9ydXN0aWguY29tL2FsZWtzYW5kci1wdXNoa2luLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c8fecd0916b3d1bf03de020dcd415a8e7ec6bef4dce7bfe1f9424af53fb5c76bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9iaW9ncmFwaGUucnUvem5hbWVuaXRvc3RpL2FsZWtzYW5kci1wdXNoa2luLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5811d0c8d3cf6b57f7022f6018167dff4ffd66003d0c864f0659f4b8113c6117JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly93d3cuY3VsdHVyZS5ydS9wZXJzb25zLzgxOTUvYWxla3NhbmRyLXB1c2hraW4&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e7061b573a046e48f259e59157ada32c1c2270758ce26e6164b1e19e6c408d12JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9waXR6bWFubi5ydS9wdXNoa2luLmh0bQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=ee1ed7b0328cc55f2cf3a140ecc611982102b229e8d5f9a8e5de0e2badeb5205JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9vYnJhem92YWthLnJ1L2FscGhhL3AvcHVzaGtpbi1hbGVrc2FuZHItc2VyZ2VldmljaC1wdXNoa2luLWFsZWtzYW5kci1zZXJnZXlldmljaA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=a556f8b3b208f666312d4b549a3af437f0ee4f72edb66f01c7c23b21998015a1JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly93d3cuY3VsdHVyZS5ydS9saXRlcmF0dXJlL3BvZW1zL2F1dGhvci1hbGVrc2FuZHItcHVzaGtpbg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=161483892e24dc7c8770cbb453f278ca4e1172dcc3a6df538f7d91e9d457cd9aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQWxleGFuZGVyX1B1c2hraW4&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=42a759e936682d84fe48f5dd86913859afbaac355f0f96268c70b5bbeb9638a1JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly8yNHNtaS5vcmcvY2VsZWJyaXR5LzM5NTctYWxla3NhbmRyLXB1c2hraW4uaHRtbA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5f3e5cd431b12066bd2d45980125c90cddda7d793922829306ffa562a6b1aef5JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=38401c46-d6c9-6ab2-034b-0457d7846be1&amp;u=a1aHR0cHM6Ly9hbGV4YW5kZXJwdXNoa2luLnJ1Lw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "remavto": {
+  "name": "РемАвто",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"РемАвто\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "rusanda": {
+  "name": "Цветочная мастерская у Русанды",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Цветочная мастерская у Русанды\"",
+    "error": "<urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Цветочная мастерская у Русанды\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Цветочная мастерская у Русанды\" Уфа магазин цветов",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=77615d13c3f2a20308de4a1ea994c5a7b8258b200ee85627c4451413fe0e76beJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlLz9obD1ydQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e17bbc3e6da16cbdde504571ef4c579dea7bcbd19957121001f8929e0d9f116aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlL2Fuc3dlci82MzUwODUwP2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=448de50d0abdbc9f326ad74b8ee39db69dd8444e3d94e15a9ec66105d0c10d00JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vZG9jcy9hbnN3ZXIvMTg3MTg5P2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5e580897f595f25e3de70c92d4c0f56d3466bfb0500412c9b3a19ac8d99e03cfJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlL2Fuc3dlci82MTQyNDY4P2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5fa2c0df3a0fd7b12be16926848e954b0f763b06898bf1075f12c714c190fc58JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci8xNzM0MjQ_aGw9cnUmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=af410a932ef9800c0fe2d51910e43556c876475d135a191eb1c28912d906fa6dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlL2Fuc3dlci82MTQyNDgzP2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNEQW5kcm9pZA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=64ba75a204eb3efe1642b201ed07df2d67e00e10d33d171b715886939312880cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlL2Fuc3dlci82MTQyNDgzP2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNEaU9T&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e66c4855db5a9a357f8b13c34aa39f1948e75d4f68aa3b90b3c07d8dd2de7cd3JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlL2Fuc3dlci82MTQyNDc4P2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNERGVza3RvcA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=504db889d71e0543dec7a0b57e95f52f0b2be2053449d2c7279801f348adc426JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlL2Fuc3dlci82MTQyNDY4P2hsPXJ1JmNvPUdFTklFLlBsYXRmb3JtJTNEQW5kcm9pZA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=2f7962e0b91d31144dfc050be0bf28f47ee73e87b368605a75b252ec26efa2e7JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=075dbf0e-e059-619f-0994-a71fe1d96073&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vdHJhbnNsYXRlLz9obD1lbg&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "sakura": {
+  "name": "Сакура",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Сакура\"",
+    "error": "<urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Сакура\" Уфа",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c17051b0363558dadb75a3b8b589966ced804ad2ef569281bb976fbd04d1e33bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJUExJUQwJUIwJUQwJUJBJUQxJTgzJUQxJTgwJUQwJUIw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=75edb56cc9d50f7ee914250966186e6535988ecbeb2ccaf553ba451963fc88d8JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9yYXN0ZW5pZXZvZC5jb20vc2FrdXJhLmh0bWw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=679abc30fce5d4a4d09cec2dbecd54b5d78efa5fb4a385118313cbd56f6e5b76JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9lZGEtbGFuZC5ydS92aXNobnlhL3NvcnRhL3Nha3VyYS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0b76ed0754422dedd8c8ade6de8ed1f0295594fb3e28642359e7fe9b836dc090JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9zdHJveS1wb2Rza2F6a2EucnUvdmlzaG55YS9zYWt1cmEv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=50588b7168cc6d5b4d9cf92356a2830d7c9d07bad7b8c6ec4db8206aa57b6d8aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly93d3cuYm90YW5pY2hrYS5ydS9hcnRpY2xlL3Nha3VyYS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=64779c0847a91f867ab60333e36e2c69f5e0ae8dae6403a354add67686c09378JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly93d3cuYm90YW5pY2hrYS5ydS9wbGFudC9zYWt1cmEv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9b70913fe382009f594616835bb18e786f1e129048f7b9579d83950d25433b23JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9zaXJpdXNtYWcucnUvYXJ0aWNsZXMvMjk4OC1vdC1zaXJlbmV2b2otZG8temVsZW5vai1rYWtvai1ieXZhZXQtc2FrdXJhLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=7bbe50a621b8866faa280f0f26e14842a06248fb913d5c2be3d50273a7b48b35JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly93d3cudmhvei5ydS9hcnRpY2xlcy90c3ZldG5pay9zYWt1cmEtZGx5YS1zYWRhLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=42e2e58d7e8bd87c2be3cc740f80322c9051b568bc0fd1f0b7f906f175291f30JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9pZGFjaGkucnUvc2FkL2Rla29yYXRpdm5pZS92eXJhc2hoaXZhbmllLXNha3VyeS5odG1s&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=eef883ef7a80c92b346643a48a216f4a04d763ba234eb5a6c178b7716d16fb08JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=292854e4-796f-6ab0-26e0-4cf578116bbb&amp;u=a1aHR0cHM6Ly9hbmltYWxzLW1mLnJ1L3Nha3VyYS8&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   },
+   {
+    "q": "\"Сакура\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "san-auto": {
+  "name": "San-auto",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"San-auto\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "servisplus": {
+  "name": "Сервис Плюс",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Сервис Плюс\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=b56ef52c10ae02d95b46f76d2a6c66c5a7abca8f1dbd028f87ab0fc409d36d8cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly9mb2Jvc3dvcmxkLnJ1L2thay1uYWp0aS1tZW55dS1zZXJ2aXMv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3c163342ea0fe1443e9501f580f2493f5533824cd8a77dd30e4f0fbdc9b4ec4cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly9zZXJ2aWNlLW9ubGluZS5zdS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=f2f4939e74274b60127e254b2b5c250ee5af244e48755a25a798401094778947JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJUExJUQwJUI1JUQxJTgwJUQwJUIyJUQwJUI4JUQxJTgx&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=89f1ac80956aa5a0f48c86e0e75f533e773ee1d04db05334eff968e6df780381JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly95YW5kZXgucnUvYWxs&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9f16d6c9c7eed282e9297f7a2d7de35268c2c2fdd0eb8472d5411222d84f4a5cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly9ydS53aWt0aW9uYXJ5Lm9yZy93aWtpLyVEMSU4MSVEMCVCNSVEMSU4MCVEMCVCMiVEMCVCOCVEMSU4MQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=324111ed73837255198e25a177ab2ab6763642025cf3be81a24db1bc371b9cc4JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly9rYXJ0YXNsb3YucnUvJUQwJUI3JUQwJUJEJUQwJUIwJUQxJTg3JUQwJUI1JUQwJUJEJUQwJUI4JUQwJUI1LSVEMSU4MSVEMCVCQiVEMCVCRSVEMCVCMiVEMCVCMC8lRDElODElRDAlQjUlRDElODAlRDAlQjIlRDAlQjglRDElODE&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=61063cd9ffcefb33f1dfcf820a14eef2a00e0052630fcaa4d9a53d4db5f4cb9bJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly9uYXJvZC5uc2tlcy5ydS9sb2dpbi8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=095db6a2d60040887b2617dc5958a9bb63eb2192bfa0940df1979a020cadcf83JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly93d3cuZG5zLXNob3AucnUvc2VydmljZS1jZW50ZXIvc3RhdHVzLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=7c5c201f95cfdaeb762989e5b6767ad9b9f3f51a87c97da15e03a71ba10346c5JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly90cmFuc2xhdGUueWFuZGV4LnJ1L2RpY3Rpb25hcnkvJUQwJTkwJUQwJUJEJUQwJUIzJUQwJUJCJUQwJUI4JUQwJUI5JUQxJTgxJUQwJUJBJUQwJUI4JUQwJUI5LSVEMCVBMCVEMSU4MyVEMSU4MSVEMSU4MSVEMCVCQSVEMCVCOCVEMCVCOS9zZXJ2aWNl&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e57338d9c228c41ff8f55f1e010b536560cd7156f22e2d09dd4af6cfda69d665JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=1b04a180-454a-6316-30ce-b991444a627e&amp;u=a1aHR0cHM6Ly93d3cuc2VydmljZXByb3ZpZGVyLnJ1Lw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "shaman": {
+  "name": "shamanservice",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"shamanservice\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=87def2a9ef54e67aa82c106ae068c48df4e64e495a719e2631be4bf37ea11dceJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTM0Nj9obD1wdC1QVCZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=e84758e098468c1c3bd62393efc6d94555aa9bb901d9d43b6fab6d7cd31642feJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTM0Nj9obD1lbi1uYQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=88ca26ff7305b5e09d103abae0fe97463e16a892369a2ee103e581bcce290624JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci8yNzY1OTQ0P2hsPXpoLUhhbnQmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3a98c4fc1c50dc0ece653dde664120c0585e7cdcc0e371f754662ca72bd54052JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lLz9obD1jcw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=60835e0670c286abf69d59720bc2a1069425b041aeda2e75b20906b5fc11379dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTM0Nj9obD16aC00MTkmY289R0VOSUUuUGxhdGZvcm0lM0REZXNrdG9w&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=33988543f5aa891cfe678116292a803e2deeef8b274c6d32b45005116f906c98JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTM0Nj9obD1wdCZjbz1HRU5JRS5QbGF0Zm9ybSUzREFuZHJvaWQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8c001b094839bcbdb2f8a257b7dd5fbd11489755aa61a93d43a805b213f82da9JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTQ2ND9obD1mciZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8e380dcbb45568a32cfd4b864e62cdac192c6ad93843109fea5169c9708bbcacJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lLz9obD1ubw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0d3d92c75bd02a4871246ef52c5fdcca503a8c4035870635c3ae83199cb5877aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci8xNjczODM0ND9obD1wdC1CUg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=670bf8519c1dd8d870f0f19a4d93dafd11c8d9e51f9ef2ac1bae827937e53d8aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3b57efe9-5811-6cba-0689-f7f859606d0a&amp;u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vY2hyb21lL2Fuc3dlci85NTM0Nj9obD1lcyZjbz1HRU5JRS5QbGF0Zm9ybSUzRGlPUw&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "shino-master": {
+  "name": "Шиномонтажная мастерская и автосервис",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Шиномонтажная мастерская и автосервис\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "sisters": {
+  "name": "Систерс",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Систерс\"",
+    "error": "<urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Систерс\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Систерс\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "starter102": {
+  "name": "Стартер 102",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Стартер 102\" Уфа автосервис",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=4008cebb658db3501995958a5d00a846229d3b34bb308e1fffc1b626ea053bb6JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly9hdXRvLnJ1L21hZy9hcnRpY2xlL3VzdHJveXN0dm8tc3RhcnRlcmEtYXZ0b21vYmlseWEv&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=0e7c62a043c8036b59d76d1c1fb4868d7e71652d6d867fdb6a576918fd6acdafJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJUExJUQxJTgyJUQwJUIwJUQxJTgwJUQxJTgyJUQwJUI1JUQxJTgw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c3bb7482461ee2fda8422167cbbbf169fc6570f50366b8dc3747fc0983f07729JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly93d3cub3pvbi5ydS9jYXRlZ29yeS9zdGFydGVyeS12LXNib3JlLTMwMzg1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=c5631ead0c733c0b92e0e0323443853d240d63289c4e5a14b4cbb0d28ac52d57JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly9zdGFydGVyYXBwLnJ1Lw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3d2ea923ede4bc2f72b0ebb44c7dabd2a2fbae05cb49f8d8f413eeb0389ad1cbJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly93d3cuYXZpdG8ucnUvYXV0by1qb3VybmFsL3N0YXJ0ZXItYXZ0b21vYmlseWEtdXN0cm95c3R2by1pLXByaW5jaXAtcmFib3R5&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=6edbef705db097378f851620fed357dc9c1d59c8043ff695e8cd261676536f20JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly93d3cudnNlaW5zdHJ1bWVudGkucnUvY2F0ZWdvcnkvYXZ0b21vYmlsbnllLXN0YXJ0ZXJ5LTE3NDg4NC8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=ca29d0038662c2bf7375658b9f37ecc95a205474ca24de77ae61fb25a215a945JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJUFEJUQwJUJCJUQwJUI1JUQwJUJBJUQxJTgyJUQxJTgwJUQwJUJFJUQxJTgxJUQxJTgyJUQwJUIwJUQxJTgwJUQxJTgyJUQwJUI1JUQxJTgw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=d68a5cd6d8ace955764c02cda539e5fa401e11e60ab04328686ae14f320febc7JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly9hdXRvLm1haWwucnUvYXJ0aWNsZS84NDcyNS1jaHRvLXRha29lLXN0YXJ0ZXItYXZ0b21vYmlseWEtemFjaGVtLW9uLW51emhlbi1pLw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=a7780b931c83a43b9f2f25c5b98f942ecfc0ebedb8a207cc946de8e9196ec49cJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly90c3RhcnRlci5ydS8&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=5a5210c0ec08dbd1e977feda0e17fb6124df3071e51fdaf5bca40d26e25d686dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=2aa1694a-037b-6fd7-0155-715b02586e78&amp;u=a1aHR0cHM6Ly93d3cub3pvbi5ydS9jYXRlZ29yeS9lbGVrdHJvc3RhcnRlci8&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "stebelyok": {
+  "name": "Стебелёк",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Стебелёк\"",
+    "error": "<urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Стебелёк\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Стебелёк\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "storiscvety": {
+  "name": "Подари ей цветы к сторис",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Подари ей цветы к сторис\"",
+    "error": "<urlopen error [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера>"
+   },
+   {
+    "q": "site:flowwow.com/shop \"Подари ей цветы к сторис\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Подари ей цветы к сторис\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "teamavto": {
+  "name": "TeamAvto №1",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"TeamAvto №1\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "tm-motors": {
+  "name": "TM Motors",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"TM Motors\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "toylex": {
+  "name": "Тойлекс",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Тойлекс\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "tutprolubov": {
+  "name": "Тут про любовь",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Тут про любовь\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Тут про любовь\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "tvoybuket": {
+  "name": "Твой Букет",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Твой Букет\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Твой Букет\" Уфа магазин цветов",
+    "candidate": [
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=71cbc95babeedf6dae1af441656d9468f8ba16c0691f6327bde122f624b9825fJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzE4MTczNDAzNA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=9208c4ea8d555d8db8f8b10e5d4b9e0ca87ab996b9a78675486ce5b8b5bd5d52JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzIwMDI3MjM5Mg&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=bf7926f9d5db6fe75f477bf5e9b1f6315425a4bcb8f5be64175d450b0cb70c09JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzE4OTg3NzQ0MQ&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=86391f76c43bc4cfa28b1a19d8d855bff090d0c783d9333f57db9401fb7ae82fJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzIzMjU5Mjc4Mw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=3c03bdaa9c9a1f79da65f4bcef311216cadec12e5b70a9c2c2c1b7b6c99adc1eJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzk3MzY0MzMy&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=045d78e81f25bc444d3ea921a872a6c3d96e83701e5cc2fff9bc2e2d10930a32JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzIzOTQyMTM1Nw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=eff343efc377819ca1b55cb3d2a0314faf26fd601ceb058eddd5853108700d7aJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzIzMTE5OTEwNw&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=52e1d718ed1b5df1eeecb0af9c3d2dbc32ae1898dab337557619a3100f9c3222JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzIxODE5MjM5NA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=687cfe52141ddeed93c5a9e680ab74abaa728c427011a0580da20c6453498d6dJmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzI2NzMwNDkxMA&amp;ntb=1"
+     ],
+     [
+      "www.bing.com",
+      "https://www.bing.com/ck/a?!&amp;&amp;p=8436daabb2c1c22e472dbe4c2492f857b985fbc65fdcea7ff2fa963fe0ea0937JmltdHM9MTc5NDYxNDQwMA&amp;ptn=3&amp;ver=2&amp;hsh=4&amp;fclid=3dd1cdd5-95bc-6b94-2b39-d5c494316a22&amp;u=a1aHR0cHM6Ly9vdHZldC5tYWlsLnJ1L3F1ZXN0aW9uLzIwODI4OTI4OQ&amp;ntb=1"
+     ]
+    ],
+    "flowwow": []
+   }
+  ]
+ },
+ "vagservice": {
+  "name": "Vag service Ufa",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Vag service Ufa\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "vetvi": {
+  "name": "Vetvi",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Vetvi\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Vetvi\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "webstar": {
+  "name": "Webstarservice",
+  "niche": "автосервис",
+  "checks": [
+   {
+    "q": "\"Webstarservice\" Уфа автосервис",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ },
+ "zhanetta": {
+  "name": "Жанеtta",
+  "niche": "магазин цветов",
+  "checks": [
+   {
+    "q": "site:flowwow.com/shop \"Жанеtta\" Уфа",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   },
+   {
+    "q": "\"Жанеtta\" Уфа магазин цветов",
+    "error": "<urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>"
+   }
+  ]
+ }
+}

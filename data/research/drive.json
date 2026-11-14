@@ -1,39 +1,71 @@
 {
- "name" : "Драйв",
- "niche" : "автосервис",
- "address" : "",
- "district" : "",
- "phone" : "89174026111",
- "hours" : "Пн-Вс 09:00-19:00",
- "email" : "",
- "rating" : 5,
- "ratings_count" : 86,
- "reviews_count" : 86,
- "services" : [],
- "prices" : [],
- "payment" : "",
- "amenities" : [],
- "review_points" : [
+ "name": "Драйв",
+ "niche": "автосервис",
+ "address": "Уфимское шоссе, 43Б",
+ "district": "Октябрьский район",
+ "phone": "89174026111",
+ "hours": "Пн-Вс 09:00-19:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 86,
+ "reviews_count": 86,
+ "services": [],
+ "prices": [],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
   "Опытные мастера, работающие на совесть.",
   "Быстрое и качественное выполнение работ.",
   "Всё объясняют клиенту по ходу ремонта.",
   "Удаляют катализаторы и выполняют другие задачи оперативно.",
   "Рекомендуют для обслуживания авто."
  ],
- "complaints" : [],
- "has_website" : false,
- "existing_site_url" : "",
- "source_url" : "https://2gis.ru/ufa/firm/70000001043875034",
- "source_links" : [
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001043875034",
+ "source_links": [
   "https://2gis.ru/ufa/firm/70000001043875034"
  ],
- "missing" : [
-  "amenities",
-  "complaints",
+ "missing": [
   "email",
-  "payment",
+  "services",
   "prices",
-  "review_summary",
-  "services"
+  "payment",
+  "amenities",
+  "complaints"
+ ],
+ "reviews_raw": [
+  {
+   "rating": 5,
+   "text": "Отличные мастера"
+  },
+  {
+   "rating": 5,
+   "text": "Ребята молодцы!!! Работают на совесть, знают своё дело на отлично!!!!!!!"
+  },
+  {
+   "rating": 5,
+   "text": "Быстро, с объяснением, все четко! Рекомендую."
+  },
+  {
+   "rating": 5,
+   "text": "Все сделали качественно и быстро"
+  },
+  {
+   "rating": 5,
+   "text": "За полтора часа удалили катализатор на Киа соул. Ребята молодцы, так держать. Я очень доволен. Машинка летает 🚀."
+  }
+ ],
+ "photos_count": 6,
+ "socials": [
+  {
+   "type": "vk",
+   "url": "https://vk.ru/draiv_ufa"
+  },
+  {
+   "type": "whatsapp",
+   "url": "https://wa.me/79174026111"
+  }
  ]
 }

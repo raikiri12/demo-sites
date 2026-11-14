@@ -28,13 +28,44 @@
  ],
  "social_profiles_detected": false,
  "missing": [
-  "amenities",
-  "complaints",
   "email",
-  "payment",
+  "services",
   "prices",
-  "review_summary",
-  "services"
+  "payment",
+  "amenities",
+  "complaints"
  ],
- "photos_count": 3
+ "photos_count": 10,
+ "reviews_raw": [
+  {
+   "rating": 5,
+   "text": "Отличный выбор, цветок свежий, букеты классные!"
+  },
+  {
+   "rating": 5,
+   "text": "Прекрасный цветочный магазин. Большой выбор цветов, красивые готовые букеты 👍"
+  },
+  {
+   "rating": 5,
+   "text": "Шикарные букеты и композиции тут )👍"
+  },
+  {
+   "rating": 5,
+   "text": "Очень понравилось, прекрасное обслуживание, букеты со вкусом 👍"
+  },
+  {
+   "rating": 5,
+   "text": "Очень приятные девушки работают в салоне ) цветы всегда свежие и недорогое) удобное месторасположение) рекомендую 🙏🙏"
+  }
+ ],
+ "socials": [
+  {
+   "type": "vk",
+   "url": "https://vk.ru/ssbouqets"
+  },
+  {
+   "type": "whatsapp",
+   "url": "https://wa.me/79373020233"
+  }
+ ]
 }
