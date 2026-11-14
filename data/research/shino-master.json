@@ -1,23 +1,92 @@
 {
-  "name": "Шиномонтажная мастерская и автосервис",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89963257783",
-  "hours": "Пн-Пт 09:00-02:00; Сб-Вс 10:02-02:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 97,
-  "reviews_count": 97,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001058643277",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001058643277"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+ "name": "Шиномонтажная мастерская и автосервис",
+ "niche": "автосервис",
+ "address": "улица Кирова 107/3",
+ "district": "Кировский район",
+ "phone": "89963257783",
+ "hours": "Пн-Пт 09:00-02:00; Сб-Вс 10:02-02:00",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 97,
+ "reviews_count": 97,
+ "services": [
+  "аккумуляторы",
+  "замена масло",
+  "Замена ГРМ",
+  "КОМПЬЮТЕРНАЯ ДИАГНОСТИКА",
+  "замена масло кпп",
+  "Абразивная полировка кузова",
+  "заправка кондиционеров",
+  "шиномонтаж",
+  "ремонт двигателя",
+  "форсунки",
+  "правка дисков"
+ ],
+ "prices": [
+  {
+   "name": "аккумуляторы",
+   "price": 5600
+  },
+  {
+   "name": "замена масло",
+   "price": 900
+  },
+  {
+   "name": "Замена ГРМ",
+   "price": 5000
+  },
+  {
+   "name": "КОМПЬЮТЕРНАЯ ДИАГНОСТИКА",
+   "price": 1000
+  },
+  {
+   "name": "замена масло кпп",
+   "price": 2500
+  },
+  {
+   "name": "Абразивная полировка кузова",
+   "price": 5000
+  },
+  {
+   "name": "заправка кондиционеров",
+   "price": 2500
+  },
+  {
+   "name": "шиномонтаж",
+   "price": 1500
+  },
+  {
+   "name": "ремонт двигателя",
+   "price": 45000
+  },
+  {
+   "name": "форсунки",
+   "price": 1000
+  },
+  {
+   "name": "правка дисков",
+   "price": 600
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Быстро и качественно, без очередей",
+  "Недорого",
+  "Мастера знают своё дело"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001058643277",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001058643277"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

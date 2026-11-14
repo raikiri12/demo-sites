@@ -1,35 +1,39 @@
 {
-  "name": "ИнСервис Vag",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89613566667",
-  "email": "",
-  "hours": "Пн-Пт 10:00-19:00; Сб, Вс выходной",
-  "rating": 5.0,
-  "reviews_count": 69,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001103203732",
-  "source_links": [
-    "https://2gis.com/firm/70000001103203732"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name" : "ИнСервис Vag",
+ "niche" : "автосервис",
+ "address" : "",
+ "district" : "",
+ "phone" : "89613566667",
+ "email" : "",
+ "hours" : "Пн-Пт 10:00-19:00; Сб, Вс выходной",
+ "rating" : 5,
+ "reviews_count" : 69,
+ "services" : [],
+ "prices" : [],
+ "payment" : "",
+ "amenities" : [],
+ "review_points" : [
+  "Профессиональный подход и качественный ремонт.",
+  "Умеют находить сложные неисправности, с которыми не справились другие.",
+  "Честная работа и человеческое отношение к клиентам.",
+  "Быстро привозят запчасти и устраняют поломки.",
+  "Рекомендуют для обслуживания Renault и других марок."
+ ],
+ "complaints" : [],
+ "has_website" : false,
+ "existing_site_url" : "",
+ "source_url" : "https://2gis.com/firm/70000001103203732",
+ "source_links" : [
+  "https://2gis.com/firm/70000001103203732"
+ ],
+ "social_profiles_detected" : false,
+ "missing" : [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "prices",
+  "review_summary",
+  "services"
+ ]
 }

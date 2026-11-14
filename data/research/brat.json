@@ -1,35 +1,70 @@
 {
-  "name": "Брат",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89961021024",
-  "email": "",
-  "hours": "Пн-Вс 09:30-20:00",
-  "rating": 5.0,
-  "reviews_count": 58,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001112450260",
-  "source_links": [
-    "https://2gis.com/firm/70000001112450260"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name": "Брат",
+ "niche": "автосервис",
+ "address": "улица Пугачёва, 15е",
+ "district": "Кировский район",
+ "phone": "89961021024",
+ "email": "",
+ "hours": "Пн-Вс 09:30-20:00",
+ "rating": 5,
+ "reviews_count": 58,
+ "services": [
+  "Ремонт DSG",
+  "Замена масла АКПП +Диагностика в подарок!",
+  "Ремонт АКПП",
+  "Полная диагностика",
+  "Ремонт РКПП",
+  "Ремонт МКПП"
+ ],
+ "prices": [
+  {
+   "name": "Ремонт DSG",
+   "price": 5000
+  },
+  {
+   "name": "Замена масла АКПП +Диагностика в подарок!",
+   "price": 3000
+  },
+  {
+   "name": "Ремонт АКПП",
+   "price": 15000
+  },
+  {
+   "name": "Полная диагностика",
+   "price": 1000
+  },
+  {
+   "name": "Ремонт РКПП",
+   "price": 15000
+  },
+  {
+   "name": "Ремонт МКПП",
+   "price": 12000
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Быстрый ремонт коробок DSG",
+  "Честная цена без изменений в процессе",
+  "Качественная работа мехатроников и сцепления",
+  "Оперативная диагностика и адаптация",
+  "Наличие запчастей на складе"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001112450260",
+ "source_links": [
+  "https://2gis.com/firm/70000001112450260"
+ ],
+ "social_profiles_detected": false,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

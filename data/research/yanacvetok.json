@@ -1,36 +1,110 @@
 {
-  "name": "Yanacvetok",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89177660815",
-  "email": "",
-  "hours": "Пн-Вс 09:00-21:00",
-  "rating": 5.0,
-  "reviews_count": 309,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001059568558",
-  "source_links": [
-    "https://2gis.com/firm/70000001059568558"
-  ],
-  "social_profiles_detected": true,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints",
-    "social_links"
-  ]
+ "name": "Yanacvetok",
+ "niche": "магазин цветов",
+ "address": "улица Революционная, 66",
+ "district": "Советский район",
+ "phone": "89177660815",
+ "email": "",
+ "hours": "Пн-Вс 09:00-21:00",
+ "rating": 5.0,
+ "reviews_count": 309,
+ "services": [
+  "Корзинка с розами и эвкалиптом",
+  "Композиция с пионовидными розами",
+  "Авторский букет 1.",
+  "Композиция \"Осень\"",
+  "Корзина из гипсофилы",
+  "Школьная пора",
+  "Персиковый сет",
+  "Яркий момент",
+  "Сет с животным на выбор",
+  "Сборный букет с гортензиями",
+  "Монобукет из кенийских роз",
+  "HEART"
+ ],
+ "prices": [
+  {
+   "name": "Корзинка с розами и эвкалиптом",
+   "price": 2035
+  },
+  {
+   "name": "Композиция с пионовидными розами",
+   "price": 2800
+  },
+  {
+   "name": "Авторский букет 1.",
+   "price": 3222
+  },
+  {
+   "name": "Композиция \"Осень\"",
+   "price": 4999
+  },
+  {
+   "name": "Корзина из гипсофилы",
+   "price": 30000
+  },
+  {
+   "name": "Школьная пора",
+   "price": 880
+  },
+  {
+   "name": "Персиковый сет",
+   "price": 1080
+  },
+  {
+   "name": "Яркий момент",
+   "price": 1460
+  },
+  {
+   "name": "Сет с животным на выбор",
+   "price": 1500
+  },
+  {
+   "name": "Сборный букет с гортензиями",
+   "price": 3300
+  },
+  {
+   "name": "Монобукет из кенийских роз",
+   "price": 2169
+  },
+  {
+   "name": "HEART",
+   "price": 2700
+  },
+  {
+   "name": "Зайка серенький",
+   "price": 2500
+  },
+  {
+   "name": "Ленивец",
+   "price": 2000
+  },
+  {
+   "name": "Воздушный букет из розовых гортензий",
+   "price": 11800
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Красивые букеты с учётом всех пожеланий",
+  "Удалённое согласование с фото перед доставкой",
+  "Оперативность даже при срочных заказах",
+  "Большой выбор, вежливый персонал"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001059568558",
+ "source_links": [
+  "https://2gis.com/firm/70000001059568558"
+ ],
+ "social_profiles_detected": true,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

@@ -1,23 +1,37 @@
 {
-  "name": "Тойлекс",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89874728044",
-  "hours": "Пн-Пт 09:00-21:00; Сб 10:00-17:00; Вс выходной",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 79,
-  "reviews_count": 79,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001044490385",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001044490385"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints", "social_network_urls"]
+ "name": "Тойлекс",
+ "niche": "автосервис",
+ "address": "Индустриальное шоссе, 26/4",
+ "district": "Калининский район",
+ "phone": "89874728044",
+ "hours": "Пн-Пт 09:00-21:00; Сб 10:00-17:00; Вс выходной",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 79,
+ "reviews_count": 79,
+ "services": [],
+ "prices": [],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Быстро определяют неисправность",
+  "Гарантия на выполненные работы",
+  "Вежливый персонал"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001044490385",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001044490385"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "prices",
+  "services"
+ ],
+ "photos_count": 3
 }

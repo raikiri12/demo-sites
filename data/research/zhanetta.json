@@ -1,35 +1,111 @@
 {
-  "name": "Жанеtta",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89373519969",
-  "email": "",
-  "hours": "круглосуточно",
-  "rating": 5.0,
-  "reviews_count": 79,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001102635251",
-  "source_links": [
-    "https://2gis.com/firm/70000001102635251"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name": "Жанеtta",
+ "niche": "магазин цветов",
+ "address": "улица Минигали Губайдуллина, 10",
+ "district": "Советский район",
+ "phone": "89373519969",
+ "email": "",
+ "hours": "круглосуточно",
+ "rating": 5.0,
+ "reviews_count": 79,
+ "services": [
+  "роза Эксловер",
+  "роза Лола",
+  "Эксперанс",
+  "Нина",
+  "кендилайт",
+  "Мондиаль",
+  "Мандарин",
+  "Фрутетто",
+  "гортензия",
+  "Лилии",
+  "Альстромерия",
+  "Гелиантус"
+ ],
+ "prices": [
+  {
+   "name": "роза Эксловер",
+   "price": 260
+  },
+  {
+   "name": "роза Лола",
+   "price": 180
+  },
+  {
+   "name": "Эксперанс",
+   "price": 200
+  },
+  {
+   "name": "Нина",
+   "price": 200
+  },
+  {
+   "name": "кендилайт",
+   "price": 240
+  },
+  {
+   "name": "Мондиаль",
+   "price": 200
+  },
+  {
+   "name": "Мандарин",
+   "price": 240
+  },
+  {
+   "name": "Фрутетто",
+   "price": 200
+  },
+  {
+   "name": "гортензия",
+   "price": 500
+  },
+  {
+   "name": "Лилии",
+   "price": 850
+  },
+  {
+   "name": "Альстромерия",
+   "price": 200
+  },
+  {
+   "name": "Гелиантус",
+   "price": 320
+  },
+  {
+   "name": "Эустома",
+   "price": 350
+  },
+  {
+   "name": "эустома",
+   "price": 350
+  },
+  {
+   "name": "Эустома",
+   "price": 350
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Большой выбор цветов в холодильнике",
+  "Профессиональный и приятный персонал",
+  "Демократичные цены, экзотические цветы",
+  "Дают рекомендации по уходу за букетом"
+ ],
+ "complaints": [
+  "Некачественная упаковка и не самые свежие цветы у части покупателей"
+ ],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001102635251",
+ "source_links": [
+  "https://2gis.com/firm/70000001102635251"
+ ],
+ "social_profiles_detected": false,
+ "missing": [
+  "amenities",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

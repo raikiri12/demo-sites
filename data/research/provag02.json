@@ -1,35 +1,39 @@
 {
-  "name": "Про Vag 02",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89174348844",
-  "email": "",
-  "hours": "Пн-Сб 10:00-19:00; Вс выходной",
-  "rating": 5.0,
-  "reviews_count": 54,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001042028128",
-  "source_links": [
-    "https://2gis.com/firm/70000001042028128"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name": "Про Vag 02",
+ "niche": "автосервис",
+ "address": "Новосибирская улица, 14/1 к1",
+ "district": "Октябрьский район",
+ "phone": "89174348844",
+ "email": "",
+ "hours": "Пн-Сб 10:00-19:00; Вс выходной",
+ "rating": 5.0,
+ "reviews_count": 54,
+ "services": [],
+ "prices": [],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Грамотные автомеханики решают сложные задачи.",
+  "Хорошо разбираются в автомобилях VAG.",
+  "Деловой ненавязчивый подход.",
+  "Оперативно и чётко выполняют ТО и замену расходников.",
+  "Разумная стоимость запчастей и работ."
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001042028128",
+ "source_links": [
+  "https://2gis.com/firm/70000001042028128"
+ ],
+ "social_profiles_detected": false,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "prices",
+  "services"
+ ],
+ "photos_count": 3
 }

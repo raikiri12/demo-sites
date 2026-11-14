@@ -1,36 +1,39 @@
 {
-  "name": "Орхидея",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89191536207",
-  "email": "",
-  "hours": "Пн-Вс 09:00-22:00",
-  "rating": 5.0,
-  "reviews_count": 100,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001097248160",
-  "source_links": [
-    "https://2gis.com/firm/70000001097248160"
-  ],
-  "social_profiles_detected": true,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints",
-    "social_links"
-  ]
+ "name": "Орхидея",
+ "niche": "магазин цветов",
+ "address": "Нагаевское шоссе, 170",
+ "district": "Октябрьский район",
+ "phone": "89191536207",
+ "email": "",
+ "hours": "Пн-Вс 09:00-22:00",
+ "rating": 5.0,
+ "reviews_count": 100,
+ "services": [],
+ "prices": [],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Оперативно отвечают и доставляют букеты.",
+  "Помогают с выбором и оформляют открытки.",
+  "Свежие красивые цветы со стильной упаковкой.",
+  "Большой выбор букетов и композиций.",
+  "Вежливое обслуживание по приемлемым ценам."
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001097248160",
+ "source_links": [
+  "https://2gis.com/firm/70000001097248160"
+ ],
+ "social_profiles_detected": true,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "prices",
+  "services"
+ ],
+ "photos_count": 3
 }

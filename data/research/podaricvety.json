@@ -1,24 +1,105 @@
 {
-  "name": "Подари цветы",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89869790599",
-  "hours": "Пн-Вс 10:00-22:00",
-  "email": "",
-  "rating": 4.9,
-  "ratings_count": 146,
-  "reviews_count": 146,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001063893137",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001063893137"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Подари цветы",
+ "niche": "магазин цветов",
+ "address": "улица Геологов, 53",
+ "district": "Кировский район",
+ "phone": "89869790599",
+ "hours": "Пн-Вс 10:00-22:00",
+ "email": "",
+ "rating": 4.9,
+ "ratings_count": 146,
+ "reviews_count": 146,
+ "services": [
+  "Букет 1",
+  "Букет 2",
+  "Букет 8",
+  "Букет 3",
+  "Букет 4",
+  "Букет 5",
+  "Букет 6",
+  "Букет 7",
+  "Букет 9",
+  "Букет 10",
+  "Букет 11",
+  "Букет 12"
+ ],
+ "prices": [
+  {
+   "name": "Букет 1",
+   "price": 950
+  },
+  {
+   "name": "Букет 2",
+   "price": 1650
+  },
+  {
+   "name": "Букет 8",
+   "price": 2850
+  },
+  {
+   "name": "Букет 3",
+   "price": 1700
+  },
+  {
+   "name": "Букет 4",
+   "price": 1800
+  },
+  {
+   "name": "Букет 5",
+   "price": 1900
+  },
+  {
+   "name": "Букет 6",
+   "price": 1900
+  },
+  {
+   "name": "Букет 7",
+   "price": 2300
+  },
+  {
+   "name": "Букет 9",
+   "price": 3000
+  },
+  {
+   "name": "Букет 10",
+   "price": 3000
+  },
+  {
+   "name": "Букет 11",
+   "price": 4900
+  },
+  {
+   "name": "Букет 12",
+   "price": 3500
+  },
+  {
+   "name": "Композиция 1",
+   "price": 2000
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Свежие цветы и приятные продавцы.",
+  "Ненавязчивое обслуживание и помощь с выбором.",
+  "Хорошее соотношение цены и качества.",
+  "Удобное расположение рядом с домом.",
+  "Красивые букеты по доступным ценам."
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001063893137",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001063893137"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

@@ -1,24 +1,40 @@
 {
-  "name": "Миру Пир",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89899591595",
-  "hours": "круглосуточно",
-  "email": "",
-  "rating": 4.9,
-  "ratings_count": 227,
-  "reviews_count": 227,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001056210435",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001056210435"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name" : "Миру Пир",
+ "niche" : "магазин цветов",
+ "address" : "",
+ "district" : "",
+ "phone" : "89899591595",
+ "hours" : "круглосуточно",
+ "email" : "",
+ "rating" : 4.9,
+ "ratings_count" : 227,
+ "reviews_count" : 227,
+ "services" : [],
+ "prices" : [],
+ "payment" : "",
+ "amenities" : [],
+ "review_points" : [
+  "Покупатели ценят круглосуточную работу и возможность срочно забрать букет.",
+  "Отмечают свежесть цветов и большой выбор.",
+  "Хвалят внимательных флористов и умение учитывать пожелания.",
+  "Отмечают приятные цены и праздничное настроение от букетов."
+ ],
+ "review_summary" : "",
+ "complaints" : [
+  "Встречаются жалобы на несвежие цветы, которые быстро вянут."
+ ],
+ "has_website" : false,
+ "existing_site_url" : "",
+ "source_url" : "https://2gis.ru/ufa/firm/70000001056210435",
+ "source_links" : [
+  "https://2gis.ru/ufa/firm/70000001056210435"
+ ],
+ "missing" : [
+  "amenities",
+  "email",
+  "payment",
+  "prices",
+  "review_summary",
+  "services"
+ ]
 }

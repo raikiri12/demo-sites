@@ -1,36 +1,112 @@
 {
-  "name": "АвтоСпектр",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89870223707",
-  "email": "",
-  "hours": "Пн-Сб 10:00-20:00; Вс выходной",
-  "rating": 5.0,
-  "reviews_count": 48,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001084474621",
-  "source_links": [
-    "https://2gis.com/firm/70000001084474621"
-  ],
-  "social_profiles_detected": true,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints",
-    "social_links"
-  ]
+ "name": "АвтоСпектр",
+ "niche": "автосервис",
+ "address": "улица Достоевского, 135 к1",
+ "district": "Советский район",
+ "phone": "89870223707",
+ "email": "",
+ "hours": "Пн-Сб 10:00-20:00; Вс выходной",
+ "rating": 5,
+ "reviews_count": 48,
+ "services": [
+  "Ремонт ходовой",
+  "Диагностика ходовой",
+  "Замена ступичных подшипников 1 шт",
+  "Замена втулок стабилизатора",
+  "диагностика электрики",
+  "Автоэлектрика",
+  "Шиномонтаж 4 колеса",
+  "Ремонт ЭБУ",
+  "Проверка и промывка форсунок",
+  "Замена ремня ГРМ",
+  "Замена стартера",
+  "Замена термостата"
+ ],
+ "prices": [
+  {
+   "name": "Ремонт ходовой",
+   "price": 1000
+  },
+  {
+   "name": "Диагностика ходовой",
+   "price": 700
+  },
+  {
+   "name": "Замена ступичных подшипников 1 шт",
+   "price": 1500
+  },
+  {
+   "name": "Замена втулок стабилизатора",
+   "price": 750
+  },
+  {
+   "name": "Замена втулок стабилизатора",
+   "price": 750
+  },
+  {
+   "name": "диагностика электрики",
+   "price": 1000
+  },
+  {
+   "name": "Автоэлектрика",
+   "price": 1000
+  },
+  {
+   "name": "Шиномонтаж 4 колеса",
+   "price": 1600
+  },
+  {
+   "name": "Ремонт ЭБУ",
+   "price": 1000
+  },
+  {
+   "name": "Проверка и промывка форсунок",
+   "price": 3500
+  },
+  {
+   "name": "Замена ремня ГРМ",
+   "price": 2000
+  },
+  {
+   "name": "Замена стартера",
+   "price": 2000
+  },
+  {
+   "name": "Замена термостата",
+   "price": 1500
+  },
+  {
+   "name": "Замена помпы",
+   "price": 3000
+  },
+  {
+   "name": "Сварка",
+   "price": 500
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Быстрое решение мелких проблем",
+  "Высокое качество работ",
+  "Решают любые вопросы по ремонту",
+  "Хороший сервис для постоянного обслуживания",
+  "Качественный ремонт электрики"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001084474621",
+ "source_links": [
+  "https://2gis.com/firm/70000001084474621"
+ ],
+ "social_profiles_detected": true,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

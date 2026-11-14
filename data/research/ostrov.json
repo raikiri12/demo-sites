@@ -1,24 +1,101 @@
 {
-  "name": "Цветочный остров",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89870386217",
-  "hours": "Пн-Вс 10:00-21:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 69,
-  "reviews_count": 69,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001029129972",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001029129972"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Цветочный остров",
+ "niche": "магазин цветов",
+ "address": "улица Ферина, 1",
+ "district": "Калининский район",
+ "phone": "89870386217",
+ "hours": "Пн-Вс 10:00-21:00",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 69,
+ "reviews_count": 69,
+ "services": [
+  "Хризантема кустовая",
+  "Розы",
+  "Гипсофила",
+  "Кустовые розы",
+  "Одноголовые хризантемы",
+  "Букет из роз (35шт)",
+  "Букет из роз и гипсофил",
+  "Коробочка из хризантем",
+  "Букет из гипсофилы",
+  "Букет из сортовых ароматных роз",
+  "Сумочка хризантем",
+  "Букет хризантем"
+ ],
+ "prices": [
+  {
+   "name": "Хризантема кустовая",
+   "price": 200
+  },
+  {
+   "name": "Розы",
+   "price": 200
+  },
+  {
+   "name": "Гипсофила",
+   "price": 220
+  },
+  {
+   "name": "Кустовые розы",
+   "price": 300
+  },
+  {
+   "name": "Одноголовые хризантемы",
+   "price": 280
+  },
+  {
+   "name": "Букет из роз (35шт)",
+   "price": 8500
+  },
+  {
+   "name": "Букет из роз и гипсофил",
+   "price": 5250
+  },
+  {
+   "name": "Коробочка из хризантем",
+   "price": 1200
+  },
+  {
+   "name": "Букет из гипсофилы",
+   "price": 7500
+  },
+  {
+   "name": "Букет из сортовых ароматных роз",
+   "price": 7000
+  },
+  {
+   "name": "Сумочка хризантем",
+   "price": 1200
+  },
+  {
+   "name": "Букет хризантем",
+   "price": 1300
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Красивые объёмные и ароматные розы.",
+  "Высокая клиентоориентированность и быстрая сборка.",
+  "Всегда есть из чего выбрать, есть готовые композиции.",
+  "Приемлемые цены и красивая сборка букетов.",
+  "Приятный коллектив и внимание к пожеланиям."
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001029129972",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001029129972"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

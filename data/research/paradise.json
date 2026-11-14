@@ -1,24 +1,113 @@
 {
-  "name": "Paradise bouquet",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89061005021",
-  "hours": "Пн-Вс 10:00-21:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 27,
-  "reviews_count": 27,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001104396407",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001104396407"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Paradise bouquet",
+ "niche": "магазин цветов",
+ "address": "улица Менделеева, 44 киоск",
+ "district": "Кировский район",
+ "phone": "89061005021",
+ "hours": "Пн-Вс 10:00-21:00",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 27,
+ "reviews_count": 27,
+ "services": [
+  "Букет сборный",
+  "Букет «Розовая поляна»",
+  "Букет «Диантусы»",
+  "Букет «Нежность»",
+  "Букет «Весенний»",
+  "Эквадорская роза",
+  "Композиция в сумочке",
+  "Композиция в шляпной коробке",
+  "Хризантемы Алтай",
+  "Маттиола",
+  "Диантусы",
+  "Кустовые розы (Кения)"
+ ],
+ "prices": [
+  {
+   "name": "Букет сборный",
+   "price": 1600
+  },
+  {
+   "name": "Букет сборный",
+   "price": 2450
+  },
+  {
+   "name": "Букет «Розовая поляна»",
+   "price": 2390
+  },
+  {
+   "name": "Букет сборный",
+   "price": 2190
+  },
+  {
+   "name": "Букет сборный",
+   "price": 2350
+  },
+  {
+   "name": "Букет «Диантусы»",
+   "price": 2110
+  },
+  {
+   "name": "Букет «Нежность»",
+   "price": 3000
+  },
+  {
+   "name": "Букет «Весенний»",
+   "price": 2010
+  },
+  {
+   "name": "Эквадорская роза",
+   "price": 270
+  },
+  {
+   "name": "Эквадорская роза",
+   "price": 270
+  },
+  {
+   "name": "Эквадорская роза",
+   "price": 270
+  },
+  {
+   "name": "Эквадорская роза",
+   "price": 270
+  },
+  {
+   "name": "Композиция в сумочке",
+   "price": 1500
+  },
+  {
+   "name": "Композиция в шляпной коробке",
+   "price": 2500
+  },
+  {
+   "name": "Композиция в шляпной коробке",
+   "price": 3100
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Красивые свежие букеты со стильным оформлением.",
+  "Доставка приходит точно вовремя.",
+  "Широкий ассортимент цветов.",
+  "Доступные цены и хорошее качество.",
+  "Быстро собирают букеты и советуют по выбору."
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001104396407",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001104396407"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

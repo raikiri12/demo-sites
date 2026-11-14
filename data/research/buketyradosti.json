@@ -1,24 +1,51 @@
 {
-  "name": "Букеты и радости",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89173529850",
-  "hours": "Пн-Вс 09:00-21:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 31,
-  "reviews_count": 31,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001095121046",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001095121046"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Букеты и радости",
+ "niche": "магазин цветов",
+ "address": "Коммунистическая улица, 15",
+ "district": "Ленинский район",
+ "phone": "89173529850",
+ "hours": "Пн-Вс 09:00-21:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 31,
+ "reviews_count": 31,
+ "services": [
+  "Шары латексные",
+  "мишка (мягкая игрушка) 33см"
+ ],
+ "prices": [
+  {
+   "name": "Шары латексные",
+   "price": 150
+  },
+  {
+   "name": "мишка (мягкая игрушка) 33см",
+   "price": 1500
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Свежие цветы долго стоят",
+  "Хорошее соотношение цены и качества",
+  "Долго держатся воздушные шары",
+  "Красивые букеты и оригинальные композиции",
+  "Удобное расположение рядом с домом"
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001095121046",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001095121046"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

@@ -1,35 +1,71 @@
 {
-  "name": "Авто help",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "83472988833",
-  "email": "",
-  "hours": "Пн-Пт 09:00-19:00; Сб 10:00-18:00 (по предв. звонку); Вс выходной",
-  "rating": 5.0,
-  "reviews_count": 56,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001017587514",
-  "source_links": [
-    "https://2gis.com/firm/70000001017587514"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name": "Авто help",
+ "niche": "автосервис",
+ "address": "Чудская улица, 1/1",
+ "district": "Октябрьский район",
+ "phone": "83472988833",
+ "email": "",
+ "hours": "Пн-Пт 09:00-19:00; Сб 10:00-18:00 (по предв. звонку); Вс выходной",
+ "rating": 5,
+ "reviews_count": 56,
+ "services": [
+  "Замена тормозных колодок",
+  "Проверка системы охлаждения на наличие CO2 (газов)",
+  "Компьютерная диагностика двигателя",
+  "Замена тормозных дисков с колодками (комплект на 1 ось)",
+  "Аппаратная замена антифриза",
+  "Замена масла в двигателе"
+ ],
+ "prices": [
+  {
+   "name": "Замена тормозных колодок",
+   "price": 600
+  },
+  {
+   "name": "Проверка системы охлаждения на наличие CO2 (газов)",
+   "price": 500
+  },
+  {
+   "name": "Компьютерная диагностика двигателя",
+   "price": 1000
+  },
+  {
+   "name": "Замена тормозных дисков с колодками (комплект на 1 ось)",
+   "price": 2000
+  },
+  {
+   "name": "Аппаратная замена антифриза",
+   "price": 1500
+  },
+  {
+   "name": "Замена масла в двигателе",
+   "price": 600
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Честность и отсутствие навязывания услуг",
+  "Глубокое знание автомобилей с момента открытия сервиса",
+  "Качественный и быстрый ремонт",
+  "Разумные цены",
+  "Профессиональная работа с разными марками"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001017587514",
+ "source_links": [
+  "https://2gis.com/firm/70000001017587514"
+ ],
+ "social_profiles_detected": false,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "photos",
+  "review_summary"
+ ],
+ "photos_count": 0
 }

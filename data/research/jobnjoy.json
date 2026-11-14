@@ -1,23 +1,50 @@
 {
-  "name": "Job&Joy",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89272361649",
-  "hours": "Пн-Вс 09:00-21:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 702,
-  "reviews_count": 702,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001027354947",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001027354947"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+ "name": "Job&Joy",
+ "niche": "автосервис",
+ "address": "Бакалинская улица, 19/1",
+ "district": "Кировский район",
+ "phone": "89272361649",
+ "hours": "Пн-Вс 09:00-21:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 702,
+ "reviews_count": 702,
+ "services": [
+  "Комплексная диагностика",
+  "Диагностика ходовой части"
+ ],
+ "prices": [
+  {
+   "name": "Комплексная диагностика",
+   "price": 1150
+  },
+  {
+   "name": "Диагностика ходовой части",
+   "price": 890
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Быстрое выявление и устранение неисправностей",
+  "Вежливые и корректные сотрудники",
+  "Рыночные цены",
+  "Отсутствие навязывания лишних услуг",
+  "Профессиональная диагностика, не доступная дилерам"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001027354947",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001027354947"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

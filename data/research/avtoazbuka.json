@@ -1,23 +1,50 @@
 {
-  "name": "Автоазбука",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89610510040",
-  "hours": "Пн-Вс 09:00-21:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 93,
-  "reviews_count": 93,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001070283997",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001070283997"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+ "name": "Автоазбука",
+ "niche": "автосервис",
+ "address": "улица Цюрупы, 138",
+ "district": "Советский район",
+ "phone": "89610510040",
+ "hours": "Пн-Вс 09:00-21:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 93,
+ "reviews_count": 93,
+ "services": [
+  "Диагностика дилерская БМВ и Мерседес",
+  "Шиномонтаж"
+ ],
+ "prices": [
+  {
+   "name": "Диагностика дилерская БМВ и Мерседес",
+   "price": 500
+  },
+  {
+   "name": "Шиномонтаж",
+   "price": 1900
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Оперативный ремонт сложных поломок",
+  "Демократичные цены без изменения сметы",
+  "Точная диагностика ходовой части",
+  "Приятное общение и бонусы",
+  "Качественный ремонт на отлично"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001070283997",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001070283997"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

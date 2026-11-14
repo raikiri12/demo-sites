@@ -1,23 +1,63 @@
 {
-  "name": "Webstarservice",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89178052260",
-  "hours": "Пн-Сб 10:00-19:00; Вс выходной",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 85,
-  "reviews_count": 85,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001086894670",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001086894670"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+ "name": "Webstarservice",
+ "niche": "автосервис",
+ "address": "Сельская Богородская улица, 51/4",
+ "district": "Калининский район",
+ "phone": "89178052260",
+ "hours": "Пн-Сб 10:00-19:00; Вс выходной",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 85,
+ "reviews_count": 85,
+ "services": [
+  "заправка автокондиционера",
+  "ремонт радиатора",
+  "мойка радиатора",
+  "Автосигнализация",
+  "Автоэлектрик"
+ ],
+ "prices": [
+  {
+   "name": "заправка автокондиционера",
+   "price": 3000
+  },
+  {
+   "name": "ремонт радиатора",
+   "price": 2000
+  },
+  {
+   "name": "мойка радиатора",
+   "price": 2000
+  },
+  {
+   "name": "Автосигнализация",
+   "price": 1000
+  },
+  {
+   "name": "Автоэлектрик",
+   "price": 1000
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Грамотный ремонт рулевого управления с обсуждением цен",
+  "Быстро и по адекватной цене",
+  "Не навязывают лишних трат",
+  "Удобная запись, специалисты высокого уровня"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001086894670",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001086894670"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

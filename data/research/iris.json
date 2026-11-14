@@ -1,36 +1,113 @@
 {
-  "name": "Ирис",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89174130448",
-  "email": "",
-  "hours": "круглосуточно",
-  "rating": 5.0,
-  "reviews_count": 155,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/2393065583717944",
-  "source_links": [
-    "https://2gis.com/firm/2393065583717944"
-  ],
-  "social_profiles_detected": true,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints",
-    "social_links"
-  ]
+ "name": "Ирис",
+ "niche": "магазин цветов",
+ "address": "улица Ленина, 31/33а",
+ "district": "Ленинский район",
+ "phone": "89174130448",
+ "email": "",
+ "hours": "круглосуточно",
+ "rating": 5,
+ "reviews_count": 155,
+ "services": [
+  "Шары",
+  "Шары для мамы",
+  "Шары для папы",
+  "Авторская композиция с пионами",
+  "Сумочка yellow",
+  "Воздушный букет из белоснежной гипсофилы",
+  "Букет невесты из пионов и лютиков",
+  "Романтичный вечер",
+  "Солнце после туч",
+  "Любовь в розовом цвете",
+  "Летний пикник",
+  "Букет из белых хризантем"
+ ],
+ "prices": [
+  {
+   "name": "Шары",
+   "price": 1500
+  },
+  {
+   "name": "Шары для мамы",
+   "price": 200
+  },
+  {
+   "name": "Шары для папы",
+   "price": 200
+  },
+  {
+   "name": "Шары",
+   "price": 200
+  },
+  {
+   "name": "Авторская композиция с пионами",
+   "price": 7000
+  },
+  {
+   "name": "Сумочка yellow",
+   "price": 2800
+  },
+  {
+   "name": "Воздушный букет из белоснежной гипсофилы",
+   "price": 2000
+  },
+  {
+   "name": "Букет невесты из пионов и лютиков",
+   "price": 3500
+  },
+  {
+   "name": "Романтичный вечер",
+   "price": 3500
+  },
+  {
+   "name": "Солнце после туч",
+   "price": 3500
+  },
+  {
+   "name": "Любовь в розовом цвете",
+   "price": 4200
+  },
+  {
+   "name": "Летний пикник",
+   "price": 5000
+  },
+  {
+   "name": "Букет из белых хризантем",
+   "price": 1200
+  },
+  {
+   "name": "Букет из голубой гортензии и белых хризантем",
+   "price": 2400
+  },
+  {
+   "name": "Букет из полевых ромашек Матрикарии",
+   "price": 2800
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Красивые букеты",
+  "Свежие цветы к празднику",
+  "Отличный выбор для 1 сентября",
+  "Покупатели довольны качеством"
+ ],
+ "complaints": [
+  "Не соблюдают указанный график работы",
+  "Продают не совсем свежие цветы и неаккуратно упаковывают"
+ ],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/2393065583717944",
+ "source_links": [
+  "https://2gis.com/firm/2393065583717944"
+ ],
+ "social_profiles_detected": true,
+ "missing": [
+  "amenities",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

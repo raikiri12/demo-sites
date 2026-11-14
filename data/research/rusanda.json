@@ -1,24 +1,51 @@
 {
-  "name": "Цветочная мастерская у Русанды",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89997418842",
-  "hours": "Пн-Вс 09:00-19:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 27,
-  "reviews_count": 27,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001088026969",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001088026969"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Цветочная мастерская у Русанды",
+ "niche": "магазин цветов",
+ "address": "Большевистская улица, 49",
+ "district": "Кушнаренковский район",
+ "phone": "89997418842",
+ "hours": "Пн-Вс 09:00-19:00",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 27,
+ "reviews_count": 27,
+ "services": [
+  "Гелиевые шары",
+  "Цветы"
+ ],
+ "prices": [
+  {
+   "name": "Гелиевые шары",
+   "price": 150
+  },
+  {
+   "name": "Цветы",
+   "price": 50
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Свежие цветы по приемлемым ценам.",
+  "Быстро собирают букеты с учётом пожеланий.",
+  "Вежливые и милые сотрудники.",
+  "Умеют сделать букет даже красивее, чем на фото.",
+  "Оперативная доставка."
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001088026969",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001088026969"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

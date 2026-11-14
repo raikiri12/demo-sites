@@ -1,23 +1,81 @@
 {
-  "name": "На Свободы",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89874735020",
-  "hours": "Пн-Пт 09:00-20:00; Сб, Вс выходной",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 154,
-  "reviews_count": 154,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001046615333",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001046615333"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "complaints"]
+ "name": "На Свободы",
+ "niche": "автосервис",
+ "address": "улица Свободы, 55",
+ "district": "Орджоникидзевский район",
+ "phone": "89874735020",
+ "hours": "Пн-Пт 09:00-20:00; Сб, Вс выходной",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 154,
+ "reviews_count": 154,
+ "services": [
+  "Замена масла АКПП",
+  "Стойка 2170 Приора передняя масляная",
+  "LADA Приора 2170 Комплект ГРМ LYNX",
+  "Легковой автомобиль",
+  "установка противотуманных фар ПТФ",
+  "ремонт двигателя ВАЗ 2109 21099 2110 2112 2114 2115 калина приора гранта веста"
+ ],
+ "prices": [
+  {
+   "name": "Замена масла АКПП",
+   "price": 2500
+  },
+  {
+   "name": "Стойка 2170 Приора передняя масляная",
+   "price": 2200
+  },
+  {
+   "name": "LADA Приора 2170 Комплект ГРМ LYNX",
+   "price": 4800
+  },
+  {
+   "name": "Легковой автомобиль",
+   "price": 300
+  },
+  {
+   "name": "Легковой автомобиль",
+   "price": 1000
+  },
+  {
+   "name": "Легковой автомобиль",
+   "price": 1500
+  },
+  {
+   "name": "Легковой автомобиль",
+   "price": 2500
+  },
+  {
+   "name": "установка противотуманных фар ПТФ",
+   "price": 1000
+  },
+  {
+   "name": "ремонт двигателя ВАЗ 2109 21099 2110 2112 2114 2115 калина приора гранта веста",
+   "price": 10000
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Чистый сервис и качественный ремонт двигателей.",
+  "Быстрая диагностика ходовой с подробным объяснением.",
+  "Профессиональный подход и оперативное выполнение работ.",
+  "Всё делают чётко и надёжно.",
+  "Приятное обслуживание и вкусный кофе."
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001046615333",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001046615333"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

@@ -1,24 +1,46 @@
 {
-  "name": "Дела Цветочные",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89174954324",
-  "hours": "Пн-Вс 10:00-20:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 57,
-  "reviews_count": 57,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001086975753",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001086975753"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Дела Цветочные",
+ "niche": "магазин цветов",
+ "address": "50-летия Октября, 11",
+ "district": "Советский район",
+ "phone": "89174954324",
+ "hours": "Пн-Вс 10:00-20:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 57,
+ "reviews_count": 57,
+ "services": [
+  "Композиция"
+ ],
+ "prices": [
+  {
+   "name": "Композиция",
+   "price": 2000
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Приятный персонал и хорошие скидки",
+  "Свежие цветы долго стоят и раскрываются",
+  "Красивые и нежные букеты",
+  "Вежливое обслуживание и уютная атмосфера",
+  "Быстрая сборка букета по настроению"
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001086975753",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001086975753"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

@@ -1,24 +1,105 @@
 {
-  "name": "Art Nikah",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89874737491",
-  "hours": "Пн-Вс 06:00-18:00 (по предв. записи)",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 60,
-  "reviews_count": 60,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001082714149",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001082714149"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Art Nikah",
+ "niche": "магазин цветов",
+ "address": "Советская улица, 17",
+ "district": "Кировский район",
+ "phone": "89874737491",
+ "hours": "Пн-Вс 06:00-18:00 (по предв. записи)",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 60,
+ "reviews_count": 60,
+ "services": [
+  "Прокат платьев на никах",
+  "Повязывание платка",
+  "Макияж",
+  "Букет",
+  "Причёска",
+  "Пошив платья на никах",
+  "Обучение повязыванию платка",
+  "Платье «Нежный пион»",
+  "\"Крылатое\" платье",
+  "Платье \"Рыбка\"",
+  "Платье \"Спелый гранат\"",
+  "Платье \"Канна с жемчужной юбкой баской \""
+ ],
+ "prices": [
+  {
+   "name": "Прокат платьев на никах",
+   "price": 3500
+  },
+  {
+   "name": "Повязывание платка",
+   "price": 2000
+  },
+  {
+   "name": "Макияж",
+   "price": 4000
+  },
+  {
+   "name": "Букет",
+   "price": 3500
+  },
+  {
+   "name": "Причёска",
+   "price": 3000
+  },
+  {
+   "name": "Пошив платья на никах",
+   "price": 7500
+  },
+  {
+   "name": "Обучение повязыванию платка",
+   "price": 6000
+  },
+  {
+   "name": "Платье «Нежный пион»",
+   "price": 10500
+  },
+  {
+   "name": "\"Крылатое\" платье",
+   "price": 9500
+  },
+  {
+   "name": "Платье \"Рыбка\"",
+   "price": 9500
+  },
+  {
+   "name": "Платье \"Спелый гранат\"",
+   "price": 11000
+  },
+  {
+   "name": "Платье \"Канна с жемчужной юбкой баской \"",
+   "price": 7500
+  },
+  {
+   "name": "Платье \"Purple rose\"",
+   "price": 11500
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Уютная атмосфера и внимательный подход",
+  "Гармоничный образ на никах",
+  "Стойкий макияж и надёжная причёска",
+  "Помощь с аксессуарами и платком",
+  "Полная организация образа от платья до фотографа"
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001082714149",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001082714149"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }

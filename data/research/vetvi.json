@@ -1,24 +1,49 @@
 {
-  "name": "Vetvi",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89173637574",
-  "hours": "Пн-Вс 10:00-21:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 55,
-  "reviews_count": 55,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001095362774",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001095362774"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Vetvi",
+ "niche": "магазин цветов",
+ "address": "улица Правды, 13",
+ "district": "Дёмский район",
+ "phone": "89173637574",
+ "hours": "Пн-Вс 10:00-21:00",
+ "email": "",
+ "rating": 5.0,
+ "ratings_count": 55,
+ "reviews_count": 55,
+ "services": [
+  "букет хризантем (3)",
+  "букет красных роз (11)"
+ ],
+ "prices": [
+  {
+   "name": "букет хризантем (3)",
+   "price": 1500
+  },
+  {
+   "name": "букет красных роз (11)",
+   "price": 2850
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Высокий уровень обслуживания",
+  "Свежая продукция и приемлемые цены",
+  "Букеты в удобной упаковке, долго стоят",
+  "Доставка всегда вовремя"
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001095362774",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001095362774"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

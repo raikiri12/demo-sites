@@ -1,35 +1,39 @@
 {
-  "name": "Диагност 102",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89173832718",
-  "email": "",
-  "hours": "Пн-Сб 09:00-19:00; Вс выходной",
-  "rating": 5.0,
-  "reviews_count": 61,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001045884157",
-  "source_links": [
-    "https://2gis.com/firm/70000001045884157"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name" : "Диагност 102",
+ "niche" : "автосервис",
+ "address" : "",
+ "district" : "",
+ "phone" : "89173832718",
+ "email" : "",
+ "hours" : "Пн-Сб 09:00-19:00; Вс выходной",
+ "rating" : 5,
+ "reviews_count" : 61,
+ "services" : [],
+ "prices" : [],
+ "payment" : "",
+ "amenities" : [],
+ "review_points" : [
+  "Быстрая и качественная диагностика с понятными рекомендациями.",
+  "Мастера быстро ремонтируют и объясняют причину поломки.",
+  "Компетентный подход к китайским автомобилям и АКПП.",
+  "Честное согласование работ без сюрпризов.",
+  "Рекомендуют как надёжный сервис для постоянного обращения."
+ ],
+ "complaints" : [],
+ "has_website" : false,
+ "existing_site_url" : "",
+ "source_url" : "https://2gis.com/firm/70000001045884157",
+ "source_links" : [
+  "https://2gis.com/firm/70000001045884157"
+ ],
+ "social_profiles_detected" : false,
+ "missing" : [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "prices",
+  "review_summary",
+  "services"
+ ]
 }

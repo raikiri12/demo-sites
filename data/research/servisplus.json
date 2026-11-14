@@ -1,35 +1,109 @@
 {
-  "name": "Сервис Плюс",
-  "niche": "автосервис",
-  "address": "",
-  "district": "",
-  "phone": "89093533844",
-  "email": "",
-  "hours": "Пн-Сб 10:00-20:00; Вс выходной",
-  "rating": 5.0,
-  "reviews_count": 63,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.com/firm/70000001055522416",
-  "source_links": [
-    "https://2gis.com/firm/70000001055522416"
-  ],
-  "social_profiles_detected": false,
-  "missing": [
-    "address",
-    "district",
-    "email",
-    "services",
-    "prices",
-    "payment",
-    "amenities",
-    "review_points",
-    "complaints"
-  ]
+ "name": "Сервис Плюс",
+ "niche": "автосервис",
+ "address": "Сельская Богородская улица, 57 к2",
+ "district": "Октябрьский район",
+ "phone": "89093533844",
+ "hours": "Пн-Сб 10:00-20:00; Вс выходной",
+ "rating": 5.0,
+ "reviews_count": 63,
+ "services": [
+  "Замена масла в ДВС",
+  "Диагностика ходовой",
+  "Замена масла в АКПП",
+  "Замена тех. жидкостей",
+  "Сварочные работы",
+  "Развал-схождение",
+  "Мойка радиатора",
+  "Аргоно-дуговая сварка",
+  "Замена масла",
+  "Осмотр ходовой",
+  "Замена тормозной жидкости",
+  "Замена свечей зажигания"
+ ],
+ "prices": [
+  {
+   "name": "Замена масла в ДВС",
+   "price": 600
+  },
+  {
+   "name": "Диагностика ходовой",
+   "price": 500
+  },
+  {
+   "name": "Замена масла в АКПП",
+   "price": 1500
+  },
+  {
+   "name": "Замена тех. жидкостей",
+   "price": 500
+  },
+  {
+   "name": "Сварочные работы",
+   "price": 200
+  },
+  {
+   "name": "Развал-схождение",
+   "price": 500
+  },
+  {
+   "name": "Мойка радиатора",
+   "price": 3000
+  },
+  {
+   "name": "Аргоно-дуговая сварка",
+   "price": 500
+  },
+  {
+   "name": "Замена масла",
+   "price": 500
+  },
+  {
+   "name": "Осмотр ходовой",
+   "price": 500
+  },
+  {
+   "name": "Замена тормозной жидкости",
+   "price": 1000
+  },
+  {
+   "name": "Замена свечей зажигания",
+   "price": 500
+  },
+  {
+   "name": "Замена рулевых наконечников",
+   "price": 600
+  },
+  {
+   "name": "Замена шаровых опор",
+   "price": 500
+  },
+  {
+   "name": "Проверка",
+   "price": 500
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Развал-схождение высокого качества",
+  "Мастер подробно информирует о будущих заменах",
+  "Адекватные цены без лишних накруток",
+  "Запись день в день"
+ ],
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.com/firm/70000001055522416",
+ "source_links": [
+  "https://2gis.com/firm/70000001055522416"
+ ],
+ "social_profiles_detected": false,
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment"
+ ],
+ "photos_count": 3
 }

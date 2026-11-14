@@ -1,24 +1,76 @@
 {
-  "name": "Белые Розы",
-  "niche": "магазин цветов",
-  "address": "",
-  "district": "",
-  "phone": "89174274444",
-  "hours": "Пн-Вс 10:00-22:00",
-  "email": "",
-  "rating": 5.0,
-  "ratings_count": 71,
-  "reviews_count": 71,
-  "services": [],
-  "prices": [],
-  "payment": "",
-  "amenities": [],
-  "review_points": [],
-  "review_summary": "",
-  "complaints": [],
-  "has_website": false,
-  "existing_site_url": "",
-  "source_url": "https://2gis.ru/ufa/firm/70000001111158616",
-  "source_links": ["https://2gis.ru/ufa/firm/70000001111158616"],
-  "missing": ["address", "district", "email", "services", "prices", "payment", "amenities", "review_points", "review_summary", "complaints", "social_links"]
+ "name": "Белые Розы",
+ "niche": "магазин цветов",
+ "address": "проспект Октября, 83",
+ "district": "Орджоникидзевский район",
+ "phone": "89174274444",
+ "hours": "Пн-Вс 10:00-22:00",
+ "email": "",
+ "rating": 5,
+ "ratings_count": 71,
+ "reviews_count": 71,
+ "services": [
+  "Букет \"Аврора\"",
+  "Букет \"Кутюр\"",
+  "Букет \"Вспышка\"",
+  "Букет \"Момент\"",
+  "Букет \"Тиффани\"",
+  "Букет \"Сумерки\"",
+  "Букет \"Марципан\""
+ ],
+ "prices": [
+  {
+   "name": "Букет \"Аврора\"",
+   "price": 3500
+  },
+  {
+   "name": "Букет \"Кутюр\"",
+   "price": 4500
+  },
+  {
+   "name": "Букет \"Вспышка\"",
+   "price": 2900
+  },
+  {
+   "name": "Букет \"Момент\"",
+   "price": 4500
+  },
+  {
+   "name": "Букет \"Тиффани\"",
+   "price": 1900
+  },
+  {
+   "name": "Букет \"Сумерки\"",
+   "price": 1900
+  },
+  {
+   "name": "Букет \"Марципан\"",
+   "price": 1900
+  }
+ ],
+ "payment": "",
+ "amenities": [],
+ "review_points": [
+  "Отзывчивая команда и помощь в выборе",
+  "Свежие цветы и красивые композиции",
+  "Быстрая доставка",
+  "Справедливые цены",
+  "Приятные бонусы и подарки к букетам"
+ ],
+ "review_summary": "",
+ "complaints": [],
+ "has_website": false,
+ "existing_site_url": "",
+ "source_url": "https://2gis.ru/ufa/firm/70000001111158616",
+ "source_links": [
+  "https://2gis.ru/ufa/firm/70000001111158616"
+ ],
+ "missing": [
+  "amenities",
+  "complaints",
+  "email",
+  "payment",
+  "review_summary"
+ ],
+ "photos_count": 3
 }
