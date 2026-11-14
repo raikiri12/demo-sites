@@ -27,6 +27,7 @@ collect_cards.py - дособирает данные карточек 2ГИС в
 """
 import argparse
 import csv
+import html as html_mod
 import json
 import random
 import re
@@ -54,6 +55,10 @@ SOCIAL_RE = re.compile(
 RE_ADDRESS = re.compile(r'"address_name":"((?:[^"\\]|\\.)+)"')
 RE_DISTRICT = re.compile(r'"name":"([^"]*(?:ский район|ский р-н|микрорайон| м-н)[^"]*)"')
 RE_COMPONENTS = re.compile(r'"components":\[([^\]]+)\]')
+
+
+def html_unescape(s):
+    return html_mod.unescape(s)
 
 
 def clean_json_str(s):
@@ -183,7 +188,7 @@ def collect_one(page, slug, rec):
     if raw:
         rec["reviews_raw"] = raw
 
-    # --- фото: ТОЛЬКО альбом "От владельца" ---
+    # --- фото: ТОЛЬКО альбом "От владельца" (до 10 шт., уже скачанные пропускаем) ---
     ph = jfetch(
         page,
         f"https://api.photo.2gis.com/3.0/objects/{fid}/albums/owner/media"
@@ -193,19 +198,50 @@ def collect_one(page, slug, rec):
     folder.mkdir(parents=True, exist_ok=True)
     got = 0
     for itm in (ph or {}).get("items") or []:
-        if got >= 3:
+        if got >= 10:
             break
         url = ((itm.get("photo") or {}).get("url") or "")
         if not url:
             continue
-        if download_photo(url, folder / f"{got + 1}.jpg"):
+        dest = folder / f"{got + 1}.jpg"
+        if dest.exists():  # докачка: не перекачиваем
             got += 1
-    if got:
+            continue
+        if download_photo(url, dest):
+            got += 1
+    if got and not (folder / "source.txt").exists():
         (folder / "source.txt").write_text(
             f"{rec.get('source_url', '')}\nисточник: от владельца (album owner, api.photo.2gis.com)\n",
             encoding="utf-8",
         )
-    rec["photos_count"] = got
+    rec["photos_count"] = len(list(folder.glob("*.jpg")))
+
+    # --- контакты: соцсети/мессенджеры/email из встроенного JSON карточки ---
+    # 2ГИС кладёт контакты в стате страницы: {"code":"...","type":"vkontakte","value":"https://vk.ru/..."}
+    TYPE_MAP = {
+        "vkontakte": "vk", "whatsapp": "whatsapp", "telegram": "telegram",
+        "instagram": "instagram", "facebook": "facebook",
+        "odnoklassniki": "ok", "ok": "ok", "youtube": "youtube", "viber": "viber",
+    }
+    socials = []
+    seen = set()
+    emails = []
+    for m in re.finditer(r'"type":"([a-z_]+)","value":"(https?://[^"]+)"', html):
+        raw_type, u = m.group(1), html_unescape(m.group(2))
+        u = u.split("?")[0].rstrip("/")  # у wa.me отрезаем ?text=...
+        stype = TYPE_MAP.get(raw_type)
+        if stype and u not in seen:
+            seen.add(u)
+            socials.append({"type": stype, "url": u})
+        elif raw_type in ("site", "url") and not rec.get("existing_site_url"):
+            rec["existing_site_url"] = u
+    for m in re.finditer(r'"type":"email","value":"([^"]+)"', html):
+        e = m.group(1).strip()
+        if e and e not in emails:
+            emails.append(e)
+    rec["socials"] = socials
+    if emails and not rec.get("email"):
+        rec["email"] = emails[0]
 
     # --- missing: пересчитываем честно ---
     missing = []
@@ -239,7 +275,9 @@ def main():
         wanted = [s.strip() for s in args.slugs.split(",") if s.strip()]
         recs = {k: v for k, v in recs.items() if k in wanted}
     if not args.force:
-        recs = {k: v for k, v in recs.items() if not v.get("address")}
+        # повторный заход: докачиваем контакты и фото у уже собранных
+        recs = {k: v for k, v in recs.items()
+                if "socials" not in v or v.get("photos_count", 0) < 10}
     if args.limit:
         recs = dict(list(recs.items())[: args.limit])
     if not recs:
