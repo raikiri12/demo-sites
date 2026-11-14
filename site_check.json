@@ -1,0 +1,381 @@
+{
+ "anservis": {
+  "name": "АНсервис",
+  "all_domains": [
+   "zoon.ru",
+   "www.find-org.net",
+   "spark-interfax.ru"
+  ],
+  "candidate": {
+   "www.find-org.net": "https://www.find-org.net/cli/14959999_ooo_anservis",
+   "spark-interfax.ru": "https://spark-interfax.ru/bashkortostan-respublika-ufa/ooo-anservis-inn-273955137-ogrn-1250200038714-47882417b084b61ae063159aa8c0d364"
+  }
+ },
+ "artnikah": {
+  "name": "Art Nikah",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "avtoaura": {
+  "name": "Автоаура",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "avtoazbuka": {
+  "name": "Автоазбука",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "avtodrug": {
+  "name": "АвтоДруг",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "avtohelp": {
+  "name": "Авто help",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "avtospektr": {
+  "name": "АвтоСпектр",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "bazar": {
+  "name": "Цветочный базар",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "belyerosy": {
+  "name": "Белые Розы",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "blagbuket": {
+  "name": "БлагБукет",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "bmw102": {
+  "name": "BMW102",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "brat": {
+  "name": "Брат",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "buketyradosti": {
+  "name": "Букеты и радости",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "buketyss": {
+  "name": "Букеты С&С",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "chiperben": {
+  "name": "Чипер бен",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "cvetomania": {
+  "name": "Цветомания",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "dariradost": {
+  "name": "Дари радость",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "delacvetochnye": {
+  "name": "Дела Цветочные",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "diagnost102": {
+  "name": "Диагност 102",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "drive": {
+  "name": "Драйв",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "dustershop": {
+  "name": "Dustershop",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "elliflo": {
+  "name": "Эллифло",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "elviya": {
+  "name": "Эльвия",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "energy": {
+  "name": "Энерджи",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "fixauto": {
+  "name": "Фикс Авто",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "floks": {
+  "name": "Floks",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "greenbell": {
+  "name": "GreenBell",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "hrizantema": {
+  "name": "Хризантема",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "imperiya": {
+  "name": "Империя Авто",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "inservice-vag": {
+  "name": "ИнСервис Vag",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "iris": {
+  "name": "Ирис",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "jobnjoy": {
+  "name": "Job&Joy",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "karbon": {
+  "name": "Карбон",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "kuzovatelier": {
+  "name": "Кузовное Ателье",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "ladyflowers": {
+  "name": "Lady Flowers",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "lnlesi": {
+  "name": "Цветочная LN Леси Николаевой",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "magnolia": {
+  "name": "Магнолия",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "maisky": {
+  "name": "Майский жук",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "mir": {
+  "name": "Mir",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "miraflor": {
+  "name": "Мирафлор",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "mirupir": {
+  "name": "Миру Пир",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "modifikar": {
+  "name": "Модификар",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "na-svobody": {
+  "name": "На Свободы",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "nelli": {
+  "name": "Цветы Нелли",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "orhideya": {
+  "name": "Орхидея",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "ostrov": {
+  "name": "Цветочный остров",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "paradise": {
+  "name": "Paradise bouquet",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "pixie": {
+  "name": "Пикси",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "podaricvety": {
+  "name": "Подари цветы",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "poehali": {
+  "name": "Поехали",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "prokuzov": {
+  "name": "Prokuzov",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "prosto": {
+  "name": "Proсто",
+  "all_domains": [],
+  "candidate": {}
+ },
+ "provag02": {
+  "name": "Про Vag 02",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "pushkin": {
+  "name": "Пушкин Flowers",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "rd-service": {
+  "name": "Rd service",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "remavto": {
+  "name": "РемАвто",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "restorancvetov": {
+  "name": "Ресторан Цветов",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "rozaopt": {
+  "name": "РозаОпт",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "rusanda": {
+  "name": "Цветочная мастерская у Русанды",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "sakura": {
+  "name": "Сакура",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "san-auto": {
+  "name": "San-auto",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "servisplus": {
+  "name": "Сервис Плюс",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "set100": {
+  "name": "Set100",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "shaman": {
+  "name": "shamanservice",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "shino-master": {
+  "name": "Шиномонтажная мастерская и автосервис",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "sisters": {
+  "name": "Систерс",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "starter102": {
+  "name": "Стартер 102",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "stebelyok": {
+  "name": "Стебелёк",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "stolichny": {
+  "name": "СТОличный",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "storiscvety": {
+  "name": "Подари ей цветы к сторис",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "teamavto": {
+  "name": "TeamAvto №1",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "tm-motors": {
+  "name": "TM Motors",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "toylex": {
+  "name": "Тойлекс",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "tutprolubov": {
+  "name": "Тут про любовь",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "tvoybuket": {
+  "name": "Твой Букет",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "vagservice": {
+  "name": "Vag service Ufa",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "vetvi": {
+  "name": "Vetvi",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "webstar": {
+  "name": "Webstarservice",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "yanacvetok": {
+  "name": "Yanacvetok",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "zhanetta": {
+  "name": "Жанеtta",
+  "error": "Remote end closed connection without response"
+ }
+}
