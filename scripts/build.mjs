@@ -182,6 +182,12 @@ function currentStatus(hours) {
   return 'Сегодня выходной';
 }
 
+const socialTypes = {
+  vk: 'VK',
+  whatsapp: 'WhatsApp',
+  telegram: 'Telegram',
+};
+
 async function processPhotos(slug, name, outputDir) {
   const inputDir = path.join(root, 'data', 'photos', slug);
   let files = [];
@@ -189,7 +195,8 @@ async function processPhotos(slug, name, outputDir) {
     files = (await readdir(inputDir, { withFileTypes: true }))
       .filter((entry) => entry.isFile() && /\.(jpe?g|png)$/i.test(entry.name))
       .map((entry) => entry.name)
-      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+      .slice(0, 10);
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }
@@ -211,7 +218,7 @@ async function processPhotos(slug, name, outputDir) {
     photos.push({
       src: `assets/${filename}`,
       alt: `${name}: фото ${index + 1}`,
-      loading: '',
+      loading: index < 3 ? '' : 'lazy',
     });
   }
 
@@ -256,13 +263,34 @@ async function buildPage(slug, csvRows, template, css) {
   const address = business.address || '';
   const phone = business.phone || '';
   const rating = business.rating === '' || business.rating == null ? null : Number(business.rating);
+  const ratingStars = rating == null ? [] : Array.from({ length: 5 }, (_, index) => ({
+    fill: `${Math.round(Math.max(0, Math.min(1, rating - index)) * 100)}%`,
+  }));
   const ratingsCount = business.ratings_count ?? business.reviews_count ?? csv.reviews_count;
+  const socials = (business.socials ?? [])
+    .filter((item) => socialTypes[item?.type] && typeof item.url === 'string' && /^https?:\/\//.test(item.url))
+    .map((item) => ({
+      url: item.url,
+      label: socialTypes[item.type],
+      is_vk: item.type === 'vk',
+      is_whatsapp: item.type === 'whatsapp',
+      is_telegram: item.type === 'telegram',
+    }));
   const hasAddress = Boolean(address);
   const hasPhone = Boolean(phone);
   const hours = (business.hours || '').split(';').map((item) => item.trim()).filter(Boolean);
   const mapAddress = encodeURIComponent(`Уфа, ${address}`);
   const reviewSummary = content.review_summary || business.review_summary || '';
   const theme = business.niche === 'магазин цветов' ? 'flowers' : 'auto';
+  const showcaseItems = theme === 'flowers' && photos.length
+    ? (business.prices ?? []).filter((item) => item?.name).map((item, index) => ({
+      name: item.name,
+      image: photos[index % photos.length].src,
+      alt: `${business.name}: фото из открытой карточки организации`,
+      has_price: Number.isFinite(item.price),
+      price: Number.isFinite(item.price) ? money.format(item.price) : '',
+    }))
+    : [];
   const description = [content.tagline, business.district, address && `Уфа, ${address}`].filter(Boolean).join('. ');
 
   const data = {
@@ -281,6 +309,8 @@ async function buildPage(slug, csvRows, template, css) {
     photo_credit: photos.length > 0,
     status_badge: currentStatus(business.hours),
     featured_price: featuredPrice,
+    has_showcase: showcaseItems.length > 0,
+    showcase_items: showcaseItems,
     has_phone: hasPhone,
     phone_href: hasPhone ? phoneHref(phone) : '',
     phone_display: hasPhone ? formatPhone(phone) : '',
@@ -294,17 +324,21 @@ async function buildPage(slug, csvRows, template, css) {
     has_reviews: Boolean(rating != null || reviewSummary),
     has_rating: rating != null,
     rating: rating == null ? '' : String(rating).replace('.', ','),
+    rating_stars: ratingStars,
+    has_ratings_count: Boolean(ratingsCount),
     ratings_label: ratingsCount ? pluralizeRatings(ratingsCount) : '',
     has_review_summary: Boolean(reviewSummary),
     review_summary: reviewSummary,
     source_url: business.source_url || business.source_links || '',
-    has_contact: Boolean(address || hours.length || phone),
+    has_contact: Boolean(address || hours.length || phone || socials.length),
     has_hours: hours.length > 0,
     hours,
+    has_socials: socials.length > 0,
+    socials,
     cta_title: content.cta_title || 'Позвоните, чтобы уточнить детали',
   };
 
-  const html = `${renderNodes(template, data)}\n`;
+  const html = `${renderNodes(template, data).replace(/[ \t]+$/gm, '').trimEnd()}\n`;
   await Promise.all([
     writeFile(path.join(outputDir, 'index.html'), html),
     writeFile(path.join(root, 'dist', 'themes.css'), css),
