@@ -15,7 +15,7 @@
   <header class="hero {{hero_class}}">
     {{#has_hero_photo}}
     <div class="hero-media" aria-hidden="true">
-      <img src="{{hero_image}}" alt="" width="1600" height="1200" fetchpriority="high">
+      <img id="hero-image" src="{{hero_image}}" alt="" width="1600" height="1200" fetchpriority="high">
     </div>
     {{/has_hero_photo}}
     <div class="hero-pattern" aria-hidden="true">
@@ -73,11 +73,11 @@
       </div>
 
       {{#has_photos}}
-      <div class="hero-gallery" aria-label="Фотографии организации">
+      <div class="hero-gallery" aria-label="Выбор основной фотографии">
         {{#photos}}
-        <figure class="gallery-item">
-          <img src="{{src}}" alt="{{alt}}" width="640" height="480" {{loading}}>
-        </figure>
+        <button class="gallery-item" type="button" aria-label="Показать: {{alt}}" aria-pressed="false">
+          <img src="{{src}}" alt="" width="640" height="480" {{loading}}>
+        </button>
         {{/photos}}
       </div>
       {{/has_photos}}
@@ -85,6 +85,27 @@
   </header>
 
   <main id="main">
+    {{#has_photos}}
+    <section class="section photo-gallery-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Фотографии</p>
+            <h2 id="gallery-title">Галерея</h2>
+          </div>
+          <p class="section-note">Нажмите на фото, чтобы открыть его на весь экран.</p>
+        </div>
+        <div class="photo-gallery">
+          {{#photos}}
+          <button class="photo-gallery-item" type="button" aria-label="Открыть: {{alt}}">
+            <img src="{{src}}" alt="{{alt}}" width="640" height="480" loading="lazy">
+          </button>
+          {{/photos}}
+        </div>
+      </div>
+    </section>
+    {{/has_photos}}
+
     {{#has_showcase}}
     <section class="section showcase-section" aria-labelledby="showcase-title">
       <div class="container">
@@ -269,5 +290,134 @@
     <span>Позвонить</span>
   </a>
   {{/has_phone}}
+
+  {{#has_photos}}
+  <div class="lightbox" id="photo-lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографий" hidden>
+    <div class="lightbox-header">
+      <p class="lightbox-counter" aria-live="polite"></p>
+      <button class="lightbox-button lightbox-close" type="button" aria-label="Закрыть галерею">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+      </button>
+    </div>
+    <div class="lightbox-stage">
+      <img class="lightbox-image" src="" alt="" width="640" height="480" draggable="false">
+    </div>
+    <div class="lightbox-controls">
+      <button class="lightbox-button lightbox-prev" type="button" aria-label="Предыдущее фото">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+        <span class="lightbox-button-label">Назад</span>
+      </button>
+      <button class="lightbox-button lightbox-next" type="button" aria-label="Следующее фото">
+        <span class="lightbox-button-label">Вперёд</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+      </button>
+    </div>
+  </div>
+  {{/has_photos}}
+
+  <script>
+    (() => {
+      const heroImage = document.getElementById('hero-image');
+      const heroButtons = document.querySelectorAll('.hero-gallery .gallery-item');
+
+      if (heroImage && heroButtons.length) {
+        const selectHeroPhoto = (selectedButton) => {
+          const selectedImage = selectedButton.querySelector('img');
+          heroImage.src = selectedImage.currentSrc || selectedImage.src;
+          heroButtons.forEach((button) => {
+            button.setAttribute('aria-pressed', String(button === selectedButton));
+          });
+        };
+
+        heroButtons.forEach((button) => {
+          button.addEventListener('click', () => selectHeroPhoto(button));
+        });
+        heroButtons[0].setAttribute('aria-pressed', 'true');
+      }
+
+      const lightbox = document.getElementById('photo-lightbox');
+      if (!lightbox) return;
+
+      const galleryButtons = Array.from(document.querySelectorAll('.photo-gallery-item'));
+      const lightboxImage = lightbox.querySelector('.lightbox-image');
+      const lightboxStage = lightbox.querySelector('.lightbox-stage');
+      const counter = lightbox.querySelector('.lightbox-counter');
+      const closeButton = lightbox.querySelector('.lightbox-close');
+      const prevButton = lightbox.querySelector('.lightbox-prev');
+      const nextButton = lightbox.querySelector('.lightbox-next');
+      let currentIndex = 0;
+      let lastTrigger = null;
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      const renderPhoto = () => {
+        const source = galleryButtons[currentIndex].querySelector('img');
+        lightboxImage.src = source.currentSrc || source.src;
+        lightboxImage.alt = source.alt;
+        counter.textContent = `${currentIndex + 1} / ${galleryButtons.length}`;
+      };
+
+      const showPhoto = (offset) => {
+        currentIndex = (currentIndex + offset + galleryButtons.length) % galleryButtons.length;
+        renderPhoto();
+      };
+
+      const openLightbox = (index, trigger) => {
+        currentIndex = index;
+        lastTrigger = trigger;
+        renderPhoto();
+        lightbox.hidden = false;
+        document.body.classList.add('lightbox-open');
+        closeButton.focus({ preventScroll: true });
+      };
+
+      const closeLightbox = () => {
+        if (lightbox.hidden) return;
+        lightbox.hidden = true;
+        document.body.classList.remove('lightbox-open');
+        lastTrigger?.focus({ preventScroll: true });
+      };
+
+      galleryButtons.forEach((button, index) => {
+        button.addEventListener('click', () => openLightbox(index, button));
+      });
+      closeButton.addEventListener('click', closeLightbox);
+      prevButton.addEventListener('click', () => showPhoto(-1));
+      nextButton.addEventListener('click', () => showPhoto(1));
+      lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox || event.target === lightboxStage) closeLightbox();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (lightbox.hidden) return;
+        if (event.key === 'Escape') closeLightbox();
+        if (event.key === 'ArrowLeft') showPhoto(-1);
+        if (event.key === 'ArrowRight') showPhoto(1);
+        if (event.key !== 'Tab') return;
+
+        const firstButton = closeButton;
+        const lastButton = nextButton;
+        if (event.shiftKey && (document.activeElement === firstButton || !lightbox.contains(document.activeElement))) {
+          event.preventDefault();
+          lastButton.focus();
+        } else if (!event.shiftKey && (document.activeElement === lastButton || !lightbox.contains(document.activeElement))) {
+          event.preventDefault();
+          firstButton.focus();
+        }
+      });
+
+      lightboxStage.addEventListener('touchstart', (event) => {
+        touchStartX = event.changedTouches[0].clientX;
+        touchStartY = event.changedTouches[0].clientY;
+      }, { passive: true });
+      lightboxStage.addEventListener('touchend', (event) => {
+        const deltaX = event.changedTouches[0].clientX - touchStartX;
+        const deltaY = event.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(deltaX) > 45 && Math.abs(deltaX) > Math.abs(deltaY)) {
+          showPhoto(deltaX < 0 ? 1 : -1);
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>

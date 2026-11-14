@@ -76,6 +76,8 @@
 
 
 
+
+
     <section class="section prices-section" aria-labelledby="prices-title">
       <div class="container">
         <div class="section-heading">
@@ -303,5 +305,112 @@
     <span>Позвонить</span>
   </a>
 
+
+
+
+  <script>
+    (() => {
+      const heroImage = document.getElementById('hero-image');
+      const heroButtons = document.querySelectorAll('.hero-gallery .gallery-item');
+
+      if (heroImage && heroButtons.length) {
+        const selectHeroPhoto = (selectedButton) => {
+          const selectedImage = selectedButton.querySelector('img');
+          heroImage.src = selectedImage.currentSrc || selectedImage.src;
+          heroButtons.forEach((button) => {
+            button.setAttribute('aria-pressed', String(button === selectedButton));
+          });
+        };
+
+        heroButtons.forEach((button) => {
+          button.addEventListener('click', () => selectHeroPhoto(button));
+        });
+        heroButtons[0].setAttribute('aria-pressed', 'true');
+      }
+
+      const lightbox = document.getElementById('photo-lightbox');
+      if (!lightbox) return;
+
+      const galleryButtons = Array.from(document.querySelectorAll('.photo-gallery-item'));
+      const lightboxImage = lightbox.querySelector('.lightbox-image');
+      const lightboxStage = lightbox.querySelector('.lightbox-stage');
+      const counter = lightbox.querySelector('.lightbox-counter');
+      const closeButton = lightbox.querySelector('.lightbox-close');
+      const prevButton = lightbox.querySelector('.lightbox-prev');
+      const nextButton = lightbox.querySelector('.lightbox-next');
+      let currentIndex = 0;
+      let lastTrigger = null;
+      let touchStartX = 0;
+      let touchStartY = 0;
+
+      const renderPhoto = () => {
+        const source = galleryButtons[currentIndex].querySelector('img');
+        lightboxImage.src = source.currentSrc || source.src;
+        lightboxImage.alt = source.alt;
+        counter.textContent = `${currentIndex + 1} / ${galleryButtons.length}`;
+      };
+
+      const showPhoto = (offset) => {
+        currentIndex = (currentIndex + offset + galleryButtons.length) % galleryButtons.length;
+        renderPhoto();
+      };
+
+      const openLightbox = (index, trigger) => {
+        currentIndex = index;
+        lastTrigger = trigger;
+        renderPhoto();
+        lightbox.hidden = false;
+        document.body.classList.add('lightbox-open');
+        closeButton.focus({ preventScroll: true });
+      };
+
+      const closeLightbox = () => {
+        if (lightbox.hidden) return;
+        lightbox.hidden = true;
+        document.body.classList.remove('lightbox-open');
+        lastTrigger?.focus({ preventScroll: true });
+      };
+
+      galleryButtons.forEach((button, index) => {
+        button.addEventListener('click', () => openLightbox(index, button));
+      });
+      closeButton.addEventListener('click', closeLightbox);
+      prevButton.addEventListener('click', () => showPhoto(-1));
+      nextButton.addEventListener('click', () => showPhoto(1));
+      lightbox.addEventListener('click', (event) => {
+        if (event.target === lightbox || event.target === lightboxStage) closeLightbox();
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (lightbox.hidden) return;
+        if (event.key === 'Escape') closeLightbox();
+        if (event.key === 'ArrowLeft') showPhoto(-1);
+        if (event.key === 'ArrowRight') showPhoto(1);
+        if (event.key !== 'Tab') return;
+
+        const firstButton = closeButton;
+        const lastButton = nextButton;
+        if (event.shiftKey && (document.activeElement === firstButton || !lightbox.contains(document.activeElement))) {
+          event.preventDefault();
+          lastButton.focus();
+        } else if (!event.shiftKey && (document.activeElement === lastButton || !lightbox.contains(document.activeElement))) {
+          event.preventDefault();
+          firstButton.focus();
+        }
+      });
+
+      lightboxStage.addEventListener('touchstart', (event) => {
+        touchStartX = event.changedTouches[0].clientX;
+        touchStartY = event.changedTouches[0].clientY;
+      }, { passive: true });
+      lightboxStage.addEventListener('touchend', (event) => {
+        const deltaX = event.changedTouches[0].clientX - touchStartX;
+        const deltaY = event.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(deltaX) > 45 && Math.abs(deltaX) > Math.abs(deltaY)) {
+          showPhoto(deltaX < 0 ? 1 : -1);
+        }
+      }, { passive: true });
+    })();
+  </script>
 </body>
 </html>
