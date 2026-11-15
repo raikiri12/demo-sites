@@ -470,6 +470,17 @@ h2 {
   }
 }
 
+@keyframes auto-section-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .theme-flowers .section {
@@ -477,6 +488,18 @@ h2 {
       animation-timeline: view();
       animation-range: entry 0% entry 35%;
     }
+
+    .theme-auto .section {
+      animation: auto-section-reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 30%;
+    }
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .theme-auto .button:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
   }
 }
 
@@ -652,10 +675,27 @@ h2 {
   border-bottom: 1px solid var(--line);
 }
 
+.theme-auto .price-item {
+  transition: background-color 180ms ease;
+}
+
+.theme-auto .price-item:hover {
+  background-color: rgba(21, 27, 31, 0.035);
+}
+
 .price-name {
   max-width: 75%;
   font-size: 17px;
   line-height: 1.4;
+}
+
+.theme-auto .price-name {
+  display: -webkit-box;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
 .price-dots {

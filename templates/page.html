@@ -6,6 +6,12 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="{{theme_color}}">
   <meta name="description" content="{{description}}">
+  {{#is_auto}}
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%2310191f%22/%3E%3Cpath d=%22M40 12a15 15 0 0 0-18 19L10 43a7 7 0 0 0 10 10l12-12A15 15 0 0 0 52 22l-10 10-10-10 10-10Z%22 fill=%22none%22 stroke=%22%23f5c84c%22 stroke-width=%226%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  {{#has_og_image}}<meta property="og:image" content="{{og_image}}">{{/has_og_image}}
+  {{/is_auto}}
   {{#is_flowers}}
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8C%B7%3C/text%3E%3C/svg%3E">
   <meta property="og:title" content="{{title}}">
