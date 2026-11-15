@@ -481,6 +481,34 @@ h2 {
   }
 }
 
+@keyframes auto-pattern-parallax {
+  to {
+    transform: translateY(48px);
+  }
+}
+
+@keyframes auto-watermark-parallax {
+  to {
+    transform: translateY(28px);
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .theme-auto .hero--typographic .hero-pattern {
+      animation: auto-pattern-parallax linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 100vh;
+    }
+
+    .theme-auto .hero--typographic .hero-watermark {
+      animation: auto-watermark-parallax linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 100vh;
+    }
+  }
+}
+
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .theme-flowers .section {
