@@ -532,90 +532,53 @@ h2 {
 
 .showcase-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 16px 32px;
+  width: min(100%, 660px);
 }
 
 .product-card {
   min-width: 0;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-small);
-  background: var(--bg);
 }
 
 .product-card > img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 14px;
   object-fit: cover;
 }
 
 .product-card-copy {
-  padding: 18px;
+  padding-top: 4px;
 }
 
 .product-card h3 {
   margin: 0;
   overflow-wrap: anywhere;
-  font-family: var(--font-display);
-  font-size: 19px;
-  letter-spacing: -0.02em;
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0;
   line-height: 1.25;
 }
 
 .product-price {
-  margin-top: 12px;
-  font-size: 20px;
+  margin-top: 2px;
+  font-size: 12px;
   font-weight: 800;
+  line-height: 1.25;
 }
 
-.product-price span,
-.showcase-more-price span {
+.product-price span {
   color: var(--muted);
   font-size: 12px;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 .showcase-empty {
   margin-top: 20px;
   color: var(--muted);
-}
-
-.showcase-more {
-  display: grid;
-  margin: 24px 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.showcase-more-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 0;
-  padding-block: 14px;
-  border-bottom: 1px solid var(--line);
-}
-
-.showcase-more-item > img {
-  width: 56px;
-  height: 56px;
-  flex: 0 0 56px;
-  border-radius: var(--radius-small);
-  object-fit: cover;
-}
-
-.showcase-more-name {
-  flex: 1;
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-
-.showcase-more-price {
-  flex-shrink: 0;
-  white-space: nowrap;
 }
 
 .showcase-more-button {
@@ -1117,42 +1080,22 @@ h2 {
     aspect-ratio: 1 / 1.05;
   }
 
-  .showcase-controls,
-  .showcase-grid {
+  .showcase-section .container {
+    padding-inline: 6px;
+  }
+
+  .showcase-controls {
     gap: 12px;
+  }
+
+  .showcase-grid {
+    gap: 12px 4px;
   }
 
   .showcase-control input,
   .showcase-control select {
     padding-inline: 10px;
     font-size: 13px;
-  }
-
-  .product-card-copy {
-    padding: 12px;
-  }
-
-  .product-card h3 {
-    font-size: 15px;
-  }
-
-  .product-price {
-    margin-top: 8px;
-    font-size: 16px;
-  }
-
-  .showcase-more-item {
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 6px 10px;
-  }
-
-  .showcase-more-name {
-    flex-basis: calc(100% - 90px);
-  }
-
-  .showcase-more-price {
-    margin-left: auto;
   }
 
   .rating-main {

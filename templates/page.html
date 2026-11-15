@@ -112,8 +112,8 @@
         </div>
         <div class="showcase-grid" id="showcase-grid">
           {{#showcase_items}}
-          <article class="product-card" data-showcase-item data-index="{{index}}" data-name="{{search_name}}" data-price="{{price_raw}}">
-            <img src="{{image}}" alt="{{alt}}" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="{{index}}" data-name="{{search_name}}" data-price="{{price_raw}}"{{#is_more}} hidden{{/is_more}}>
+            <img src="{{image}}" alt="{{alt}}" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>{{name}}</h3>
               <p class="product-price"><span>от</span> {{price}} ₽</p>
@@ -123,17 +123,7 @@
         </div>
         <p class="showcase-empty" hidden>По вашему запросу ничего не найдено.</p>
         {{#has_showcase_more}}
-        <ul class="showcase-more" id="showcase-more" hidden>
-          {{#showcase_more_items}}
-          <li class="showcase-more-item" data-showcase-item data-index="{{index}}" data-name="{{search_name}}" data-price="{{price_raw}}">
-            {{#has_image}}<img src="{{image}}" alt="{{alt}}" width="640" height="480" loading="lazy">{{/has_image}}
-            <span class="showcase-more-name">{{name}}</span>
-            <span aria-hidden="true">—</span>
-            <strong class="showcase-more-price"><span>от</span> {{price}} ₽</strong>
-          </li>
-          {{/showcase_more_items}}
-        </ul>
-        <button class="button button-secondary showcase-more-button" id="showcase-more-button" type="button" aria-controls="showcase-more" aria-expanded="false">Ещё</button>
+        <button class="button button-secondary showcase-more-button" id="showcase-more-button" type="button" aria-controls="showcase-grid" aria-expanded="false">Ещё</button>
         {{/has_showcase_more}}
       </div>
     </section>
@@ -326,51 +316,49 @@
       const sortSelect = showcase.querySelector('#showcase-sort');
       const grid = showcase.querySelector('#showcase-grid');
       const gridItems = [...grid.querySelectorAll('[data-showcase-item]')];
-      const moreList = showcase.querySelector('#showcase-more');
-      const moreItems = moreList ? [...moreList.querySelectorAll('[data-showcase-item]')] : [];
       const moreButton = showcase.querySelector('#showcase-more-button');
       const emptyMessage = showcase.querySelector('.showcase-empty');
       const collator = new Intl.Collator('ru');
       let expanded = false;
 
-      const sortItems = (items, container) => {
-        const sorted = [...items].sort((a, b) => {
+      const sortItems = () => {
+        const sorted = [...gridItems].sort((a, b) => {
           if (sortSelect.value === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
           if (sortSelect.value === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
           if (sortSelect.value === 'name') return collator.compare(a.dataset.name, b.dataset.name);
           return Number(a.dataset.index) - Number(b.dataset.index);
         });
-        sorted.forEach((item) => container.append(item));
+        sorted.forEach((item) => grid.append(item));
       };
 
-      const filterItems = () => {
+      const updateItems = () => {
         const query = searchInput.value.trim().toLocaleLowerCase('ru');
-        let visibleExtra = 0;
         let visibleTotal = 0;
-        [...gridItems, ...moreItems].forEach((item) => {
-          item.hidden = Boolean(query) && !item.dataset.name.includes(query);
-          if (!item.hidden) {
-            visibleTotal += 1;
-            if (moreItems.includes(item)) visibleExtra += 1;
-          }
+        [...grid.querySelectorAll('[data-showcase-item]')].forEach((item) => {
+          const matches = !query || item.dataset.name.includes(query);
+          item.hidden = !matches || (!expanded && !query && visibleTotal >= 8);
+          if (matches) visibleTotal += 1;
         });
         emptyMessage.hidden = visibleTotal > 0;
-        if (moreButton) moreButton.hidden = expanded || visibleExtra === 0;
+        if (moreButton) {
+          moreButton.hidden = Boolean(query) || gridItems.length <= 8;
+          moreButton.textContent = expanded ? 'Свернуть' : 'Ещё';
+          moreButton.setAttribute('aria-expanded', String(expanded));
+        }
       };
 
-      searchInput.addEventListener('input', filterItems);
+      searchInput.addEventListener('input', updateItems);
       sortSelect.addEventListener('change', () => {
-        sortItems(gridItems, grid);
-        if (moreList) sortItems(moreItems, moreList);
+        sortItems();
+        updateItems();
       });
-      if (moreButton && moreList) {
+      if (moreButton) {
         moreButton.addEventListener('click', () => {
-          expanded = true;
-          moreList.hidden = false;
-          moreButton.hidden = true;
-          moreButton.setAttribute('aria-expanded', 'true');
+          expanded = !expanded;
+          updateItems();
         });
       }
+      updateItems();
     })();
   </script>
 </body>
