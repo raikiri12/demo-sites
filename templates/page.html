@@ -6,6 +6,12 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="{{theme_color}}">
   <meta name="description" content="{{description}}">
+  {{#is_flowers}}
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8C%B7%3C/text%3E%3C/svg%3E">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  {{#has_og_image}}<meta property="og:image" content="{{og_image}}">{{/has_og_image}}
+  {{/is_flowers}}
   <title>{{title}}</title>
   <link rel="stylesheet" href="../themes.css">
 </head>

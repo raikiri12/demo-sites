@@ -304,13 +304,19 @@ async function buildPage(slug, csvRows, template, css) {
     })
     : [];
   const description = [content.tagline, business.district, address && `Уфа, ${address}`].filter(Boolean).join('. ');
+  const ogImage = theme === 'flowers' && photos.length && business.page_url
+    ? new URL(photos[0].src, business.page_url).href
+    : '';
 
   const data = {
     ...business,
     theme,
+    is_flowers: theme === 'flowers',
     theme_color: theme === 'flowers' ? '#203c33' : '#10191f',
     title: `${business.name} — ${business.niche} в Уфе`,
     description,
+    has_og_image: Boolean(ogImage),
+    og_image: ogImage,
     tagline: content.tagline || '',
     watermark: content.watermark || (theme === 'flowers' ? 'FLOWERS' : 'SERVICE'),
     hero_class: photos.length ? 'hero--photo' : 'hero--typographic',
