@@ -501,13 +501,13 @@ h2 {
 
 @supports (animation-timeline: scroll()) {
   @media (prefers-reduced-motion: no-preference) {
-    .theme-auto .hero--typographic .hero-pattern {
+    .hero--typographic .hero-pattern {
       animation: auto-pattern-parallax linear both;
       animation-timeline: scroll(root block);
       animation-range: 0 100vh;
     }
 
-    .theme-auto .hero--typographic .hero-watermark {
+    .hero--typographic .hero-watermark {
       animation: auto-watermark-parallax linear both;
       animation-timeline: scroll(root block);
       animation-range: 0 100vh;

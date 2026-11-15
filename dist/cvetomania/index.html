@@ -6,6 +6,13 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#203c33">
   <meta name="description" content="Круглосуточная доставка букетов и цветочных композиций. Чишминский район. Уфа, Центральная улица, 2">
+
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8C%B7%3C/text%3E%3C/svg%3E">
+  <meta property="og:title" content="Цветомания — магазин цветов в Уфе">
+  <meta property="og:description" content="Круглосуточная доставка букетов и цветочных композиций. Чишминский район. Уфа, Центральная улица, 2">
+  <meta property="og:image" content="https://raikiri12.github.io/demo-sites/cvetomania/assets/photo-1.webp">
+
   <title>Цветомания — магазин цветов в Уфе</title>
   <link rel="stylesheet" href="../themes.css">
 </head>
@@ -301,6 +308,57 @@
         });
         heroButtons[0].setAttribute('aria-pressed', 'true');
       }
+
+      const showcase = document.querySelector('.showcase-section');
+      if (!showcase) return;
+
+      const searchInput = showcase.querySelector('#showcase-search');
+      const sortSelect = showcase.querySelector('#showcase-sort');
+      const grid = showcase.querySelector('#showcase-grid');
+      const gridItems = [...grid.querySelectorAll('[data-showcase-item]')];
+      const moreButton = showcase.querySelector('#showcase-more-button');
+      const emptyMessage = showcase.querySelector('.showcase-empty');
+      const collator = new Intl.Collator('ru');
+      let expanded = false;
+
+      const sortItems = () => {
+        const sorted = [...gridItems].sort((a, b) => {
+          if (sortSelect.value === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
+          if (sortSelect.value === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
+          if (sortSelect.value === 'name') return collator.compare(a.dataset.name, b.dataset.name);
+          return Number(a.dataset.index) - Number(b.dataset.index);
+        });
+        sorted.forEach((item) => grid.append(item));
+      };
+
+      const updateItems = () => {
+        const query = searchInput.value.trim().toLocaleLowerCase('ru');
+        let visibleTotal = 0;
+        [...grid.querySelectorAll('[data-showcase-item]')].forEach((item) => {
+          const matches = !query || item.dataset.name.includes(query);
+          item.hidden = !matches || (!expanded && !query && visibleTotal >= 8);
+          if (matches) visibleTotal += 1;
+        });
+        emptyMessage.hidden = visibleTotal > 0;
+        if (moreButton) {
+          moreButton.hidden = Boolean(query) || gridItems.length <= 8;
+          moreButton.textContent = expanded ? 'Свернуть' : 'Ещё';
+          moreButton.setAttribute('aria-expanded', String(expanded));
+        }
+      };
+
+      searchInput.addEventListener('input', updateItems);
+      sortSelect.addEventListener('change', () => {
+        sortItems();
+        updateItems();
+      });
+      if (moreButton) {
+        moreButton.addEventListener('click', () => {
+          expanded = !expanded;
+          updateItems();
+        });
+      }
+      updateItems();
     })();
   </script>
 </body>

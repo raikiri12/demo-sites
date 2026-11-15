@@ -237,19 +237,24 @@ async function createTypographicOg(business, outputDir) {
   const name = escapeHtml(business.name.toLocaleUpperCase('ru'));
   const niche = escapeHtml(business.niche.toLocaleUpperCase('ru'));
   const district = escapeHtml(business.district || '');
+  const flowers = business.niche === 'магазин цветов';
+  const colors = flowers
+    ? { background: '#203c33', accent: '#a83c5b', muted: '#e0e4da', ink: '#fffaf2' }
+    : { background: '#10191f', accent: '#f5c84c', muted: '#d1dadd', ink: '#f8faf9' };
+  const displayFont = flowers ? 'Georgia, serif' : 'Arial, sans-serif';
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-      <rect width="1200" height="630" fill="#10191f"/>
-      <g fill="none" stroke="#f5c84c" stroke-width="2" opacity="0.12">
+      <rect width="1200" height="630" fill="${colors.background}"/>
+      <g fill="none" stroke="${colors.accent}" stroke-width="2" opacity="0.12">
         <circle cx="1060" cy="70" r="250"/>
         <circle cx="1060" cy="70" r="175"/>
         <path d="M700 630 1120 210M850 730 1270 310"/>
       </g>
-      <text x="60" y="620" font-family="Arial, sans-serif" font-size="180" font-weight="800" letter-spacing="-8" fill="none" stroke="#f5c84c" stroke-width="1" opacity="0.08">${name}</text>
-      <rect x="80" y="86" width="56" height="6" fill="#f5c84c"/>
-      <text x="80" y="158" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="5" fill="#d1dadd">${niche}</text>
-      <text x="74" y="340" font-family="Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-4" fill="#f8faf9">${name}</text>
-      <text x="80" y="425" font-family="Arial, sans-serif" font-size="30" fill="#d1dadd">${district}</text>
+      <text x="60" y="620" font-family="${displayFont}" font-size="180" font-weight="800" letter-spacing="-8" fill="none" stroke="${colors.accent}" stroke-width="1" opacity="0.08">${name}</text>
+      <rect x="80" y="86" width="56" height="6" fill="${colors.accent}"/>
+      <text x="80" y="158" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="5" fill="${colors.muted}">${niche}</text>
+      <text x="74" y="340" font-family="${displayFont}" font-size="104" font-weight="700" letter-spacing="-4" fill="${colors.ink}">${name}</text>
+      <text x="80" y="425" font-family="Arial, sans-serif" font-size="30" fill="${colors.muted}">${district}</text>
     </svg>`;
   await sharp(Buffer.from(svg)).png().toFile(path.join(assetsDir, 'og-image.png'));
 }
@@ -327,8 +332,8 @@ async function buildPage(slug, csvRows, template, css) {
     })
     : [];
   const description = [content.tagline, business.district, address && `Уфа, ${address}`].filter(Boolean).join('. ');
-  if (theme === 'auto' && !photos.length) await createTypographicOg(business, outputDir);
-  const ogAsset = photos.length ? photos[0].src : theme === 'auto' ? 'assets/og-image.png' : '';
+  if (!photos.length) await createTypographicOg(business, outputDir);
+  const ogAsset = photos.length ? photos[0].src : 'assets/og-image.png';
   const ogImage = ogAsset && business.page_url
     ? new URL(ogAsset, business.page_url).href
     : '';
