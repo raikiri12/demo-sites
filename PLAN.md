@@ -13,7 +13,7 @@
   - Эталон цветы: **magnolia** (Магнолия) — 4.9 при 91 оценке, 10 фото, 15 цен, 12 услуг, соцсети VK/WhatsApp/TG; missing только email/payment/amenities. Ранее был выбран podaricvety, но у него нашлась живая витрина на Flowwow — исключён (см. 1.2).
   - Контрольный (без фото): **avtohelp** — 5.0, 6 цен, отзывы и адрес есть, фото 0 (проверка типографского режима шаблона).
   - Готово: `templates/page.html`, `templates/themes.css`, `scripts/build.mjs`; собраны `dist/vagservice/`, `dist/magnolia/`, `dist/avtohelp/`. Есть мобильные CTA, цены «от», отзывы, карта, noindex и демо-плашка; рейтинг со звёздной шкалой, до 3 фото в Hero с переключением по миниатюрам, без отдельной галереи, реальные ссылки socials. У magnolia — трёхрядная витрина со свайпом, у автониши её нет; контрольный Hero работает без изображений.
-- [ ] 4 Рой: page-writer x3 — партия 1 (12 страниц) подготовлена: anservis, artnikah, avtoaura, dustershop, fixauto, floks, modifikar, paradise, poehali, remavto, shino-master, zhanetta. Сборка не выполнена: Node.js не найден в окружении (`node: command not found`).
+- [x] 4 Рой: page-writer x3 — партия 1 (12 страниц): anservis, artnikah, avtoaura, dustershop, fixauto, floks, modifikar, paradise, poehali, remavto, shino-master, zhanetta. Партия 2 (45 страниц) подготовлена тремя page-writer параллельно; `scripts/build.mjs` выполнен, собраны все 60 страниц.
 - [ ] 5 Проверка: qa-checker
 - [ ] 6 Витрина + деплой (ссылки в data/businesses.csv → page_url)
 - [ ] 7 Продажи: sales/pipeline.csv
