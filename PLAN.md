@@ -15,6 +15,7 @@
   - Готово: `templates/page.html`, `templates/themes.css`, `scripts/build.mjs`; собраны `dist/vagservice/`, `dist/magnolia/`, `dist/avtohelp/`. Есть мобильные CTA, цены «от», отзывы, карта, noindex и демо-плашка; рейтинг со звёздной шкалой, до 3 фото в Hero с переключением по миниатюрам, без отдельной галереи, реальные ссылки socials. У magnolia — трёхрядная витрина со свайпом, у автониши её нет; контрольный Hero работает без изображений.
 - [x] 4 Рой: page-writer x3 — партия 1 (12 страниц): anservis, artnikah, avtoaura, dustershop, fixauto, floks, modifikar, paradise, poehali, remavto, shino-master, zhanetta. Партия 2 (45 страниц) подготовлена тремя page-writer параллельно; `scripts/build.mjs` выполнен, собраны все 60 страниц.
 - [x] 5 Проверка: автоматическая — все 60 страниц: телефоны (с нормализацией 8→+7), цены из research, noindex, демо-плашка — расхождений 0
+- [x] 5.1 QA dist/: добавлен scripts/qa.mjs; удалены неподтверждённые research пересказы отзывов из 60 content-файлов, dist/ пересобран; повторная проверка — 0 проблем, горизонтального скролла на 360px нет
 - [ ] 6 Витрина + деплой (ссылки в data/businesses.csv → page_url)
 - [ ] 7 Продажи: sales/pipeline.csv
 
