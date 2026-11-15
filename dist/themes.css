@@ -424,6 +424,12 @@ h2 {
   margin-left: auto;
 }
 
+@media (min-width: 1024px) {
+  .hero-gallery {
+    margin-left: 0;
+  }
+}
+
 .gallery-item {
   overflow: hidden;
   aspect-ratio: 4 / 3;
