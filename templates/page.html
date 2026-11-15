@@ -129,6 +129,21 @@
     </section>
     {{/has_showcase}}
 
+    {{#has_stats}}
+    <section class="section stats-section" aria-label="Показатели в 2ГИС">
+      <div class="container">
+        <ul class="stats-list">
+          {{#stats}}
+          <li class="stat-item">
+            <strong class="stat-value">{{value}}</strong>
+            <span class="stat-label">{{label}}</span>
+          </li>
+          {{/stats}}
+        </ul>
+      </div>
+    </section>
+    {{/has_stats}}
+
     {{#has_prices}}
     <section class="section prices-section" aria-labelledby="prices-title">
       <div class="container">

@@ -303,6 +303,18 @@ async function buildPage(slug, csvRows, template, css) {
       };
     })
     : [];
+  const stats = theme === 'flowers'
+    ? [
+      { key: 'rating', label: 'Рейтинг' },
+      { key: 'ratings_count', label: 'Оценок' },
+      { key: 'reviews_count', label: 'Отзывов' },
+    ]
+      .filter(({ key }) => research[key] !== '' && research[key] != null && Number.isFinite(Number(research[key])))
+      .map(({ key, label }) => ({
+        value: key === 'rating' ? String(research[key]).replace('.', ',') : String(research[key]),
+        label,
+      }))
+    : [];
   const description = [content.tagline, business.district, address && `Уфа, ${address}`].filter(Boolean).join('. ');
 
   const data = {
@@ -330,7 +342,9 @@ async function buildPage(slug, csvRows, template, css) {
     has_address: hasAddress,
     route_url: hasAddress ? `https://yandex.ru/maps/?text=${mapAddress}` : '',
     map_url: hasAddress ? `https://yandex.ru/map-widget/v1/?text=${mapAddress}&z=16` : '',
-    has_prices: prices.length > 0,
+    has_stats: stats.length > 0,
+    stats,
+    has_prices: theme === 'auto' && prices.length > 0,
     prices,
     has_review_points: reviewPoints.length > 0,
     review_points: reviewPoints,
