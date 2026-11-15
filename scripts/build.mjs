@@ -196,7 +196,7 @@ async function processPhotos(slug, name, outputDir) {
       .filter((entry) => entry.isFile() && /\.(jpe?g|png)$/i.test(entry.name))
       .map((entry) => entry.name)
       .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-      .slice(0, 3);
+      .slice(0, 4);
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }
@@ -282,15 +282,27 @@ async function buildPage(slug, csvRows, template, css) {
   const mapAddress = encodeURIComponent(`Уфа, ${address}`);
   const reviewSummary = content.review_summary || business.review_summary || '';
   const theme = business.niche === 'магазин цветов' ? 'flowers' : 'auto';
-  const showcaseItems = theme === 'flowers' && photos.length
-    ? (business.prices ?? []).filter((item) => item?.name).map((item, index) => ({
-      name: item.name,
-      image: photos[index % photos.length].src,
-      alt: `${business.name}: фото из открытой карточки организации`,
-      has_price: Number.isFinite(item.price),
-      price: Number.isFinite(item.price) ? money.format(item.price) : '',
-    }))
+  const selectedShowcasePhotos = Array.isArray(content.showcase_photo_indexes)
+    ? content.showcase_photo_indexes.map((index) => photos[index - 1]).filter(Boolean)
+    : photos;
+  const showcaseProducts = theme === 'flowers'
+    ? (business.prices ?? []).filter((item) => item?.name && Number.isFinite(item.price))
     : [];
+  const allShowcaseItems = showcaseProducts.map((item, index) => {
+    const photo = selectedShowcasePhotos[index];
+    return {
+      index,
+      name: item.name,
+      search_name: item.name.toLocaleLowerCase('ru'),
+      price_raw: item.price,
+      price: money.format(item.price),
+      has_image: Boolean(photo),
+      image: photo?.src || '',
+      alt: `${business.name}: фото из открытой карточки организации`,
+    };
+  });
+  const showcaseItems = allShowcaseItems.slice(0, Math.min(4, selectedShowcasePhotos.length));
+  const showcaseMoreItems = allShowcaseItems.slice(showcaseItems.length);
   const description = [content.tagline, business.district, address && `Уфа, ${address}`].filter(Boolean).join('. ');
 
   const data = {
@@ -305,12 +317,14 @@ async function buildPage(slug, csvRows, template, css) {
     has_hero_photo: photos.length > 0,
     hero_image: photos.length ? 'assets/hero.webp' : '',
     has_photos: photos.length > 0,
-    photos,
+    photos: photos.slice(0, 3),
     photo_credit: photos.length > 0,
     status_badge: currentStatus(business.hours),
     featured_price: featuredPrice,
     has_showcase: showcaseItems.length > 0,
     showcase_items: showcaseItems,
+    has_showcase_more: showcaseProducts.length > 4 && showcaseMoreItems.length > 0,
+    showcase_more_items: showcaseMoreItems,
     has_phone: hasPhone,
     phone_href: hasPhone ? phoneHref(phone) : '',
     phone_display: hasPhone ? formatPhone(phone) : '',

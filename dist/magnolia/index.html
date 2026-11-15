@@ -44,7 +44,7 @@
             Уфимский район
           </span>
 
-          <span class="status-badge"><span></span>Открыто до 21:00</span>
+          <span class="status-badge"><span></span>Сегодня закрыто</span>
         </div>
 
 
@@ -101,11 +101,26 @@
             <p class="eyebrow">Витрина</p>
             <h2 id="showcase-title">Букеты и композиции</h2>
           </div>
-          <p class="section-note">Листайте ленту влево и вправо. Цены указаны «от».</p>
+          <p class="section-note">Цены указаны «от».</p>
         </div>
-        <div class="showcase-track" tabindex="0" role="region" aria-label="Лента букетов с горизонтальной прокруткой">
+        <div class="showcase-controls">
+          <label class="showcase-control">
+            <span>Поиск по названию</span>
+            <input id="showcase-search" type="search" placeholder="Название букета" autocomplete="off">
+          </label>
+          <label class="showcase-control">
+            <span>Сортировка</span>
+            <select id="showcase-sort">
+              <option value="original">Исходный порядок</option>
+              <option value="price-asc">Цена: по возрастанию</option>
+              <option value="price-desc">Цена: по убыванию</option>
+              <option value="name">По названию</option>
+            </select>
+          </label>
+        </div>
+        <div class="showcase-grid" id="showcase-grid">
 
-          <article class="product-card">
+          <article class="product-card" data-showcase-item data-index="0" data-name="гелиевые шары" data-price="120">
             <img src="assets/photo-1.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
             <div class="product-card-copy">
               <h3>Гелиевые Шары</h3>
@@ -113,7 +128,7 @@
             </div>
           </article>
 
-          <article class="product-card">
+          <article class="product-card" data-showcase-item data-index="1" data-name="7 французских роз с эвкалиптом" data-price="2500">
             <img src="assets/photo-2.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
             <div class="product-card-copy">
               <h3>7 Французских роз с эвкалиптом</h3>
@@ -121,7 +136,7 @@
             </div>
           </article>
 
-          <article class="product-card">
+          <article class="product-card" data-showcase-item data-index="2" data-name="крафт" data-price="3500">
             <img src="assets/photo-3.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
             <div class="product-card-copy">
               <h3>Крафт</h3>
@@ -129,103 +144,99 @@
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="3" data-name="кустовые розы и хризантемы" data-price="3700">
+            <img src="assets/photo-4.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
             <div class="product-card-copy">
               <h3>Кустовые розы и хризантемы</h3>
               <p class="product-price"><span>от</span> 3 700 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>11 Хризантем</h3>
-              <p class="product-price"><span>от</span> 4 350 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 1</h3>
-              <p class="product-price"><span>от</span> 3 550 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 2</h3>
-              <p class="product-price"><span>от</span> 4 700 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 3</h3>
-              <p class="product-price"><span>от</span> 7 500 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 4</h3>
-              <p class="product-price"><span>от</span> 8 500 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 5</h3>
-              <p class="product-price"><span>от</span> 3 000 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 6</h3>
-              <p class="product-price"><span>от</span> 3 400 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 7</h3>
-              <p class="product-price"><span>от</span> 2 400 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Букет 8</h3>
-              <p class="product-price"><span>от</span> 3 700 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>25 роз Голландия</h3>
-              <p class="product-price"><span>от</span> 7 000 ₽</p>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Магнолия: фото из открытой карточки организации" width="640" height="480" loading="lazy">
-            <div class="product-card-copy">
-              <h3>Ромашковый сад</h3>
-              <p class="product-price"><span>от</span> 3 500 ₽</p>
-            </div>
-          </article>
-
         </div>
+        <p class="showcase-empty" hidden>По вашему запросу ничего не найдено.</p>
+
+        <ul class="showcase-more" id="showcase-more" hidden>
+
+          <li class="showcase-more-item" data-showcase-item data-index="4" data-name="11 хризантем" data-price="4350">
+
+            <span class="showcase-more-name">11 Хризантем</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 4 350 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="5" data-name="букет 1" data-price="3550">
+
+            <span class="showcase-more-name">Букет 1</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 3 550 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="6" data-name="букет 2" data-price="4700">
+
+            <span class="showcase-more-name">Букет 2</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 4 700 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="7" data-name="букет 3" data-price="7500">
+
+            <span class="showcase-more-name">Букет 3</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 7 500 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="8" data-name="букет 4" data-price="8500">
+
+            <span class="showcase-more-name">Букет 4</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 8 500 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="9" data-name="букет 5" data-price="3000">
+
+            <span class="showcase-more-name">Букет 5</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 3 000 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="10" data-name="букет 6" data-price="3400">
+
+            <span class="showcase-more-name">Букет 6</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 3 400 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="11" data-name="букет 7" data-price="2400">
+
+            <span class="showcase-more-name">Букет 7</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 2 400 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="12" data-name="букет 8" data-price="3700">
+
+            <span class="showcase-more-name">Букет 8</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 3 700 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="13" data-name="25 роз голландия" data-price="7000">
+
+            <span class="showcase-more-name">25 роз Голландия</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 7 000 ₽</strong>
+          </li>
+
+          <li class="showcase-more-item" data-showcase-item data-index="14" data-name="ромашковый сад" data-price="3500">
+
+            <span class="showcase-more-name">Ромашковый сад</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> 3 500 ₽</strong>
+          </li>
+
+        </ul>
+        <button class="button button-secondary showcase-more-button" id="showcase-more-button" type="button" aria-controls="showcase-more" aria-expanded="false">Ещё</button>
+
       </div>
     </section>
 
@@ -538,6 +549,59 @@
           button.addEventListener('click', () => selectHeroPhoto(button));
         });
         heroButtons[0].setAttribute('aria-pressed', 'true');
+      }
+
+      const showcase = document.querySelector('.showcase-section');
+      if (!showcase) return;
+
+      const searchInput = showcase.querySelector('#showcase-search');
+      const sortSelect = showcase.querySelector('#showcase-sort');
+      const grid = showcase.querySelector('#showcase-grid');
+      const gridItems = [...grid.querySelectorAll('[data-showcase-item]')];
+      const moreList = showcase.querySelector('#showcase-more');
+      const moreItems = moreList ? [...moreList.querySelectorAll('[data-showcase-item]')] : [];
+      const moreButton = showcase.querySelector('#showcase-more-button');
+      const emptyMessage = showcase.querySelector('.showcase-empty');
+      const collator = new Intl.Collator('ru');
+      let expanded = false;
+
+      const sortItems = (items, container) => {
+        const sorted = [...items].sort((a, b) => {
+          if (sortSelect.value === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
+          if (sortSelect.value === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
+          if (sortSelect.value === 'name') return collator.compare(a.dataset.name, b.dataset.name);
+          return Number(a.dataset.index) - Number(b.dataset.index);
+        });
+        sorted.forEach((item) => container.append(item));
+      };
+
+      const filterItems = () => {
+        const query = searchInput.value.trim().toLocaleLowerCase('ru');
+        let visibleExtra = 0;
+        let visibleTotal = 0;
+        [...gridItems, ...moreItems].forEach((item) => {
+          item.hidden = Boolean(query) && !item.dataset.name.includes(query);
+          if (!item.hidden) {
+            visibleTotal += 1;
+            if (moreItems.includes(item)) visibleExtra += 1;
+          }
+        });
+        emptyMessage.hidden = visibleTotal > 0;
+        if (moreButton) moreButton.hidden = expanded || visibleExtra === 0;
+      };
+
+      searchInput.addEventListener('input', filterItems);
+      sortSelect.addEventListener('change', () => {
+        sortItems(gridItems, grid);
+        if (moreList) sortItems(moreItems, moreList);
+      });
+      if (moreButton && moreList) {
+        moreButton.addEventListener('click', () => {
+          expanded = true;
+          moreList.hidden = false;
+          moreButton.hidden = true;
+          moreButton.setAttribute('aria-expanded', 'true');
+        });
       }
     })();
   </script>

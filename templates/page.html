@@ -93,19 +93,48 @@
             <p class="eyebrow">Витрина</p>
             <h2 id="showcase-title">Букеты и композиции</h2>
           </div>
-          <p class="section-note">Листайте ленту влево и вправо. Цены указаны «от».</p>
+          <p class="section-note">Цены указаны «от».</p>
         </div>
-        <div class="showcase-track" tabindex="0" role="region" aria-label="Лента букетов с горизонтальной прокруткой">
+        <div class="showcase-controls">
+          <label class="showcase-control">
+            <span>Поиск по названию</span>
+            <input id="showcase-search" type="search" placeholder="Название букета" autocomplete="off">
+          </label>
+          <label class="showcase-control">
+            <span>Сортировка</span>
+            <select id="showcase-sort">
+              <option value="original">Исходный порядок</option>
+              <option value="price-asc">Цена: по возрастанию</option>
+              <option value="price-desc">Цена: по убыванию</option>
+              <option value="name">По названию</option>
+            </select>
+          </label>
+        </div>
+        <div class="showcase-grid" id="showcase-grid">
           {{#showcase_items}}
-          <article class="product-card">
+          <article class="product-card" data-showcase-item data-index="{{index}}" data-name="{{search_name}}" data-price="{{price_raw}}">
             <img src="{{image}}" alt="{{alt}}" width="640" height="480" loading="lazy">
             <div class="product-card-copy">
               <h3>{{name}}</h3>
-              {{#has_price}}<p class="product-price"><span>от</span> {{price}} ₽</p>{{/has_price}}
+              <p class="product-price"><span>от</span> {{price}} ₽</p>
             </div>
           </article>
           {{/showcase_items}}
         </div>
+        <p class="showcase-empty" hidden>По вашему запросу ничего не найдено.</p>
+        {{#has_showcase_more}}
+        <ul class="showcase-more" id="showcase-more" hidden>
+          {{#showcase_more_items}}
+          <li class="showcase-more-item" data-showcase-item data-index="{{index}}" data-name="{{search_name}}" data-price="{{price_raw}}">
+            {{#has_image}}<img src="{{image}}" alt="{{alt}}" width="640" height="480" loading="lazy">{{/has_image}}
+            <span class="showcase-more-name">{{name}}</span>
+            <span aria-hidden="true">—</span>
+            <strong class="showcase-more-price"><span>от</span> {{price}} ₽</strong>
+          </li>
+          {{/showcase_more_items}}
+        </ul>
+        <button class="button button-secondary showcase-more-button" id="showcase-more-button" type="button" aria-controls="showcase-more" aria-expanded="false">Ещё</button>
+        {{/has_showcase_more}}
       </div>
     </section>
     {{/has_showcase}}
@@ -288,6 +317,59 @@
           button.addEventListener('click', () => selectHeroPhoto(button));
         });
         heroButtons[0].setAttribute('aria-pressed', 'true');
+      }
+
+      const showcase = document.querySelector('.showcase-section');
+      if (!showcase) return;
+
+      const searchInput = showcase.querySelector('#showcase-search');
+      const sortSelect = showcase.querySelector('#showcase-sort');
+      const grid = showcase.querySelector('#showcase-grid');
+      const gridItems = [...grid.querySelectorAll('[data-showcase-item]')];
+      const moreList = showcase.querySelector('#showcase-more');
+      const moreItems = moreList ? [...moreList.querySelectorAll('[data-showcase-item]')] : [];
+      const moreButton = showcase.querySelector('#showcase-more-button');
+      const emptyMessage = showcase.querySelector('.showcase-empty');
+      const collator = new Intl.Collator('ru');
+      let expanded = false;
+
+      const sortItems = (items, container) => {
+        const sorted = [...items].sort((a, b) => {
+          if (sortSelect.value === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
+          if (sortSelect.value === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
+          if (sortSelect.value === 'name') return collator.compare(a.dataset.name, b.dataset.name);
+          return Number(a.dataset.index) - Number(b.dataset.index);
+        });
+        sorted.forEach((item) => container.append(item));
+      };
+
+      const filterItems = () => {
+        const query = searchInput.value.trim().toLocaleLowerCase('ru');
+        let visibleExtra = 0;
+        let visibleTotal = 0;
+        [...gridItems, ...moreItems].forEach((item) => {
+          item.hidden = Boolean(query) && !item.dataset.name.includes(query);
+          if (!item.hidden) {
+            visibleTotal += 1;
+            if (moreItems.includes(item)) visibleExtra += 1;
+          }
+        });
+        emptyMessage.hidden = visibleTotal > 0;
+        if (moreButton) moreButton.hidden = expanded || visibleExtra === 0;
+      };
+
+      searchInput.addEventListener('input', filterItems);
+      sortSelect.addEventListener('change', () => {
+        sortItems(gridItems, grid);
+        if (moreList) sortItems(moreItems, moreList);
+      });
+      if (moreButton && moreList) {
+        moreButton.addEventListener('click', () => {
+          expanded = true;
+          moreList.hidden = false;
+          moreButton.hidden = true;
+          moreButton.setAttribute('aria-expanded', 'true');
+        });
       }
     })();
   </script>
