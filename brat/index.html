@@ -6,6 +6,13 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#10191f">
   <meta name="description" content="Ремонт DSG, АКПП, МКПП и роботов для Volkswagen Group. Кировский район. Уфа, улица Пугачёва, 15е">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%2310191f%22/%3E%3Cpath d=%22M40 12a15 15 0 0 0-18 19L10 43a7 7 0 0 0 10 10l12-12A15 15 0 0 0 52 22l-10 10-10-10 10-10Z%22 fill=%22none%22 stroke=%22%23f5c84c%22 stroke-width=%226%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E">
+  <meta property="og:title" content="Брат — автосервис в Уфе">
+  <meta property="og:description" content="Ремонт DSG, АКПП, МКПП и роботов для Volkswagen Group. Кировский район. Уфа, улица Пугачёва, 15е">
+  <meta property="og:image" content="https://raikiri12.github.io/demo-sites/brat/assets/photo-1.webp">
+
+
   <title>Брат — автосервис в Уфе</title>
   <link rel="stylesheet" href="../themes.css">
 </head>
@@ -44,7 +51,7 @@
             Кировский район
           </span>
 
-          <span class="status-badge"><span></span>Открыто до 20:00</span>
+          <span class="status-badge"><span></span>Откроется в 09:30</span>
         </div>
 
 
@@ -343,6 +350,57 @@
         });
         heroButtons[0].setAttribute('aria-pressed', 'true');
       }
+
+      const showcase = document.querySelector('.showcase-section');
+      if (!showcase) return;
+
+      const searchInput = showcase.querySelector('#showcase-search');
+      const sortSelect = showcase.querySelector('#showcase-sort');
+      const grid = showcase.querySelector('#showcase-grid');
+      const gridItems = [...grid.querySelectorAll('[data-showcase-item]')];
+      const moreButton = showcase.querySelector('#showcase-more-button');
+      const emptyMessage = showcase.querySelector('.showcase-empty');
+      const collator = new Intl.Collator('ru');
+      let expanded = false;
+
+      const sortItems = () => {
+        const sorted = [...gridItems].sort((a, b) => {
+          if (sortSelect.value === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
+          if (sortSelect.value === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
+          if (sortSelect.value === 'name') return collator.compare(a.dataset.name, b.dataset.name);
+          return Number(a.dataset.index) - Number(b.dataset.index);
+        });
+        sorted.forEach((item) => grid.append(item));
+      };
+
+      const updateItems = () => {
+        const query = searchInput.value.trim().toLocaleLowerCase('ru');
+        let visibleTotal = 0;
+        [...grid.querySelectorAll('[data-showcase-item]')].forEach((item) => {
+          const matches = !query || item.dataset.name.includes(query);
+          item.hidden = !matches || (!expanded && !query && visibleTotal >= 8);
+          if (matches) visibleTotal += 1;
+        });
+        emptyMessage.hidden = visibleTotal > 0;
+        if (moreButton) {
+          moreButton.hidden = Boolean(query) || gridItems.length <= 8;
+          moreButton.textContent = expanded ? 'Свернуть' : 'Ещё';
+          moreButton.setAttribute('aria-expanded', String(expanded));
+        }
+      };
+
+      searchInput.addEventListener('input', updateItems);
+      sortSelect.addEventListener('change', () => {
+        sortItems();
+        updateItems();
+      });
+      if (moreButton) {
+        moreButton.addEventListener('click', () => {
+          expanded = !expanded;
+          updateItems();
+        });
+      }
+      updateItems();
     })();
   </script>
 </body>

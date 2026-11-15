@@ -6,6 +6,13 @@
   <meta name="robots" content="noindex,nofollow">
   <meta name="theme-color" content="#203c33">
   <meta name="description" content="Круглосуточный магазин цветов с букетами, композициями и воздушными шарами на любой праздник. Ленинский район. Уфа, улица Ленина, 31/33а">
+
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8C%B7%3C/text%3E%3C/svg%3E">
+  <meta property="og:title" content="Ирис — магазин цветов в Уфе">
+  <meta property="og:description" content="Круглосуточный магазин цветов с букетами, композициями и воздушными шарами на любой праздник. Ленинский район. Уфа, улица Ленина, 31/33а">
+  <meta property="og:image" content="https://raikiri12.github.io/demo-sites/iris/assets/photo-1.webp">
+
   <title>Ирис — магазин цветов в Уфе</title>
   <link rel="stylesheet" href="../themes.css">
 </head>
@@ -101,124 +108,139 @@
             <p class="eyebrow">Витрина</p>
             <h2 id="showcase-title">Букеты и композиции</h2>
           </div>
-          <p class="section-note">Листайте ленту влево и вправо. Цены указаны «от».</p>
+          <p class="section-note">Цены указаны «от».</p>
         </div>
-        <div class="showcase-track" tabindex="0" role="region" aria-label="Лента букетов с горизонтальной прокруткой">
+        <div class="showcase-controls">
+          <label class="showcase-control">
+            <span>Поиск по названию</span>
+            <input id="showcase-search" type="search" placeholder="Название букета" autocomplete="off">
+          </label>
+          <label class="showcase-control">
+            <span>Сортировка</span>
+            <select id="showcase-sort">
+              <option value="original">Исходный порядок</option>
+              <option value="price-asc">Цена: по возрастанию</option>
+              <option value="price-desc">Цена: по убыванию</option>
+              <option value="name">По названию</option>
+            </select>
+          </label>
+        </div>
+        <div class="showcase-grid" id="showcase-grid">
 
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="0" data-name="шары" data-price="1500">
+            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Шары</h3>
               <p class="product-price"><span>от</span> 1 500 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="1" data-name="шары для мамы" data-price="200">
+            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Шары для мамы</h3>
               <p class="product-price"><span>от</span> 200 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="2" data-name="шары для папы" data-price="200">
+            <img src="assets/photo-9.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Шары для папы</h3>
               <p class="product-price"><span>от</span> 200 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="3" data-name="шары" data-price="200">
+            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Шары</h3>
               <p class="product-price"><span>от</span> 200 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="4" data-name="авторская композиция с пионами" data-price="7000">
+            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Авторская композиция с пионами</h3>
               <p class="product-price"><span>от</span> 7 000 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="5" data-name="сумочка yellow" data-price="2800">
+            <img src="assets/photo-9.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Сумочка yellow</h3>
               <p class="product-price"><span>от</span> 2 800 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="6" data-name="воздушный букет из белоснежной гипсофилы" data-price="2000">
+            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Воздушный букет из белоснежной гипсофилы</h3>
               <p class="product-price"><span>от</span> 2 000 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="7" data-name="букет невесты из пионов и лютиков" data-price="3500">
+            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Букет невесты из пионов и лютиков</h3>
               <p class="product-price"><span>от</span> 3 500 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="8" data-name="романтичный вечер" data-price="3500" hidden>
+            <img src="assets/photo-9.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Романтичный вечер</h3>
               <p class="product-price"><span>от</span> 3 500 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="9" data-name="солнце после туч" data-price="3500" hidden>
+            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Солнце после туч</h3>
               <p class="product-price"><span>от</span> 3 500 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="10" data-name="любовь в розовом цвете" data-price="4200" hidden>
+            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Любовь в розовом цвете</h3>
               <p class="product-price"><span>от</span> 4 200 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="11" data-name="летний пикник" data-price="5000" hidden>
+            <img src="assets/photo-9.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Летний пикник</h3>
               <p class="product-price"><span>от</span> 5 000 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="12" data-name="букет из белых хризантем" data-price="1200" hidden>
+            <img src="assets/photo-1.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Букет из белых хризантем</h3>
               <p class="product-price"><span>от</span> 1 200 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="13" data-name="букет из голубой гортензии и белых хризантем" data-price="2400" hidden>
+            <img src="assets/photo-2.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Букет из голубой гортензии и белых хризантем</h3>
               <p class="product-price"><span>от</span> 2 400 ₽</p>
             </div>
           </article>
 
-          <article class="product-card">
-            <img src="assets/photo-3.webp" alt="Ирис: фото из открытой карточки организации" width="640" height="480" loading="lazy">
+          <article class="product-card" data-showcase-item data-index="14" data-name="букет из полевых ромашек матрикарии" data-price="2800" hidden>
+            <img src="assets/photo-9.webp" alt="Ирис: фото из открытой карточки организации" width="320" height="320" loading="lazy">
             <div class="product-card-copy">
               <h3>Букет из полевых ромашек Матрикарии</h3>
               <p class="product-price"><span>от</span> 2 800 ₽</p>
@@ -226,115 +248,14 @@
           </article>
 
         </div>
+        <p class="showcase-empty" hidden>По вашему запросу ничего не найдено.</p>
+
+        <button class="button button-secondary showcase-more-button" id="showcase-more-button" type="button" aria-controls="showcase-grid" aria-expanded="false">Ещё</button>
+
       </div>
     </section>
 
 
-
-    <section class="section prices-section" aria-labelledby="prices-title">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Сколько стоит</p>
-            <h2 id="prices-title">Услуги и цены</h2>
-          </div>
-          <p class="section-note">Цены указаны «от». Актуальную стоимость уточняйте по телефону.</p>
-        </div>
-        <ul class="price-list">
-
-          <li class="price-item">
-            <span class="price-name">Шары</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 1 500 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Шары для мамы</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 200 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Шары для папы</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 200 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Шары</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 200 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Авторская композиция с пионами</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 7 000 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Сумочка yellow</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 2 800 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Воздушный букет из белоснежной гипсофилы</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 2 000 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Букет невесты из пионов и лютиков</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 3 500 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Романтичный вечер</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 3 500 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Солнце после туч</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 3 500 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Любовь в розовом цвете</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 4 200 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Летний пикник</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 5 000 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Букет из белых хризантем</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 1 200 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Букет из голубой гортензии и белых хризантем</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 2 400 ₽</strong>
-          </li>
-
-          <li class="price-item">
-            <span class="price-name">Букет из полевых ромашек Матрикарии</span>
-            <span class="price-dots" aria-hidden="true"></span>
-            <strong class="price-value"><span>от</span> 2 800 ₽</strong>
-          </li>
-
-        </ul>
-      </div>
-    </section>
 
 
 
@@ -539,6 +460,57 @@
         });
         heroButtons[0].setAttribute('aria-pressed', 'true');
       }
+
+      const showcase = document.querySelector('.showcase-section');
+      if (!showcase) return;
+
+      const searchInput = showcase.querySelector('#showcase-search');
+      const sortSelect = showcase.querySelector('#showcase-sort');
+      const grid = showcase.querySelector('#showcase-grid');
+      const gridItems = [...grid.querySelectorAll('[data-showcase-item]')];
+      const moreButton = showcase.querySelector('#showcase-more-button');
+      const emptyMessage = showcase.querySelector('.showcase-empty');
+      const collator = new Intl.Collator('ru');
+      let expanded = false;
+
+      const sortItems = () => {
+        const sorted = [...gridItems].sort((a, b) => {
+          if (sortSelect.value === 'price-asc') return Number(a.dataset.price) - Number(b.dataset.price);
+          if (sortSelect.value === 'price-desc') return Number(b.dataset.price) - Number(a.dataset.price);
+          if (sortSelect.value === 'name') return collator.compare(a.dataset.name, b.dataset.name);
+          return Number(a.dataset.index) - Number(b.dataset.index);
+        });
+        sorted.forEach((item) => grid.append(item));
+      };
+
+      const updateItems = () => {
+        const query = searchInput.value.trim().toLocaleLowerCase('ru');
+        let visibleTotal = 0;
+        [...grid.querySelectorAll('[data-showcase-item]')].forEach((item) => {
+          const matches = !query || item.dataset.name.includes(query);
+          item.hidden = !matches || (!expanded && !query && visibleTotal >= 8);
+          if (matches) visibleTotal += 1;
+        });
+        emptyMessage.hidden = visibleTotal > 0;
+        if (moreButton) {
+          moreButton.hidden = Boolean(query) || gridItems.length <= 8;
+          moreButton.textContent = expanded ? 'Свернуть' : 'Ещё';
+          moreButton.setAttribute('aria-expanded', String(expanded));
+        }
+      };
+
+      searchInput.addEventListener('input', updateItems);
+      sortSelect.addEventListener('change', () => {
+        sortItems();
+        updateItems();
+      });
+      if (moreButton) {
+        moreButton.addEventListener('click', () => {
+          expanded = !expanded;
+          updateItems();
+        });
+      }
+      updateItems();
     })();
   </script>
 </body>
