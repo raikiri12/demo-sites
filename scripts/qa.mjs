@@ -181,8 +181,8 @@ async function main() {
     const priceEntries = (research.prices || []).map((p) => JSON.stringify([p.name, p.price]));
     const priceNumbers = new Set((research.prices || []).map((p) => p.price));
     const hero = [...html.matchAll(/class=["']hero-price["'][\s\S]*?<span>([^<]+)<\/span>[\s\S]*?<strong>от ([\d\s]+) ₽<\/strong>/g)];
-    const list = [...html.matchAll(/class=["']price-name["'](?:[^>]*?)>([^<]+)<\/span>[\s\S]*?class=["']price-value["'][\s\S]*?от ([\d\s]+) ₽/g)];
-    const showcase = [...html.matchAll(/class=["']product-card-copy["'][\s\S]*?<h3>([^<]+)<\/h3>[\s\S]*?class=["']product-price["'][\s\S]*?от ([\d\s]+) ₽/g)];
+    const list = [...html.matchAll(/class=["']price-name["'](?:[^>]*?)>([^<]+)<\/span>[\s\S]*?class=["']price-value["'][\s\S]*?от(?:<\/span>)?\s+([\d\s]+) ₽/g)];
+    const showcase = [...html.matchAll(/class=["']product-card-copy["'][\s\S]*?<h3>([^<]+)<\/h3>[\s\S]*?class=["']product-price["'][\s\S]*?от(?:<\/span>)?\s+([\d\s]+) ₽/g)];
     const featuredSource = content.featured_price?.source;
     for (const m of hero) {
       const label = decodeHtml(m[1].trim());
@@ -204,7 +204,7 @@ async function main() {
         issues.push({ slug, problem: `showcase price not in research: ${name} от ${price} ₽`, status: 'осталось' });
       }
     }
-    for (const m of html.matchAll(/от\s+(\d[\d\s]*)\s*₽/g)) {
+    for (const m of html.matchAll(/от(?:\s*<[^>]+>)*\s*(\d[\d\s]*)\s*₽/g)) {
       const price = parseInt(m[1].replace(/\s/g, ''), 10);
       if (!priceNumbers.has(price)) {
         issues.push({ slug, problem: `generic price phrase от ${price} ₽ not from research`, status: 'осталось' });
