@@ -196,7 +196,7 @@ async function processPhotos(slug, name, outputDir) {
       .filter((entry) => entry.isFile() && /\.(jpe?g|png)$/i.test(entry.name))
       .map((entry) => entry.name)
       .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-      .slice(0, 10);
+      .slice(0, 3);
   } catch (error) {
     if (error.code !== 'ENOENT') throw error;
   }

@@ -12,7 +12,7 @@
   - Эталон авто: **vagservice** (Vag service Ufa) — 5.0 при 154 оценках, 10 фото, 15 цен, 12 услуг, missing только amenities/email/payment (не выводятся на страницу). Резерв: modifikar (5.0, 131, так же 15 цен), jobnjoy (702 оценки, но только 2 цены и 2 услуги — блок цен выглядел бы пустым).
   - Эталон цветы: **magnolia** (Магнолия) — 4.9 при 91 оценке, 10 фото, 15 цен, 12 услуг, соцсети VK/WhatsApp/TG; missing только email/payment/amenities. Ранее был выбран podaricvety, но у него нашлась живая витрина на Flowwow — исключён (см. 1.2).
   - Контрольный (без фото): **avtohelp** — 5.0, 6 цен, отзывы и адрес есть, фото 0 (проверка типографского режима шаблона).
-  - Готово: `templates/page.html`, `templates/themes.css`, `scripts/build.mjs`; собраны `dist/vagservice/`, `dist/magnolia/`, `dist/avtohelp/`. Есть мобильные CTA, цены «от», отзывы, карта, noindex и демо-плашка; рейтинг со звёздной шкалой, галереи до 10 WebP, реальные ссылки socials. У magnolia — трёхрядная витрина со свайпом, у автониши её нет; контрольный Hero работает без изображений.
+  - Готово: `templates/page.html`, `templates/themes.css`, `scripts/build.mjs`; собраны `dist/vagservice/`, `dist/magnolia/`, `dist/avtohelp/`. Есть мобильные CTA, цены «от», отзывы, карта, noindex и демо-плашка; рейтинг со звёздной шкалой, до 3 фото в Hero с переключением по миниатюрам, без отдельной галереи, реальные ссылки socials. У magnolia — трёхрядная витрина со свайпом, у автониши её нет; контрольный Hero работает без изображений.
 - [ ] 4 Рой: page-writer x3
 - [ ] 5 Проверка: qa-checker
 - [ ] 6 Витрина + деплой (ссылки в data/businesses.csv → page_url)
